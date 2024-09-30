@@ -14,7 +14,7 @@ from isoxml.models.ddi_entities import DDEntities
 from isoxml.util.isoxml_io import isoxml_from_xml_file, isoxml_from_text, isoxml_from_zip, isoxml_to_dir, isoxml_to_zip, \
     isoxml_to_text
 from resources.resources import RES_DIR
-from tests.resources.test_resources import TEST_RES_DIR
+from test.resources.test_resources import TEST_RES_DIR
 
 
 @pytest.fixture()

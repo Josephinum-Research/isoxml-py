@@ -26,7 +26,7 @@ def task_with_grid():
     )
 
     pdv_0 = iso4.ProcessDataVariable(
-        process_data_ddi=DDEntities['6']['DDI'].to_bytes(length=2),
+        process_data_ddi=DDEntities['6']['DDI'].to_bytes(length=2, byteorder='big'),
         process_data_value=0
     )
 
@@ -67,11 +67,7 @@ def task_with_grid():
 
 
 def test__isoxml_from_text__when_str_valid__expect_pares_isoxml():
-    xml_content = """
-    <?xml version="1.0" encoding="UTF-8"?>
-    <ISO11783_TaskData VersionMajor="4" VersionMinor="3" ManagementSoftwareManufacturer="josephinum research" ManagementSoftwareVersion="0.0.1" DataTransferOrigin="1">
-    </ISO11783_TaskData>
-    """
+    xml_content = """<?xml version="1.0" encoding="UTF-8"?><ISO11783_TaskData VersionMajor="4" VersionMinor="3" ManagementSoftwareManufacturer="josephinum research" ManagementSoftwareVersion="0.0.1" DataTransferOrigin="1"></ISO11783_TaskData>"""
     task_data = isoxml_from_text(xml_content)
     assert isinstance(task_data, iso4.Iso11783TaskData)
 

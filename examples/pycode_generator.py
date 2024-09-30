@@ -9,7 +9,7 @@ see: https://xsdata.readthedocs.io/en/latest/data_binding/pycode_serializing/
 from xsdata.formats.dataclass.serializers import PycodeSerializer
 
 from isoxml.util.isoxml_io import isoxml_from_xml_file
-from tests.resources.test_resources import TEST_RES_DIR
+from test.resources.test_resources import TEST_RES_DIR
 
 task_data = isoxml_from_xml_file(TEST_RES_DIR / 'isoxml/v4/cnh_export/TASKDATA 1.XML')
 

@@ -17,7 +17,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
-keywords = ["isoxml", "isobus", "iso", "11783-10", "xml"]
+keywords = ["isoxml", "isobus", "iso", "11783-10", "xml", "precision farming"]
 
 dependencies = [
     "xsdata >= 24.7",
@@ -33,7 +33,11 @@ Issues = "https://github.com/Josephinum-Research/isoxml-py/issues"
 dev = [
     "xsdata[cli]",
     "geopandas",
-    "xmlschema"
+    "xmlschema",
+    "jupyter",
+    "folium",
+    "matplotlib",
+    "mapclassify"
 ]
 test = [
     "pytest",

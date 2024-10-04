@@ -81,6 +81,8 @@ class GuidancePattern:
             "name": "LSG",
             "full_name": "LineString",
             "type": "Element",
+            "min_occurs": 1,
+            "max_occurs": 1,
         },
     )
     boundary_polygons: list[Polygon] = field(

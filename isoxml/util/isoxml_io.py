@@ -73,15 +73,19 @@ def isoxml_to_dir(
 
 
 def isoxml_to_zip(
-        target, task_data: iso3.Iso11783TaskData | iso4.Iso11783TaskData, bin_dict: dict[str, bytes] | None = None
+        target,
+        task_data: iso3.Iso11783TaskData | iso4.Iso11783TaskData,
+        bin_dict: dict[str, bytes] | None = None,
+        include_folder=True
 ) -> None:
     if not bin_dict:
         bin_dict = {}
+    path_in_arch = 'TASKDATA/' if include_folder else ''
     with ZipFile(target, 'w') as zip_archive:
-        with zip_archive.open('TASKDATA.XML', 'w') as xml_file:
+        with zip_archive.open(path_in_arch + 'TASKDATA.XML', 'w') as xml_file:
             xml_content = isoxml_to_text(task_data)
             xml_file.write(xml_content.encode('utf-8'))
         for bin_name, bin_data in bin_dict.items():
             bin_filename = bin_name + '.bin'
-            with zip_archive.open(bin_filename, 'w') as bin_file:
+            with zip_archive.open(path_in_arch + bin_filename, 'w') as bin_file:
                 bin_file.write(bin_data)

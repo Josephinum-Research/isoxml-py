@@ -6,8 +6,8 @@ inspired by [isoxml-js](https://github.com/dev4Agriculture/isoxml-js) and powere
 The main features:
 * supports v3 and v4
 * read/write directly from zip, TASKDATA-dir or any string
-* convertion between shapely and isoxml geometries
-* convertion of numpy array to grid data binary files
+* conversion between shapely and isoxml geometries
+* conversion of numpy array to grid data binary files
 * [generate code](./examples/pycode_generator.py) from existing TASKDATA.XML (via xsdata)
 
 ## Installation

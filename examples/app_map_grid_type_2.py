@@ -8,17 +8,24 @@ This grid type is particularly suitable for applications with many different val
 from decimal import Decimal
 
 import numpy as np
+import shapely as shp
 
 import isoxml.models.base.v3 as iso
 from isoxml.converter.np_grid import from_numpy_array_to_type_2
+from isoxml.converter.shapely_geom import ShapelyConverter
 from isoxml.models.ddi_entities import DDEntities
 from isoxml.util.isoxml_io import isoxml_to_zip
 
-customer = iso.Customer(id="CTR01", designator="test_user")
-farm = iso.Farm(id="FRM01", designator="test_farm", customer_id_ref=customer.id)
+shapely_converter = ShapelyConverter('v3')
+aoi = shp.from_wkt("POLYGON ((15.1461618 48.1269217, 15.1461618 48.1267442, 15.1463363 48.1267442, 15.1463363 48.1269217, 15.1461618 48.1269217))")
+iso_aoi = shapely_converter.to_iso_polygon(aoi, iso.PolygonType.PartfieldBoundary)
+
+customer = iso.Customer(id="CTR100", designator="jr_customer")
+farm = iso.Farm(id="FRM100", designator="jr_farm", customer_id_ref=customer.id)
 partfield = iso.Partfield(
     id="PFD01", designator="test_field", area=123456,
-    customer_id_ref=customer.id, farm_id_ref=farm.id
+    customer_id_ref=customer.id, farm_id_ref=farm.id,
+    polygons=[iso_aoi]
 )
 
 grid_data = np.array([

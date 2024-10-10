@@ -4,6 +4,8 @@ With grid type 2, the applications values are written directly in the binary fil
 the values are coded as an integer (int32).
 The XML file only contains information on how these integer values must be scaled and shifted.
 This grid type is particularly suitable for applications with many different values.
+
+successful import/display on Deutz-Fahr 6140.4 + Bogballe L20W
 """
 from decimal import Decimal
 
@@ -34,12 +36,14 @@ grid_data = np.array([
 ], dtype=np.int32)
 y, x = grid_data.shape
 
+ddi = DDEntities['6']
+
 pdv_0 = iso.ProcessDataVariable(
-    process_data_ddi=DDEntities['1']['DDI'].to_bytes(length=2, byteorder='big'),
+    process_data_ddi=ddi['DDI'].to_bytes(length=2, byteorder='big'),
     process_data_value=0
 )
 
-treatment = iso.TreatmentZone(
+treatment_0 = iso.TreatmentZone(
     code=0,
     designator="zone_0",
     process_data_variables=[pdv_0]
@@ -54,7 +58,7 @@ grid = iso.Grid(
     maximum_row=y,
     filename="GRD00000",
     type=iso.GridType.GridType2,
-    treatment_zone_code=treatment.code
+    treatment_zone_code=treatment_0.code
 )
 grid_bin = from_numpy_array_to_type_2(grid_data, grid)
 
@@ -63,10 +67,13 @@ task = iso.Task(
     designator="task_grid_type_2",
     status=iso.TaskStatus.Initial,
     grids=[grid],
-    treatment_zones=[treatment],
+    treatment_zones=[treatment_0],
     customer_id_ref=customer.id,
     farm_id_ref=farm.id,
-    partfield_id_ref=partfield.id
+    partfield_id_ref=partfield.id,
+    default_treatment_zone_code=treatment_0.code,
+    position_lost_treatment_zone_code=treatment_0.code,
+    out_of_field_treatment_zone_code=treatment_0.code
 )
 
 task_data = iso.Iso11783TaskData(

@@ -18,9 +18,9 @@ from dataclasses import replace
 
 y, x = (2, 2)
 
-shapely_converter = ShapelyConverterV3()
+shp_converter = ShapelyConverterV3()
 aoi = shp.from_wkt("POLYGON ((15.1461618 48.1269217, 15.1461618 48.1267442, 15.1463363 48.1267442, 15.1463363 48.1269217, 15.1461618 48.1269217))")
-iso_aoi = shapely_converter.to_iso_polygon(aoi, iso.PolygonType.PartfieldBoundary)
+iso_aoi = shp_converter.to_iso_polygon(aoi, iso.PolygonType.PartfieldBoundary)
 customer = iso.Customer(id="CTR100", designator="jr_customer")
 farm = iso.Farm(id="FRM100", designator="jr_farm", customer_id_ref=customer.id)
 partfield = iso.Partfield(

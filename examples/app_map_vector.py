@@ -18,8 +18,8 @@ from isoxml.models.ddi_entities import DDEntity
 from isoxml.util.isoxml_io import isoxml_to_dir
 from resources.resources import RES_DIR
 
-converter = ShapelyConverterV4()
-dd_entity = DDEntity.from_id(160)
+shp_converter = ShapelyConverterV4()
+dd_entity = DDEntity.from_id(1)
 
 gdf_app_map = gpd.read_file("./input/app_map_vector.geojson")
 gdf_app_map.to_crs('EPSG:4326', inplace=True)
@@ -28,8 +28,8 @@ gdf_zones = gdf_app_map[gdf_app_map["dose"] >= 0]
 
 assert gdf_border.shape[0] == 1
 
-iso_border = converter.to_iso_polygon(shp_polygon=gdf_border.geometry.values[0],
-                                      poly_type=iso.PolygonType.PartfieldBoundary)
+iso_border = shp_converter.to_iso_polygon(shp_polygon=gdf_border.geometry.values[0],
+                                          poly_type=iso.PolygonType.PartfieldBoundary)
 
 customer = iso.Customer(id="CTR100", last_name="jr_customer")
 farm = iso.Farm(id="FRM100", designator="jr_farm", customer_id_ref=customer.id)
@@ -62,7 +62,7 @@ for zone in gdf_zones.itertuples():
         process_data_value=int(zone.dose / dd_entity.bit_resolution)
     )
 
-    poly = converter.to_iso_polygon(zone.geometry, iso.PolygonType.TreatmentZone)
+    poly = shp_converter.to_iso_polygon(zone.geometry, iso.PolygonType.TreatmentZone)
 
     treatment = iso.TreatmentZone(
         code=tz_code,

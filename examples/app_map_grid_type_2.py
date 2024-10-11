@@ -19,10 +19,10 @@ from isoxml.converter.shapely_geom import ShapelyConverterV3
 from isoxml.models.ddi_entities import DDEntity
 from isoxml.util.isoxml_io import isoxml_to_zip
 
-shapely_converter = ShapelyConverterV3()
+shp_converter = ShapelyConverterV3()
 aoi = shp.from_wkt(
     "POLYGON ((15.1461618 48.1269217, 15.1461618 48.1267442, 15.1463363 48.1267442, 15.1463363 48.1269217, 15.1461618 48.1269217))")
-iso_aoi = shapely_converter.to_iso_polygon(aoi, iso.PolygonType.PartfieldBoundary)
+iso_aoi = shp_converter.to_iso_polygon(aoi, iso.PolygonType.PartfieldBoundary)
 
 customer = iso.Customer(id="CTR100", designator="jr_customer")
 farm = iso.Farm(id="FRM100", designator="jr_farm", customer_id_ref=customer.id)
@@ -31,8 +31,11 @@ partfield = iso.Partfield(
     customer_id_ref=customer.id, farm_id_ref=farm.id,
     polygons=[iso_aoi]
 )
-y, x = (20, 20)
-grid_data = np.arange(x * y, dtype=np.int32).reshape(y, x)
+
+grid_data = np.array([
+    [267805, 1000],
+    [3000, 2000]
+], dtype=np.int32)
 y, x = grid_data.shape
 
 dd_entity = DDEntity.from_id(1)
@@ -51,8 +54,8 @@ treatment_0 = iso.TreatmentZone(
 grid = iso.Grid(
     minimum_north_position=Decimal('48.12674'),
     minimum_east_position=Decimal('15.14615'),
-    cell_north_size=0.00001,
-    cell_east_size=0.00001,
+    cell_north_size=0.0001,
+    cell_east_size=0.0001,
     maximum_column=x,
     maximum_row=y,
     filename="GRD00000",

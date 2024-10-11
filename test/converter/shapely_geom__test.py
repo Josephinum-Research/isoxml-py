@@ -145,3 +145,19 @@ def test_v4_linestring_single_point(converter_v4):
     shp_ls = converter_v4.to_shapely_line_string(iso_ls)
     assert len(shp_ls.coords) == 2
     assert not shp.is_valid(shp_ls)
+
+
+def test_v4_polygon_implicit_shell(converter_v4):
+    # seen in test/resources/isoxml/v4/cnh_export/TASKDATA 1.XML
+    iso_poly = iso4.Polygon(
+        type=iso4.PolygonType.Flag,
+        line_strings=[
+            iso4.LineString(type=iso4.LineStringType.Flag, points=[
+                iso4.Point(type=iso4.PointType.Flag, north=Decimal(0), east=Decimal(0)),
+                iso4.Point(type=iso4.PointType.Flag, north=Decimal(0), east=Decimal(1)),
+                iso4.Point(type=iso4.PointType.Flag, north=Decimal(1), east=Decimal(1)),
+                iso4.Point(type=iso4.PointType.Flag, north=Decimal(0), east=Decimal(0)),
+            ])
+        ]
+    )
+    converter_v4.to_shapely_polygon(iso_poly)

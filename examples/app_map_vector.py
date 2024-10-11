@@ -13,12 +13,12 @@ import geopandas as gpd
 import xmlschema
 
 import isoxml.models.base.v4 as iso
-from isoxml.converter.shapely_geom import ShapelyConverter
+from isoxml.converter.shapely_geom import ShapelyConverterV4
 from isoxml.models.ddi_entities import DDEntity
 from isoxml.util.isoxml_io import isoxml_to_dir
 from resources.resources import RES_DIR
 
-converter = ShapelyConverter('v4')
+converter = ShapelyConverterV4()
 dd_entity = DDEntity.from_id(160)
 
 gdf_app_map = gpd.read_file("./input/app_map_vector.geojson")

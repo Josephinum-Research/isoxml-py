@@ -16,7 +16,7 @@ import shapely as shp
 import isoxml.models.base.v3 as iso
 from isoxml.converter.np_grid import from_numpy_array_to_type_2
 from isoxml.converter.shapely_geom import ShapelyConverter
-from isoxml.models.ddi_entities import DDEntities
+from isoxml.models.ddi_entities import DDEntity
 from isoxml.util.isoxml_io import isoxml_to_zip
 
 shapely_converter = ShapelyConverter('v3')
@@ -35,10 +35,10 @@ y, x = (20, 20)
 grid_data = np.arange(x * y, dtype=np.int32).reshape(y, x)
 y, x = grid_data.shape
 
-ddi = DDEntities['1']
+dd_entity = DDEntity.from_id(1)
 
 pdv_0 = iso.ProcessDataVariable(
-    process_data_ddi=ddi['DDI'].to_bytes(length=2, byteorder='big'),
+    process_data_ddi=bytes(dd_entity),
     process_data_value=0
 )
 

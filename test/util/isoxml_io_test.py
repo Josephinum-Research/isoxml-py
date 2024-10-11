@@ -10,7 +10,7 @@ import xmlschema
 
 import isoxml.models.base.v3 as iso3
 import isoxml.models.base.v4 as iso4
-from isoxml.models.ddi_entities import DDEntities
+from isoxml.models.ddi_entities import DDEntity
 from isoxml.util.isoxml_io import isoxml_from_xml_file, isoxml_from_text, isoxml_from_zip, isoxml_to_dir, isoxml_to_zip, \
     isoxml_to_text
 from resources.resources import RES_DIR
@@ -26,7 +26,7 @@ def task_with_grid():
     )
 
     pdv_0 = iso4.ProcessDataVariable(
-        process_data_ddi=DDEntities['6']['DDI'].to_bytes(length=2, byteorder='big'),
+        process_data_ddi=bytes(DDEntity.from_id(6)),
         process_data_value=0
     )
 

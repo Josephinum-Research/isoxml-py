@@ -33,9 +33,9 @@ partfield = iso.Partfield(
 )
 
 grid_data = np.array([
-    [267805, 1000],
-    [3000, 2000]
-], dtype=np.int32)
+    [0, 11.11],
+    [22.22, 33.33]
+])
 y, x = grid_data.shape
 
 dd_entity = DDEntity.from_id(1)
@@ -62,7 +62,7 @@ grid = iso.Grid(
     type=iso.GridType.GridType2,
     treatment_zone_code=treatment_0.code
 )
-grid_bin = from_numpy_array_to_type_2(grid_data, grid)
+grid_bin = from_numpy_array_to_type_2(grid_data, grid, ddi_list=[dd_entity])
 
 task = iso.Task(
     id="TSK-01",

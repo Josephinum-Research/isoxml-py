@@ -27,18 +27,20 @@ iso_aoi = shp_converter.to_iso_polygon(aoi, iso.PolygonType.PartfieldBoundary)
 customer = iso.Customer(id="CTR100", designator="jr_customer")
 farm = iso.Farm(id="FRM100", designator="jr_farm", customer_id_ref=customer.id)
 partfield = iso.Partfield(
-    id="PFD01", designator="test_field", area=123456,
+    id="PFD100", designator="test_field", area=123456,
     customer_id_ref=customer.id, farm_id_ref=farm.id,
     polygons=[iso_aoi]
 )
 
+# keep in mind: ISOXML Grid coordinate system is bottom-up.
+# therefore this image will appear upside down on your viewer/terminal
 grid_data = np.array([
-    [0, 11.11],
-    [22.22, 33.33]
+    [0, 1111],
+    [2222, 3333]
 ])
 y, x = grid_data.shape
 
-dd_entity = DDEntity.from_id(1)
+dd_entity = DDEntity.from_id(6)
 
 pdv_0 = iso.ProcessDataVariable(
     process_data_ddi=bytes(dd_entity),
@@ -65,7 +67,7 @@ grid = iso.Grid(
 grid_bin = from_numpy_array_to_type_2(grid_data, grid, ddi_list=[dd_entity])
 
 task = iso.Task(
-    id="TSK-01",
+    id="TSK100",
     designator="task_grid_type_2",
     status=iso.TaskStatus.Initial,
     grids=[grid],

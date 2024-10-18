@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISO11783LinkList VersionMajor="4" VersionMinor="1" ManagementSoftwareManufacturer="Farmdok" ManagementSoftwareVersion="4.0.0" TaskControllerManufacturer="SDF Guidance" TaskControllerVersion="IM8841AD" DataTransferOrigin="2">
+    <LGP B="1">
+        <LNK A="CPC1" B="{2456b36f-0ade-43d3-a1c1-3fcedcbe98c6}"/>
+        <LNK A="CTP1" B="{c4a92dc2-1e83-4e82-ab0b-8c108ba733af}"/>
+        <LNK A="DET-15" B="{56bccede-6c0d-4916-9958-149352c0490e}"/>
+        <LNK A="DET-14" B="{17e55777-d2a8-441b-9d0f-3443f5b40f59}"/>
+        <LNK A="DET-13" B="{76d12ec3-2726-4b3a-9368-bb82ca9a5a4b}"/>
+        <LNK A="DET-12" B="{5209022a-564e-4d5a-bfc2-15eea4adfd91}"/>
+        <LNK A="DET-11" B="{4713befe-c0c0-4c88-a786-c780c2f7020b}"/>
+        <LNK A="DET-10" B="{0b0256ff-1600-4d5e-af2f-ed2d8ef256cc}"/>
+        <LNK A="DET-9" B="{16b969e1-6d13-479c-8a9d-5176967d2bfb}"/>
+        <LNK A="DET-8" B="{79d98a80-4164-43c7-bb74-4d816a093a1a}"/>
+        <LNK A="DET-7" B="{4ed43a47-dbbb-471f-b821-8bdd09c4cbdd}"/>
+        <LNK A="DET-6" B="{6b4f7bce-b3ff-40bf-a068-04dd38295eb4}"/>
+        <LNK A="DET-5" B="{7eda49fc-27fe-4ce6-a817-5e3f86affd26}"/>
+        <LNK A="DET-4" B="{284a7ce2-7ff0-40c4-9650-129267308719}"/>
+        <LNK A="DET-3" B="{c827b52b-5654-4432-a605-9f8e234a629c}"/>
+        <LNK A="DET-2" B="{da96c136-8640-4307-9fa1-4460e9dff7b8}"/>
+        <LNK A="DET-1" B="{4aafa192-90c8-40e3-9c57-a372f7274736}"/>
+        <LNK A="DVC-3" B="{a85a8115-62f2-4eac-af9f-1487216711b4}"/>
+        <LNK A="DVC-2" B="{da8a28f5-59a0-4d3a-8fa9-d82898173c4b}"/>
+        <LNK A="DVC-1" B="{57d9cd05-58c2-4b0d-a584-f348700c6f28}"/>
+        <LNK A="FRM1" B="{db814e4b-517c-4ca4-bb5a-a5fba98ed055}"/>
+        <LNK A="GGP-1" B="{932be050-8f49-4c6c-9e76-b7052b8d3baf}"/>
+        <LNK A="OTQ1" B="{80b79b04-7e3e-4776-b5bc-6e33c1a63ca0}"/>
+        <LNK A="OTQ2" B="{a28c8f5d-faab-40b8-8a18-eb5c7cc95f9e}"/>
+        <LNK A="PDT1" B="{2f8931ff-a49a-49a5-a8f0-50fb451ff24d}"/>
+        <LNK A="PFD1" B="{32c24a7a-0cb6-4c7c-a808-97f533126d1a}"/>
+        <LNK A="PGP1" B="{9f4bcab2-19fe-41d1-8dcc-a78b46559472}"/>
+        <LNK A="TSK-1" B="{5990a2e0-de57-47a7-94bc-e9e3f60b54bc}"/>
+        <LNK A="TSK1" B="{8ac4df0c-b6b0-4230-abb0-ea6589187653}"/>
+        <LNK A="VPN1" B="{30e2cc04-080c-46a4-be65-74f2a63c524e}"/>
+        <LNK A="VPN2" B="{95d1c0f3-97ed-4c49-88bb-a318cba0a517}"/>
+    </LGP>
+</ISO11783LinkList>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XFC>
+    <VPN A="VPN1" B="0" C="0.00100000000000" D="2" E="kg"/>
+    <VPN A="VPN2" B="0" C="0.01000000000000" D="2" E="kg/ha"/>
+</XFC>

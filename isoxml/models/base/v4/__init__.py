@@ -22,7 +22,8 @@ from isoxml.models.base.v4.device_object_reference import DeviceObjectReference
 from isoxml.models.base.v4.device_process_data import DeviceProcessData
 from isoxml.models.base.v4.device_property import DeviceProperty
 from isoxml.models.base.v4.device_value_presentation import DeviceValuePresentation
-from isoxml.models.base.v4.external_file_reference import ExternalFileReference, ExternalFileReferenceB
+from isoxml.models.base.v4.external_file_contents import ExternalFileContents
+from isoxml.models.base.v4.external_file_reference import ExternalFileReference, ExternalFileReferenceType
 from isoxml.models.base.v4.farm import Farm
 from isoxml.models.base.v4.grid import Grid, GridType
 from isoxml.models.base.v4.guidance_allocation import GuidanceAllocation
@@ -112,6 +113,7 @@ __all__ = [
     "WorkerAllocation",
     "Worker",
     "ExternalFileReference",
+    "ExternalFileContents",
     "Iso11783LinkList",
     "LinkGroup",
     "Link",

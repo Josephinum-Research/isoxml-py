@@ -31,7 +31,7 @@ class ExternalFileContents:
     :ivar customers: CTR
     :ivar devices: DVC
     :ivar farms: FRM
-    :ivar operation_techniques: OTO
+    :ivar operation_techniques: OTQ
     :ivar partfields: PFD
     :ivar products: PDT
     :ivar product_groups: PGP

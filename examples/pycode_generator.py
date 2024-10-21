@@ -8,10 +8,10 @@ see: https://xsdata.readthedocs.io/en/latest/data_binding/pycode_serializing/
 
 from xsdata.formats.dataclass.serializers import PycodeSerializer
 
-from isoxml.util.isoxml_io import isoxml_from_xml_file
+from isoxml.util.isoxml_io import isoxml_from_path
 from test.resources.test_resources import TEST_RES_DIR
 
-task_data = isoxml_from_xml_file(TEST_RES_DIR / 'isoxml/v4/cnh_export/TASKDATA 1.XML')
+task_data = isoxml_from_path(TEST_RES_DIR / 'isoxml/v4/cnh_export/TASKDATA.XML')
 
 pycode_generator = PycodeSerializer()
 with open('./output/generated_code.py', 'w', encoding='utf-8') as code_file:

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ISO11783_TaskData VersionMajor="4" VersionMinor="2" DataTransferOrigin="1" ManagementSoftwareManufacturer="test" ManagementSoftwareVersion="1.0" TaskControllerManufacturer="SomeOne" TaskControllerVersion="1234">
+  <AFE A="TEST1234.BIN" B="2" C="0614141000111" D="128" E="V1" F="400"/>
+  <BSN A="BSN1" B="GlonassBaseStation" C="52.34424" D="7.234353" E="400" P123_Area="PRA1"/>
+  <CCT A="CCT1" B="Emoji comments" C="1" D="CCG1">
+    <CCL A="CCL1" B=":)"/>
+    <CCL A="CCL2" B=":("/>
+    <CCL A="CCL3" B=":D"/>
+  </CCT>
+  <CCG A="CCG1" B="InternetMemes"/>
+  <CLD A="CLD1" B="1">
+    <CRG A="0" B="300" C="1"/>
+    <CRG A="301" B="600" C="2"/>
+    <CRG A="601" B="900" C="3"/>
+    <CRG A="901" B="1300" C="4"/>
+  </CLD>
+  <CTP A="CTP1" B="Corn" C="PGP1">
+    <CVT A="CVT1" B="PopCorn" C="PDT1"/>
+    <CVT A="CVT2" B="Golden Bantam" C="PDT1"/>
+  </CTP>
+  <CPC A="CPC1" B="Drilling">
+    <OTR A="OTQ1"/>
+  </CPC>
+  <CTR A="CTR1" B="Meyer" C="Peter" D="ExampleRoad" E="12345" F="48485" G="Neuenkirchen" H="NRW" I="Germany" J="01189998819101187253" K="01189998819101187254" L="01189998819101187153" M="tester@examplemail.com"/>
+  <DVC A="DVC-1" B="SuperBaler" C="V1.1" D="A00086000D300841" E="123453" F="00000330000000" G="FF000000006564">
+    <DET A="DET-1" B="1" C="1" D="MainDevice" E="1" F="0">
+        <DOR A="10"/>
+        <DOR A="50"/>
+    </DET>
+    <DET A="DET-2" B="2" C="2" D="SubFunction" E="2" F="1">
+        <DOR A="11"/>
+    </DET>
+    <DET A="DET-3" B="3" C="6" D="Connector" E="3" F="1">
+        <DOR A="52"/>
+        <DOR A="53"/>
+    </DET>
+    <DPD A="10" B="00D4" C="1" D="31" E="Last Bale Moisture" F="100"/>
+    <DPD A="11" B="0066" C="1" D="31" E="Actual Bale Length" F="101"/>
+    <DPT A="50" B="0073" C="1400" D="Maximum Bale Width" E="101"/>
+    <DPT A="52" B="0086" C="1000" D="OffsetX" E="101"/>
+    <DPT A="53" B="0087" C="500" D="OffsetY" E="101"/>
+    <DVP A="100" B="0" C="0.00001" D="1" E="%"/>
+    <DVP A="101" B="0" C="0.001" D="2" E="m"/>
+  </DVC>
+  <DVC A="DVC-2" B="SuperTractor" C="V1.1" D="A00086000F300842" E="123455" F="00000220000000" G="FF000000006564">
+    <DET A="DET-4" B="1" C="1" D="MainDevice" E="0" F="0">
+        <DOR A="10"/>
+        <DOR A="50"/>
+    </DET>
+    <DET A="DET-5" B="2" C="2" D="SubFunction" E="1" F="0">
+        <DOR A="11"/>
+    </DET>
+    <DET A="DET-6" B="3" C="6" D="Connector" E="3" F="1">
+        <DOR A="52"/>
+        <DOR A="53"/>
+    </DET>
+    <DPD A="10" B="01E2" C="1" D="31" E="Last Bale Moisture" F="100"/>
+    <DPD A="11" B="0066" C="1" D="31" E="Actual Bale Length" F="101"/>
+    <DPT A="50" B="0073" C="1400" D="Maximum Bale Width" E="101"/>
+    <DPT A="52" B="0086" C="1000" D="OffsetX" E="101"/>
+    <DPT A="53" B="0087" C="500" D="OffsetY" E="101"/>
+    <DVP A="100" B="0" C="0.00001" D="1" E="%"/>
+    <DVP A="101" B="0" C="0.001" D="2" E="m"/>
+  </DVC>
+  <FRM A="FRM1" B="Peters Farm" C="Example Road 1" D="1234252" E="48432" F="Mesum" G="NRW" H="Germany" I="CTR1"/>
+  <OTQ A="OTQ1" B="Deep Drilling"/>
+  <PFD A="PFD1" B="FD123" C="Near the Highway" D="13334" E="CTR1" F="FRM1" G="CTP1" H="CVT1"/>
+  <PFD A="PFD2" B="FD124" C="Near the Highway Subfield" D="3334" E="CTR1" F="FRM1" G="CTP1" H="CVT1" I="PFD1">
+        <PLN A="1" B="Field Border" C="3334" D="7" E="PLN1">
+            <LSG A="1" B="Outer line" C="12121414" D="12231322" E="8" F="LSG1">
+                <PNT A="1" B="Marker1" C="52.213" D="7.20001" E="100" F="9" G="PNT1" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                <PNT A="1" B="Marker2" C="52.216" D="7.20001" E="100" F="9" G="PNT2" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                <PNT A="1" B="Marker3" C="52.216" D="7.20007" E="100" F="9" G="PNT3" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                <PNT A="1" B="Marker4" C="52.213" D="7.20007" E="100" F="9" G="PNT4" H="0.0" I="1.0"/><!--Point File is yet missing-->
+            </LSG>
+        </PLN>
+        <PNT A="3" B="Entry" C="52.214" D="7.20007" E="100" F="9" G="PNT21" H="0.0" I="1.0"/>
+        <LSG A="4" B="Outer line" C="12121414" D="12231322" E="8" F="LSG2">
+            <PNT A="1" B="Marker5" C="52.2135" D="7.20002" E="100" F="9" G="PNT5" H="0.0" I="1.0"/>
+            <PNT A="1" B="Marker6" C="52.215" D="7.20002" E="100" F="9" G="PNT6" H="0.0" I="1.0"/>
+            <PNT A="1" B="Marker7" C="52.215" D="7.20006" E="100" F="9" G="PNT7" H="0.0" I="1.0"/>
+            <PNT A="1" B="Marker8" C="52.2135" D="7.20006" E="100" F="9" G="PNT8" H="0.0" I="1.0"/>
+        </LSG>
+        <GGP A="GGP1" B="Guidance for sampling">
+            <GPN A="GPN1" B="GuidancePattern" C="1" D="1" E= "1" F="1" G="30.0" H="400" I="4" J="5.0" K="5.1" L="BSN1" M="EPSG:4326" N="5" O="8" >
+                <PLN A="1" B="Field Border" C="3334" D="7" E="PLN2">
+                    <LSG A="1" B="Outer line" C="12121414" D="12231322" E="8" F="LSG3">
+                        <PNT A="1" B="Marker13" C="52.213" D="7.20001" E="100" F="9" G="PNT13" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                        <PNT A="1" B="Marker14" C="52.216" D="7.20001" E="100" F="9" G="PNT14" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                        <PNT A="1" B="Marker15" C="52.216" D="7.20007" E="100" F="9" G="PNT15" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                        <PNT A="1" B="Marker16" C="52.213" D="7.20007" E="100" F="9" G="PNT16" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                    </LSG>
+                </PLN>
+                <LSG A="4" B="Outer line" C="12121414" D="12231322" E="8" F="LSG4">
+                    <PNT A="1" B="Marker17" C="52.2135" D="7.20002" E="100" F="9" G="PNT17" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                    <PNT A="1" B="Marker18" C="52.215" D="7.20002" E="100" F="9" G="PNT18" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                    <PNT A="1" B="Marker19" C="52.215" D="7.20006" E="100" F="9" G="PNT19" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                    <PNT A="1" B="Marker20" C="52.2135" D="7.20006" E="100" F="9" G="PNT20" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                </LSG>
+            </GPN>
+            <PLN A="1" B="GuidanceBoundary" C="3334" D="7" E="PLN3">
+                <LSG A="1" B="Outer line" C="12121414" D="12231322" E="8" F="LSG5">
+                    <PNT A="1" B="Marker9" C="52.213" D="7.20001" E="100" F="9" G="PNT9" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                    <PNT A="1" B="Marker10" C="52.216" D="7.20001" E="100" F="9" G="PNT10" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                    <PNT A="1" B="Marker11" C="52.216" D="7.20007" E="100" F="9" G="PNT11" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                    <PNT A="1" B="Marker12" C="52.213" D="7.20007" E="100" F="9" G="PNT12" H="0.0" I="1.0"/><!--Point File is yet missing-->
+                </LSG>
+            </PLN>
+        </GGP>
+  </PFD>
+  <PDT A="PDT1" B="Schnecken" C="PGP1" D="VPN1" E="0001" F="1" G="800" H="100" I="1234"/>
+  <PDT A="PDT2" B="Korn" C="PGP1" D="VPN1" E="0006" F="1" G="1000" H="100" I="1234"/>
+  <PDT A="PDT3" B="Schneckenkorn" C="PGP1" D="VPN1" E="0006" F="2" G="1800" H="100" I="1234">
+    <PRN A="PDT1" B="800"/>
+    <PRN A="PDT2" B="1000"/>
+  </PDT>
+  <PGP A="PGP1" B="Zutaten für Schneckenkorn" C="1"/>
+
+  <TSK A="TSK1" B="Task 1" C="CTR1" D="FRM1" E="PFD1" F="WKR1" G="4" H="0" I="0" J="1">
+    <CAN A="CCT1">
+      <ASP A="2021-03-18T22:00:00.000Z" B="2021-03-18T23:00:00.000Z"  D="4">
+        <PTN A="52.3" B="7.25" C="124" D="4" E="65.2" F="12.3" G="14" H="123455" I="12222"/>
+        <PTN A="52.3" B="7.27" C="124" D="4" E="65.1" F="12.3" G="14" H="124495" I="12222"/>
+      </ASP>
+    </CAN>
+    <CAN B="CCL1">
+      <ASP A="2021-03-18T22:00:00.000Z" B="2021-03-18T23:00:00.000Z"  D="4">
+        <PTN A="52.3" B="7.25" C="124" D="4" E="65.2" F="12.3" G="14" H="123455" I="12222"/>
+        <PTN A="52.3" B="7.27" C="124" D="4" E="65.1" F="12.3" G="14" H="124495" I="12222"/>
+      </ASP>
+    </CAN>
+    <CAN C="Driver wrote this">
+      <ASP A="2021-03-18T22:00:00.000Z" B="2021-03-18T23:00:00.000Z"  D="4">
+        <PTN A="52.3" B="7.25" C="124" D="4" E="65.2" F="12.3" G="14" H="123455" I="12222"/>
+        <PTN A="52.3" B="7.27" C="124" D="4" E="65.1" F="12.3" G="14" H="124495" I="12222"/>
+      </ASP>
+    </CAN>
+    <CAT A="A00086000F300842" B="A00086000D300841" C="00000220000000" D="00000330000000" E="1" F="1" G="0001">
+      <ASP A="2021-03-18T22:00:00.000Z"  D="1"/>
+    </CAT>
+    <CNN A="DVC-1" B="DET-3" C="DVC-2" D="DET-6"/>
+    <DAN A="A00086000D300841" B="FFFFFFFFFFFFFFFF" C="DVC-1">
+      <ASP A="2021-03-18T21:00:00.000Z" C="500" D="4">
+        <PTN A="52.3" B="7.25" C="124" D="4" E="65.2" F="12.3" G="14" H="123455" I="12222"/>
+        <PTN A="52.3" B="7.27" C="124" D="4" E="65.1" F="12.3" G="14" H="124495" I="12222"/>
+      </ASP>
+    </DAN>
+    <DAN A="A00086000D300841" B="FFFFFFFFFFFFFFFF" C="DVC-1">
+      <ASP A="2021-03-18T22:00:00.000Z" B="2021-03-18T23:00:00.000Z"  D="4">
+        <PTN A="52.3" B="7.25" C="124" D="4" E="65.2" F="12.3" G="14" H="123455" I="12222"/>
+        <PTN A="52.3" B="7.27" C="124" D="4" E="65.1" F="12.3" G="14" H="124495" I="12222"/>
+      </ASP>
+    </DAN>
+    <DLT A="DFFF" B="31"/>
+    <DLT A="00D4" B="31" C="300" D="20" E="14" F="1800" G="2" H="DET-1" I="VPN1"/>
+    <DLT A="DFFE" B="31" C="300" D="20" E="14" F="1800" G="2" H="DET-1" I="VPN1" J="1242" K="1" L="5"/>
+    <GAN A="GGP1">
+      <ASP A="2021-03-17T22:05:00.000Z"  D="1"/>
+      <GST A="GGP1" B="GPN1" C="100" D="200" E="20">
+        <ASP A="2021-03-18T23:00:00.000Z"  D="1">
+        </ASP>
+      </GST>
+    </GAN>
+    <OTP A="CPC1" B="OTQ1"/>
+    <PAN A="PDT3" B="0001" C="400" D="1" E="DET-1" F="VPN1">
+      <ASP A="2021-03-18T21:00:00.000Z" C="500" D="4">
+      </ASP>
+    </PAN>
+    <PAN A="PDT3" B="0001" C="400" D="2" E="DET-1" F="VPN1">
+      <ASP A="2021-03-18T22:00:00.000Z" B="2021-03-18T23:00:00.000Z"  D="4"/>
+    </PAN>    
+    <TIM A="2021-03-18T21:00:00.000Z" B="2021-03-18T23:05:00.000Z" D="1">
+    </TIM>
+    <TIM A="2021-03-18T21:00:00.000Z" C="400" D="4">
+        <PTN A="52.3" B="7.25" C="124" D="4" E="65.5" F="12.3" G="14" H="123455" I="12222"/>
+        <PTN A="52.3" B="7.27" C="124" D="4" E="65.5" F="12.3" G="14" H="124495" I="12222"/>
+        <DLV A="00D4" B="4321" C="DET-1" />       
+        <DLV A="DFFE" B="568" C="DET-1" D="1424" E="1" F="4"/>       
+    </TIM>
+    <WAN A="WKR1">
+      <ASP A="2021-03-18T21:00:00.000Z" C="500" D="4">
+        <PTN A="52.3" B="7.25" C="124" D="4" E="65.2" F="12.3" G="14" H="123455" I="12222"/>
+        <PTN A="52.3" B="7.27" C="124" D="4" E="65.1" F="12.3" G="14" H="124495" I="12222"/>
+      </ASP>
+    </WAN>
+    <WAN A="WKR1">
+      <ASP A="2021-03-18T22:00:00.000Z" B="2021-03-18T23:00:00.000Z"  D="4">
+        <PTN A="52.3" B="7.25" C="124" D="4" E="65.2" F="12.3" G="14" H="123455" I="12222"/>
+        <PTN A="52.3" B="7.27" C="124" D="4" E="65.1" F="12.3" G="14" H="124495" I="12222"/>
+      </ASP>
+    </WAN>
+  </TSK>
+  
+  <TCC A="A0008F000F300DDD" B="dev4AgTC" C="4" D="63" E="1" F="2" G="3"/>
+  <VPN A="VPN1" B="0" C="0.0001" D="4" E="l/ha" F="CLD1"/>
+  <WKR A="WKR1"  B="Driver" C="Peter" D="ExampleRoad" E="12345" F="48485" G="Newchurch" H="NRW" I="Germany" J="01189998819101187253" K="01189998819101187254"  L="01189998819101187153" M="driver@examplemail.com"/>
+  <!-- XFR is not supported!-->
+</ISO11783_TaskData>

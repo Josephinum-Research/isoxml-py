@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ISO11783_TaskData VersionMajor="3" VersionMinor="3" ManagementSoftwareManufacturer="FarmFacts" ManagementSoftwareVersion="0" DataTransferOrigin="1">
+    <CTR A="CTR1" B="Betrieb J"/>
+    <FRM A="FRM1" B="Betrieb J" I="CTR1"/>
+    <PFD A="PFD1" B="a7dc449351a24de68a5c840ecadc45da" C="BH-Feld 2023" D="17470" E="CTR1" F="FRM1">
+        <PLN A="1" C="17470">
+            <LSG A="1">
+                <PNT A="2" C="48.145220357" D="15.143224019"/>
+                <PNT A="2" C="48.145126963" D="15.143407214"/>
+                <PNT A="2" C="48.145033569" D="15.143510133"/>
+                <PNT A="2" C="48.1449182" D="15.143769488"/>
+                <PNT A="2" C="48.144840365" D="15.143865087"/>
+                <PNT A="2" C="48.143323051" D="15.141996976"/>
+                <PNT A="2" C="48.143574407" D="15.14154635"/>
+                <PNT A="2" C="48.143889447" D="15.141258145"/>
+                <PNT A="2" C="48.145280789" D="15.143036707"/>
+                <PNT A="2" C="48.145220357" D="15.143224019"/>
+            </LSG>
+        </PLN>
+    </PFD>
+    <VPN A="VPN1" B="0" C="0.0001" D="2" E="l/ha"/>
+    <TSK A="TSK1" B="BH-Feld" C="CTR1" D="FRM1" E="PFD1" G="1" H="2" I="1" J="0">
+        <GRD A="48.143304983" B="15.141245418" C="1.1178E-5" D="1.1184E-5" E="236" F="178" G="GRD00001" H="168032" I="2" J="2"/>
+        <TZN A="0">
+            <PDV A="0001" B="0" E="VPN1"/>
+        </TZN>
+        <TZN A="1">
+            <PDV A="0001" B="0" E="VPN1"/>
+        </TZN>
+        <TZN A="2">
+            <PDV A="0001" B="0" E="VPN1"/>
+        </TZN>
+        <DLT A="DFFF" B="31"/>
+    </TSK>
+    <CCG A="CCG1" B="NextFarmingTaskFileId"/>
+    <CCT A="CCT1" B="b3f469be801c4cc09479fde8b190f669" C="2" D="CCG1"/>
+</ISO11783_TaskData>

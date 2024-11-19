@@ -14,12 +14,12 @@ import xmlschema
 
 import isoxml.models.base.v4 as iso
 from isoxml.converter.shapely_geom import ShapelyConverter
-from isoxml.models.ddi_entities import DDEntities
+from isoxml.models.ddi_entities import DDEntity
 from isoxml.util.isoxml_io import isoxml_to_dir
 from resources.resources import RES_DIR
 
 converter = ShapelyConverter('v4')
-ddi = DDEntities['1']  # aka mm³/m²
+dd_entity = DDEntity.from_id(160)
 
 gdf_app_map = gpd.read_file("./input/app_map_vector.geojson")
 gdf_app_map.to_crs('EPSG:4326', inplace=True)
@@ -48,7 +48,7 @@ default_treatment_zone = iso.TreatmentZone(
     designator='no_zone',
     process_data_variables=[
         iso.ProcessDataVariable(
-                process_data_ddi=ddi['DDI'].to_bytes(length=2, byteorder='big'),
+                process_data_ddi=bytes(dd_entity),
                 process_data_value=0
             )
     ]
@@ -58,8 +58,8 @@ tz_code = 1
 
 for zone in gdf_zones.itertuples():
     pdv = iso.ProcessDataVariable(
-        process_data_ddi=ddi['DDI'].to_bytes(length=2, byteorder='big'),
-        process_data_value=int(zone.dose / ddi['bitResolution'])
+        process_data_ddi=bytes(dd_entity),
+        process_data_value=int(zone.dose / dd_entity.bit_resolution)
     )
 
     poly = converter.to_iso_polygon(zone.geometry, iso.PolygonType.TreatmentZone)

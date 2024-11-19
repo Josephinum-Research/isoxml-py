@@ -31,3 +31,10 @@ I still have no idea how to convert this correctly... ideas?
 why not just use a point? i think because the LineString width is used to determine the swath width.
 One could just as well have used an attribute for the GuidancePatterns width... 
 
+## Customer & Farm
+
+As far as I know, it is not necessary to add a customer and a farm to a Task. 
+However, some terminals use these entries for navigation, 
+and therefore you might run into a situation where the terminal accepts the input, but your task doesn't show up anywhere.
+So you should set these entries to avoid this kind of problem.
+

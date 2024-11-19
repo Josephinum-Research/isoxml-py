@@ -7,20 +7,26 @@ If there are many different values, type 2 is preferable, otherwise the XML file
 from decimal import Decimal
 
 import numpy as np
+import shapely as shp
 
 import isoxml.models.base.v3 as iso
 from isoxml.converter.np_grid import from_numpy_array_to_type_1
+from isoxml.converter.shapely_geom import ShapelyConverter
 from isoxml.models.ddi_entities import DDEntities
 from isoxml.util.isoxml_io import isoxml_to_zip
 from dataclasses import replace
 
 y, x = (2, 2)
 
-customer = iso.Customer(id="CTR01", designator="test_user")
-farm = iso.Farm(id="FRM01", designator="test_farm", customer_id_ref=customer.id)
+shapely_converter = ShapelyConverter('v3')
+aoi = shp.from_wkt("POLYGON ((15.1461618 48.1269217, 15.1461618 48.1267442, 15.1463363 48.1267442, 15.1463363 48.1269217, 15.1461618 48.1269217))")
+iso_aoi = shapely_converter.to_iso_polygon(aoi, iso.PolygonType.PartfieldBoundary)
+customer = iso.Customer(id="CTR100", designator="jr_customer")
+farm = iso.Farm(id="FRM100", designator="jr_farm", customer_id_ref=customer.id)
 partfield = iso.Partfield(
-    id="PFD01", designator="test_field", area=123456,
-    customer_id_ref=customer.id, farm_id_ref=farm.id
+    id="PFD101", designator="jr_field", area=123456,
+    customer_id_ref=customer.id, farm_id_ref=farm.id,
+    polygons=[iso_aoi]
 )
 
 grid_data = np.arange(y * x, dtype=np.uint8).reshape(y, x)
@@ -38,12 +44,12 @@ grid = iso.Grid(
 grid_bin = from_numpy_array_to_type_1(grid_data, grid)
 
 pdv_0 = iso.ProcessDataVariable(
-    process_data_ddi=DDEntities['6']['DDI'].to_bytes(length=2, byteorder='big'),
+    process_data_ddi=DDEntities['1']['DDI'].to_bytes(length=2, byteorder='big'),
     process_data_value=1
 )
-pdv_1 = replace(pdv_0, process_data_value=10)
-pdv_2 = replace(pdv_0, process_data_value=20)
-pdv_3 = replace(pdv_0, process_data_value=30)
+pdv_1 = replace(pdv_0, process_data_value=1000)
+pdv_2 = replace(pdv_0, process_data_value=2000)
+pdv_3 = replace(pdv_0, process_data_value=3000)
 
 treatment_0 = iso.TreatmentZone(
     code=0,
@@ -55,7 +61,7 @@ treatment_2 = iso.TreatmentZone(code=2, designator="zone_2", process_data_variab
 treatment_3 = iso.TreatmentZone(code=3, designator="zone_3", process_data_variables=[pdv_3])
 
 task = iso.Task(
-    id="TSK-01",
+    id="TSK101",
     designator="task_grid_type_1",
     status=iso.TaskStatus.Initial,
     grids=[grid],

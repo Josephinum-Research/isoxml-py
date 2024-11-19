@@ -2,7 +2,7 @@ from xsdata.formats.dataclass.parsers import XmlParser
 from xsdata.formats.dataclass.serializers import XmlSerializer
 
 from isoxml.models.base.v4 import Iso11783TaskData
-from tests.resources.test_resources import TEST_RES_DIR
+from test.resources.test_resources import TEST_RES_DIR
 
 parser = XmlParser()
 serializer = XmlSerializer()

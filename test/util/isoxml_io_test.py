@@ -108,8 +108,8 @@ def test__isoxml_to_zip__when_write_to_buffer__expect_valid_files(task_with_grid
     with BytesIO() as buffer:
         isoxml_to_zip(buffer, task_data, bin_dict)
         with ZipFile(buffer, 'r') as zip_archive:
-            assert 'TASKDATA.XML' in zip_archive.namelist()
-            assert 'GRD00000.bin' in zip_archive.namelist()
+            assert 'TASKDATA/TASKDATA.XML' in zip_archive.namelist()
+            assert 'TASKDATA/GRD00000.bin' in zip_archive.namelist()
 
 
 def test__isoxml_to_zip__when_write_to_file__expect_valid_files(task_with_grid):
@@ -119,7 +119,7 @@ def test__isoxml_to_zip__when_write_to_file__expect_valid_files(task_with_grid):
         tmp_path = Path(tmp_dir)
         zip_path = tmp_path / 'TASKDATA.zip'
         with open(zip_path, 'wb') as zip_file:
-            isoxml_to_zip(zip_file, task_data, bin_dict)
+            isoxml_to_zip(zip_file, task_data, bin_dict, include_folder=False)
         with ZipFile(zip_path, 'r') as zip_archive:
             assert 'TASKDATA.XML' in zip_archive.namelist()
             assert 'GRD00000.bin' in zip_archive.namelist()

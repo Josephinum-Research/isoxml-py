@@ -24,6 +24,9 @@ class Iso11783TaskDataVersionMajor(Enum):
 
 
 class Iso11783TaskDataVersionMinor(Enum):
+    VALUE_0 = "0"
+    VALUE_1 = "1"
+    VALUE_2 = "2"
     VALUE_3 = "3"
 
 
@@ -203,7 +206,6 @@ class Iso11783TaskData:
         },
     )
     version_minor: Iso11783TaskDataVersionMinor = field(
-        init=False,
         default=Iso11783TaskDataVersionMinor.VALUE_3,
         metadata={
             "name": "VersionMinor",

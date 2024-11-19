@@ -31,6 +31,12 @@ I still have no idea how to convert this correctly... ideas?
 why not just use a point? i think because the LineString width is used to determine the swath width.
 One could just as well have used an attribute for the GuidancePatterns width... 
 
+## winding order
+
+ISOXML polygons do not require a specific winding order.
+Therefore, converters of this library will not enforce any. 
+Remember that your target format may have requirements in this regard (GeoJSON, Shapefile).
+
 ## Customer & Farm
 
 As far as I know, it is not necessary to add a customer and a farm to a Task. 

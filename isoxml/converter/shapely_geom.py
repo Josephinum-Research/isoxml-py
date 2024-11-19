@@ -141,6 +141,17 @@ class _ShapelyConverter:
             for iso_polygon in iso_polygons
         ])
 
+    def to_shapely_geom(self, iso_geometry) -> shp.Geometry:
+        match type(iso_geometry):
+            case self.iso.Point:
+                return self.to_shapely_point(iso_geometry)
+            case self.iso.LineString:
+                return self.to_shapely_line_string(iso_geometry)
+            case self.iso.Polygon:
+                return self.to_shapely_polygon(iso_geometry)
+            case _:
+                raise NotImplementedError(f"Unknown iso geometry {type(iso_geometry)}")
+
 
 class ShapelyConverterV3(_ShapelyConverter):
     def __init__(self):

@@ -102,6 +102,25 @@ def test__isoxml_to_dir__when_file_valid__expect_valid_files(task_with_grid):
         assert os.path.isfile(tmp_path / 'GRD00000.bin')
 
 
+def test__isoxml_to_dir__when_file_contains_ext_refs__expect_ext_content_written(task_with_grid):
+    task_data, ext_refs = task_with_grid
+    ext_ref = iso4.ExternalFileReference(
+        'TSK00000', iso4.ExternalFileReferenceType.XML
+    )
+    ext_file = iso4.ExternalFileContents(
+        tasks=task_data.tasks
+    )
+    task_data.tasks = []
+    task_data.external_file_references = [ext_ref]
+    ext_refs[ext_ref.filename] = ext_file
+
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        tmp_path = Path(tmp_dir)
+        isoxml_to_dir(tmp_path, task_data, ext_refs)
+        assert os.path.isfile(tmp_path / 'GRD00000.bin')
+        assert os.path.isfile(tmp_path / 'TSK00000.XML')
+
+
 def test__isoxml_to_zip__when_write_to_buffer__expect_valid_files(task_with_grid):
     task_data, ext_refs = task_with_grid
 
@@ -123,6 +142,26 @@ def test__isoxml_to_zip__when_write_to_file__expect_valid_files(task_with_grid):
         with ZipFile(zip_path, 'r') as zip_archive:
             assert 'TASKDATA.XML' in zip_archive.namelist()
             assert 'GRD00000.bin' in zip_archive.namelist()
+
+
+def test__isoxml_to_zip__when_file_contains_ext_refs__expect_ext_content_written(task_with_grid):
+    task_data, ext_refs = task_with_grid
+    ext_ref = iso4.ExternalFileReference(
+        'TSK00000', iso4.ExternalFileReferenceType.XML
+    )
+    ext_file = iso4.ExternalFileContents(
+        tasks=task_data.tasks
+    )
+    task_data.tasks = []
+    task_data.external_file_references = [ext_ref]
+    ext_refs[ext_ref.filename] = ext_file
+
+    with BytesIO() as buffer:
+        isoxml_to_zip(buffer, task_data, ext_refs)
+        with ZipFile(buffer, 'r') as zip_archive:
+            assert 'TASKDATA/TASKDATA.XML' in zip_archive.namelist()
+            assert 'TASKDATA/GRD00000.bin' in zip_archive.namelist()
+            assert 'TASKDATA/TSK00000.XML' in zip_archive.namelist()
 
 
 def test__isoxml_from_xml_file__when_file_contains_references__expect_pares_all_data():

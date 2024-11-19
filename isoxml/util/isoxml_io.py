@@ -1,6 +1,5 @@
 import os.path
 import tempfile
-from dataclasses import fields
 from pathlib import Path
 from types import ModuleType
 from typing import Literal
@@ -13,6 +12,7 @@ from xsdata.formats.dataclass.serializers.config import SerializerConfig
 
 import isoxml.models.base.v3 as iso3
 import isoxml.models.base.v4 as iso4
+from isoxml.util.external_file import merge_ext_content
 
 __parser = XmlParser(ParserConfig(
     fail_on_unknown_properties=False,
@@ -66,19 +66,7 @@ def isoxml_from_path(
                 iso.ExternalFileContents
             )
     if external_files == 'merge':
-        iso_element_lookup = {}
-        for field_meta in fields(task_data):
-            if 'name' in field_meta.metadata:
-                iso_element_lookup[field_meta.metadata['name']] = field_meta.name
-        for ext_ref in task_data.external_file_references:
-            ref_obj = ext_file_obj_dict[ext_ref.filename]
-            for value in ref_obj.__dict__.values():
-                if isinstance(value, list) and len(value) > 0:
-                    td_var_name = iso_element_lookup[value[0].Meta.name]
-                    if hasattr(task_data, td_var_name):
-                        getattr(task_data, td_var_name).extend(value)
-        ext_file_obj_dict = {}
-        task_data.external_file_references = []
+        merge_ext_content(task_data, ext_file_obj_dict, inplace=True)
 
     bin_dict = {}
     if read_bin_files:

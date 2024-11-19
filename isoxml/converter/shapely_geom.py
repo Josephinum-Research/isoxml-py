@@ -79,12 +79,21 @@ class _ShapelyConverter:
         for iso_ls in iso_polygon.line_strings:
             shp_ls = self.to_shapely_line_string(iso_ls)
             match iso_ls.type:
-                case iso3.LineStringType.PolygonExterior | iso4.LineStringType.PolygonExterior:
-                    shell = shp_ls
                 case iso3.LineStringType.PolygonInterior | iso4.LineStringType.PolygonInterior:
                     holes.append(shp_ls)
                 case _:
-                    raise ValueError(f"linestring type {iso_ls.type} is not a valid type for a polygon component")
+                    # in my understanding, the outer shell may also be implied.
+                    # some terminal exports (CNH) contain only one LineString of type flag inside a polygon (bug?)
+                    if shell is not None:
+                        # v3 allowed multiple outer bound LineStrings in one Polygon
+                        # to support this, the association of the holes would have to be done via shapely "contains"
+                        # However, I have never seen a polygon that is structured like this
+                        raise NotImplementedError("""
+                            The conversion of MultiPolygons in the style of v3 is not supported (yet).
+                            You can support the development of this library by sending us a 
+                            sample ISOXML file that caused this error.
+                        """)
+                    shell = shp_ls
         if not shell:
             raise ValueError("provides isoxml polygon did not contain a PolygonExterior")
         return shp.Polygon(

@@ -1,4 +1,3 @@
-from io import BytesIO, StringIO
 from pathlib import Path
 from zipfile import ZipFile
 
@@ -9,8 +8,8 @@ from xsdata.formats.dataclass.serializers.config import SerializerConfig
 import isoxml.models.base.v3 as iso3
 import isoxml.models.base.v4 as iso4
 
-parser = XmlParser()
-serializer = XmlSerializer(
+__parser = XmlParser()
+__serializer = XmlSerializer(
     config=SerializerConfig(
         xml_version='1.0',
         encoding='UTF-8',
@@ -51,11 +50,11 @@ def isoxml_from_text(xml_content: str) -> iso3.Iso11783TaskData | iso4.Iso11783T
         iso = iso3
     else:
         raise ValueError("the provided xml file is neither version 3 or 4")
-    return parser.from_string(xml_content, iso.Iso11783TaskData)
+    return __parser.from_string(xml_content, iso.Iso11783TaskData)
 
 
 def isoxml_to_text(task_data: iso3.Iso11783TaskData | iso4.Iso11783TaskData) -> str:
-    return serializer.render(task_data)
+    return __serializer.render(task_data)
 
 
 def isoxml_to_dir(
@@ -66,7 +65,7 @@ def isoxml_to_dir(
         bin_dict = {}
     xml_path = dir_path / 'TASKDATA.XML'
     with open(xml_path, 'w', encoding='utf-8') as xml_file:
-        serializer.write(xml_file, task_data)
+        __serializer.write(xml_file, task_data)
     for bin_name, bin_data in bin_dict.items():
         bin_path = dir_path / (bin_name + '.bin')
         with open(bin_path, 'wb') as bin_file:

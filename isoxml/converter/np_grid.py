@@ -1,3 +1,7 @@
+"""
+convert numpy arrays to ISOXML binary files (GRD????.bin)
+"""
+
 import numpy as np
 
 import isoxml.models.base.v3 as iso3
@@ -53,6 +57,12 @@ def __extract_grid_shape(grid):
 
 
 def from_numpy_array_to_type_1(arr: np.ndarray, grid: iso3.Grid | iso4.Grid) -> bytes:
+    """
+    converts a numpy array into isoxml binary grid type 1 format
+    :param arr: the numpy array, dtype must be uint8
+    :param grid: the isoxml grid element
+    :return: bytes of isoxml binary grid type 1 format
+    """
     if arr.dtype != np.uint8:
         raise ValueError("grid type 1 requires uint8")
     grid_shape = __extract_grid_shape(grid)

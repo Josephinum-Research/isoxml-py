@@ -30,6 +30,9 @@ boundary_wkt = "POLYGON((15.1450455 48.1257726,15.1455444 48.1255685,15.1461560 
 boundary_shp = shp.from_wkt(boundary_wkt)
 boundary_iso = shp_converter.to_iso_polygon(boundary_shp, iso.PolygonType.PartfieldBoundary)
 
+customer = iso.Customer(id="CTR101", last_name="jr_customer")
+farm = iso.Farm(id="FRM101", designator="jr_farm", customer_id_ref=customer.id)
+
 ab_pattern = iso.GuidancePattern(
     id="GPN01",
     type=iso.GuidancePatternType.AB,
@@ -64,6 +67,8 @@ partfield = iso.Partfield(
     area=1050,
     guidance_groups=[guidance_group],
     polygons=[boundary_iso],
+    customer_id_ref=customer.id,
+    farm_id_ref=farm.id
 
 )
 
@@ -72,6 +77,8 @@ task_data = iso.Iso11783TaskData(
     management_software_version="0.0.1",
     data_transfer_origin=iso.Iso11783TaskDataDataTransferOrigin.FMIS,
     partfields=[partfield],
+    customers=[customer],
+    farms=[farm]
 )
 
 data_dir = Path('./output/example_guidance')

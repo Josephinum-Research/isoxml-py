@@ -148,7 +148,7 @@ def test_v4_linestring_single_point(converter_v4):
 
 
 def test_v4_polygon_implicit_shell(converter_v4):
-    # seen in test/resources/isoxml/v4/cnh_export/TASKDATA 1.XML
+    # seen in test/resources/isoxml/v4/cnh_export/TASKDATA.XML
     iso_poly = iso4.Polygon(
         type=iso4.PolygonType.Flag,
         line_strings=[

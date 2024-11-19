@@ -1,6 +1,5 @@
 from decimal import Decimal
 from types import ModuleType
-from typing import Literal
 
 import shapely as shp
 
@@ -8,16 +7,9 @@ import isoxml.models.base.v3 as iso3
 import isoxml.models.base.v4 as iso4
 
 
-class ShapelyConverter:
-    def __init__(self, version: Literal['v3', 'v4']):
-        self.iso: ModuleType
-        match version:
-            case 'v3':
-                self.iso = iso3
-            case 'v4':
-                self.iso = iso4
-            case _:
-                raise NotImplementedError('only the conversion to v3 or v4 is supported')
+class _ShapelyConverter:
+    def __init__(self, iso_module: ModuleType) -> None:
+        self.iso = iso_module
 
     def _iso_point_from_coords(
             self, east: float, nord: float, pnt_type=None, **kwargs
@@ -56,7 +48,16 @@ class ShapelyConverter:
 
     @staticmethod
     def to_shapely_line_string(iso_line) -> shp.LineString:
-        return shp.LineString(coordinates=[[iso_pnt.east, iso_pnt.north] for iso_pnt in iso_line.points])
+        coords = [[iso_pnt.east, iso_pnt.north] for iso_pnt in iso_line.points]
+        if iso_line.type == iso3.LineStringType.PolygonExterior or iso_line.type == iso3.LineStringType.PolygonInterior:
+            # iso3 LineStrings are implicitly closed if they are of type 1 or 2
+            if coords[0] != coords[-1]:
+                coords.append(coords[0])
+        if len(coords) == 1:  # I could not find any info if this is allowed in v3, but it is in v4 (GPN A+ & Pivot)
+            # shapely will accept this, but the geom is not valid
+            # will see if that works
+            coords.append(coords[0])
+        return shp.LineString(coords)
 
     def to_iso_polygon(
             self, shp_polygon: shp.Polygon, poly_type=None, **kwargs
@@ -130,3 +131,13 @@ class ShapelyConverter:
             self.to_shapely_polygon(iso_polygon)
             for iso_polygon in iso_polygons
         ])
+
+
+class ShapelyConverterV3(_ShapelyConverter):
+    def __init__(self):
+        super().__init__(iso3)
+
+
+class ShapelyConverterV4(_ShapelyConverter):
+    def __init__(self):
+        super().__init__(iso4)

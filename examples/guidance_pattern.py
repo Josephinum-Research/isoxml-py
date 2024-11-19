@@ -3,11 +3,11 @@ from pathlib import Path
 import shapely as shp
 
 import isoxml.models.base.v4 as iso
-from isoxml.converter.shapely_geom import ShapelyConverter
+from isoxml.converter.shapely_geom import ShapelyConverterV4
 from isoxml.util.isoxml_io import isoxml_to_dir
 from resources.resources import RES_DIR
 
-shp_converter = ShapelyConverter('v4')
+shp_converter = ShapelyConverterV4()
 swathe_width = 3000  # mm
 
 ab_wkt = "LINESTRING (15.1472554 48.1263457, 15.1470881 48.1264582)"

@@ -28,7 +28,7 @@ grid_data = np.array([
 y, x = grid_data.shape
 
 pdv_0 = iso.ProcessDataVariable(
-    process_data_ddi=DDEntities['1']['DDI'].to_bytes(length=2),
+    process_data_ddi=DDEntities['1']['DDI'].to_bytes(length=2, byteorder='big'),
     process_data_value=0
 )
 

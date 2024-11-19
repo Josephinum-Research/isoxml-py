@@ -1,4 +1,4 @@
-from io import BytesIO
+from io import BytesIO, StringIO
 from pathlib import Path
 from zipfile import ZipFile
 
@@ -51,12 +51,13 @@ def isoxml_from_text(xml_content: str) -> iso3.Iso11783TaskData | iso4.Iso11783T
         iso = iso3
     else:
         raise ValueError("the provided xml file is neither version 3 or 4")
-    with BytesIO(xml_content.encode('utf-8')) as xml_stream:
-        return parser.parse(xml_stream, iso.Iso11783TaskData)
+    return parser.from_string(xml_content, iso.Iso11783TaskData)
 
 
 def isoxml_to_text(task_data: iso3.Iso11783TaskData | iso4.Iso11783TaskData) -> str:
     return serializer.render(task_data)
+
+
 def isoxml_to_dir(
         dir_path: Path, task_data: iso3.Iso11783TaskData | iso4.Iso11783TaskData,
         bin_dict: dict[str, bytes] | None = None

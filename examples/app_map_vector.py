@@ -32,7 +32,7 @@ tz_code = 0
 
 for zone in gdf_zones.itertuples():
     pdv = iso.ProcessDataVariable(
-        process_data_ddi=DDEntities['6']['DDI'].to_bytes(length=2),
+        process_data_ddi=DDEntities['6']['DDI'].to_bytes(length=2, byteorder='big'),
         process_data_value=int(zone.dose)
     )
 

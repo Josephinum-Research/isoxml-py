@@ -12,7 +12,7 @@ y, x = (20, 40)
 grid_data = np.linspace(1, 10_000, num=y*x, dtype=np.int32).reshape(y, x)
 
 pdv_0 = iso.ProcessDataVariable(
-    process_data_ddi=DDEntities['6']['DDI'].to_bytes(length=2),
+    process_data_ddi=DDEntities['6']['DDI'].to_bytes(length=2, byteorder='big'),
     process_data_value=0
 )
 

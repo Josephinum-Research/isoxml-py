@@ -38,7 +38,7 @@ grid = iso.Grid(
 grid_bin = from_numpy_array_to_type_1(grid_data, grid)
 
 pdv_0 = iso.ProcessDataVariable(
-    process_data_ddi=DDEntities['6']['DDI'].to_bytes(length=2),
+    process_data_ddi=DDEntities['6']['DDI'].to_bytes(length=2, byteorder='big'),
     process_data_value=1
 )
 pdv_1 = replace(pdv_0, process_data_value=10)

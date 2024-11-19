@@ -6,11 +6,7 @@ xsdata resources/xsd/ISO11783_TaskFile_V3-3.xsd \
         --subscriptable-types \
         --union-type \
         --structure-style clusters \
-        --no-relative-imports
-        
-for filename in ./isoxml/models/base/v3/*.py; do
-  python ./isoxml/models/refactor_helper.py $filename
-done
+        --no-relative-imports        
 
 xsdata resources/xsd/ISO11783_TaskFile_V4-3.xsd \
         --package isoxml.models.base.v4 \
@@ -19,7 +15,4 @@ xsdata resources/xsd/ISO11783_TaskFile_V4-3.xsd \
         --structure-style clusters \
         --no-relative-imports 
         
-for filename in ./isoxml/models/base/v4/*.py; do
-  python ./isoxml/models/refactor_helper.py $filename
-done
 ```

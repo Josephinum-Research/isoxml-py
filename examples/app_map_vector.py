@@ -3,6 +3,8 @@ This example shows how to create a vector based application map.
 This type of map is useful if your application has not many different treatment zones.
 This type of map could also be useful for spot sprayer applications (tests to follow).
 The zones are modelled as TreatmentZones containing the dose and the geometry of the polygon.
+
+successful import/display on New Holland T7 + IntelliView 12 + Kverneland iXter B18 (Terminal selection of DDI not possible)
 """
 
 from pathlib import Path
@@ -51,6 +53,7 @@ default_treatment_zone = iso.TreatmentZone(
             )
     ]
 )
+treatment_zones.append(default_treatment_zone)
 tz_code = 1
 
 for zone in gdf_zones.itertuples():
@@ -75,7 +78,10 @@ task = iso.Task(
     partfield_id_ref=partfield.id,
     status=iso.TaskStatus.Planned,
     treatment_zones=treatment_zones,
-    designator="vector application map"
+    designator="vector application map",
+    default_treatment_zone_code=default_treatment_zone.code,
+    position_lost_treatment_zone_code=default_treatment_zone.code,
+    out_of_field_treatment_zone_code=default_treatment_zone.code
 )
 
 task_data = iso.Iso11783TaskData(

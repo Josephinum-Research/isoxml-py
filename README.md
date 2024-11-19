@@ -1,4 +1,4 @@
-# ISOXML for python
+# ISOXML library for python 
 
 a python library that handles import and export of ISOXML TaskData files as specified in ISO11783 part 10.
 inspired by [isoxml-js](https://github.com/dev4Agriculture/isoxml-js) and powered by [xsdata](https://github.com/tefra/xsdata) XML bindings.

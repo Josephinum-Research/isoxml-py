@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISO11783_TaskData VersionMajor="4" VersionMinor="2" ManagementSoftwareManufacturer="Farmdok" ManagementSoftwareVersion="4.0.0" TaskControllerManufacturer="SDF Guidance" TaskControllerVersion="IM8841AD" DataTransferOrigin="2" P231_cur_task="TSK-1">
+    <XFR A="CTP00000" B="1"/>
+    <XFR A="CPC00000" B="1"/>
+    <XFR A="FRM00000" B="1"/>
+    <XFR A="DVC00000" B="1"/>
+    <XFR A="OTQ00000" B="1"/>
+    <XFR A="PFD00000" B="1"/>
+    <XFR A="PDT00000" B="1"/>
+    <XFR A="PGP00000" B="1"/>
+    <XFR A="TCC00000" B="1"/>
+    <XFR A="TSK00000" B="1"/>
+    <XFR A="VPN00000" B="1"/>
+</ISO11783_TaskData>

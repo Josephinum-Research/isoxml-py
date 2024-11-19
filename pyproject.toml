@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "isoxml"
-version = "0.0.1"
+version = "0.0.0"
 description = "Python ISOXML read/write"
 license = {text = "Apache License 2.0"}
 authors = [
@@ -21,8 +21,8 @@ keywords = ["isoxml", "isobus", "iso", "11783-10", "xml"]
 
 dependencies = [
     "xsdata >= 24.7",
-    "numpy >= 1.26.4",
-    "shapely >= 2.0.5",
+    "numpy >= 1.26",
+    "shapely >= 2.0",
 ]
 
 [project.urls]

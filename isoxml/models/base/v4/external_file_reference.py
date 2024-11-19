@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from enum import Enum
 
 
-class ExternalFileReferenceB(Enum):
+class ExternalFileReferenceType(Enum):
     XML = "1"
 
 
@@ -29,7 +29,7 @@ class ExternalFileReference:
             "pattern": r"(BSN|CCG|CCT|CLD|CPC|CTP|CTR|DVC|FRM|OTQ|PDT|PFD|PGP|TSK|VPN|WKR)[0-9][0-9][0-9][0-9][0-9]",
         },
     )
-    filetype: None | ExternalFileReferenceB = field(
+    filetype: None | ExternalFileReferenceType = field(
         default=None,
         metadata={
             "name": "B",

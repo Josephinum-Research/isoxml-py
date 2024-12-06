@@ -8,7 +8,7 @@ The main features:
 * read/write directly from zip, TASKDATA-dir or any string
 * conversion between shapely and isoxml geometries
 * conversion of numpy array to grid data binary files
-* [generate code](./examples/pycode_generator.py) from existing TASKDATA.XML (via xsdata)
+* [generate code](https://github.com/Josephinum-Research/isoxml-py/blob/main/examples/pycode_generator.py) from existing TASKDATA.XML (via xsdata)
 
 ## Installation
 ```
@@ -62,7 +62,7 @@ print(xml_content)
 
 ### more
 
-[see examples](./examples)
+[see examples](https://github.com/Josephinum-Research/isoxml-py/blob/main/examples)
 
 ## Dependencies
 

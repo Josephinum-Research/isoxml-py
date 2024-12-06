@@ -114,6 +114,7 @@ docs/api/*
 .run/
 /docs/iso/*
 /examples/output/*
+!/examples/output/.gitkeep
 /examples/**.xml
 /examples/**.XML
 /examples/**.bin

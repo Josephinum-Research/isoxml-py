@@ -8,6 +8,7 @@ from decimal import Decimal
 
 import numpy as np
 import shapely as shp
+from pathlib import Path
 
 import isoxml.models.base.v3 as iso
 from isoxml.converter.np_grid import from_numpy_array_to_type_1
@@ -81,5 +82,5 @@ task_data = iso.Iso11783TaskData(
     partfields=[partfield]
 )
 
-with open('./output/example_grid_1.zip', 'wb') as zip_file:
+with open(Path('examples') / 'output' / 'example_grid_1.zip', 'wb') as zip_file:
     isoxml_to_zip(zip_file, task_data, {grid.filename: grid_bin})

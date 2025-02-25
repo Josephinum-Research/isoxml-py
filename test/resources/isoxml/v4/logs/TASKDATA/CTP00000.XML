@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XFC>
+    <CTP A="CTP1" B="Winterdurum" C="PGP-1">
+        <CVT A="CVT-2" B="" C="PDT-2"/>
+    </CTP>
+    <CTP A="CTP2" B="Wintergerste" C="PGP-1">
+        <CVT A="CVT-1" B="" C="PDT-1"/>
+    </CTP>
+</XFC>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ISO11783_TaskData VersionMajor="4" VersionMinor="2" ManagementSoftwareManufacturer="FarmFacts" ManagementSoftwareVersion="0" TaskControllerManufacturer="Topcon Precision Agriculture" TaskControllerVersion="" DataTransferOrigin="2" P231_cur_task="TSK-1">
+    <XFR A="AFE00000" B="1"/>
+    <XFR A="CCT00000" B="1"/>
+    <XFR A="CCG00000" B="1"/>
+    <XFR A="CTP00000" B="1"/>
+    <XFR A="CTR00000" B="1"/>
+    <XFR A="FRM00000" B="1"/>
+    <XFR A="DVC00000" B="1"/>
+    <XFR A="PFD00000" B="1"/>
+    <XFR A="PFD00001" B="1"/>
+    <XFR A="PDT00000" B="1"/>
+    <XFR A="PGP00000" B="1"/>
+    <XFR A="TSK00000" B="1"/>
+    <XFR A="VPN00000" B="1"/>
+</ISO11783_TaskData>

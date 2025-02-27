@@ -11,6 +11,9 @@ from xmlschema import XMLSchemaValidationError
 import isoxml.models.base.v4 as iso
 from isoxml.util.isoxml_io import isoxml_to_text
 
+base_dir = Path.cwd()
+path_resources = base_dir.parent / 'resources'
+
 task_data_valid = iso.Iso11783TaskData(
     management_software_manufacturer="josephinum research",
     management_software_version="0.0.1",
@@ -18,11 +21,11 @@ task_data_valid = iso.Iso11783TaskData(
 )
 
 xml_content = isoxml_to_text(task_data_valid)
-xmlschema.validate(xml_content, Path('resources') / "xsd/ISO11783_TaskFile_V4-3.xsd")
+xmlschema.validate(xml_content, path_resources / "xsd/ISO11783_TaskFile_V4-3.xsd")
 
 task_data_invalid = iso.Iso11783TaskData()
 
 try:
-    xmlschema.validate(isoxml_to_text(task_data_invalid), Path('resources') / "xsd/ISO11783_TaskFile_V4-3.xsd")
+    xmlschema.validate(isoxml_to_text(task_data_invalid), path_resources / "xsd/ISO11783_TaskFile_V4-3.xsd")
 except XMLSchemaValidationError as e:
     print(e)

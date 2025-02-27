@@ -81,13 +81,18 @@ task_data = iso.Iso11783TaskData(
     farms=[farm]
 )
 
-data_dir = Path('examples') / 'output' / 'example_guidance'
+cwd = Path.cwd()
+
+
+data_dir = cwd / 'output' / 'example_guidance'
 data_dir.mkdir(parents=True, exist_ok=True)
 isoxml_to_dir(data_dir, task_data)
 
 
 try:
     import xmlschema
-    xmlschema.validate(data_dir / 'TASKDATA.XML', Path('resources') / "xsd/ISO11783_TaskFile_V4-3.xsd")
+
+    path_resources = cwd.parent / 'resources'
+    xmlschema.validate(data_dir / 'TASKDATA.XML', path_resources / "xsd/ISO11783_TaskFile_V4-3.xsd")
 except ModuleNotFoundError:
     print('please install xmlschema, if you want to validate against the xsd schema')

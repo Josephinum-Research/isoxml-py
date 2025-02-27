@@ -13,6 +13,7 @@ import geopandas as gpd
 import xmlschema
 
 import isoxml.models.base.v4 as iso
+from examples.app_map_grid_type_2 import base_dir
 from isoxml.converter.shapely_geom import ShapelyConverterV4
 from isoxml.models.ddi_entities import DDEntity
 from isoxml.util.isoxml_io import isoxml_to_dir
@@ -20,7 +21,10 @@ from isoxml.util.isoxml_io import isoxml_to_dir
 shp_converter = ShapelyConverterV4()
 dd_entity = DDEntity.from_id(1)
 
-gdf_app_map = gpd.read_file(Path('examples') / 'input' / 'app_map_vector.geojson')
+cwd = Path.cwd()
+read_Path = cwd / 'input' / 'app_map_vector.geojson'
+
+gdf_app_map = gpd.read_file(read_Path)
 gdf_app_map.to_crs('EPSG:4326', inplace=True)
 gdf_border = gdf_app_map[gdf_app_map["name"] == "border"]
 gdf_zones = gdf_app_map[gdf_app_map["dose"] >= 0]
@@ -93,8 +97,10 @@ task_data = iso.Iso11783TaskData(
     customers=[customer]
 )
 
-data_dir = Path('examples') / 'output' / 'app_map_vector'
+
+data_dir = cwd / 'output' / 'app_map_vector'
 data_dir.mkdir(parents=True, exist_ok=True)
 isoxml_to_dir(data_dir, task_data)
 
-xmlschema.validate(data_dir / 'TASKDATA.XML', Path('resources') / "xsd/ISO11783_TaskFile_V4-3.xsd")
+path_resources = cwd.parent / 'resources'
+xmlschema.validate(data_dir / 'TASKDATA.XML',  path_resources / "xsd/ISO11783_TaskFile_V4-3.xsd")

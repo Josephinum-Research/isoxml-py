@@ -21,6 +21,9 @@ from isoxml.converter.shapely_geom import ShapelyConverterV3
 from isoxml.models.ddi_entities import DDEntity
 from isoxml.util.isoxml_io import isoxml_to_zip
 
+base_dir = Path.cwd()
+path = base_dir / 'output' / 'example_grid_2.zip'
+
 shp_converter = ShapelyConverterV3()
 aoi = shp.from_wkt(
     "POLYGON ((15.1461618 48.1269217, 15.1461618 48.1267442, 15.1463363 48.1267442, 15.1463363 48.1269217, 15.1461618 48.1269217))")
@@ -92,5 +95,5 @@ task_data = iso.Iso11783TaskData(
     partfields=[partfield]
 )
 
-with open(Path('examples') / 'output' / 'example_grid_2.zip', 'wb') as zip_file:
+with open(path, 'wb') as zip_file:
     isoxml_to_zip(zip_file, task_data, {grid.filename: grid_bin})

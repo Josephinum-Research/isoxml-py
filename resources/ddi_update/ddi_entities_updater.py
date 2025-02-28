@@ -18,6 +18,7 @@ with open("complete_data.txt", "r", encoding="utf-8") as file:
 dd_entities = {}
 current_entity = {}
 
+
 start_parsing = False
 
 for line in lines:
@@ -61,7 +62,7 @@ for line in lines:
 if current_entity:
     dd_entities[current_entity["DDI"]] = current_entity
 
-with open("dd_entities.json", "w", encoding="utf-8") as json_file:
+with open("ddi_entities.json", "w", encoding="utf-8") as json_file:
     json.dump(dd_entities, json_file, indent=4, ensure_ascii=False)
 
 print("Datei 'dd_entities.json' wurde erfolgreich gespeichert!")

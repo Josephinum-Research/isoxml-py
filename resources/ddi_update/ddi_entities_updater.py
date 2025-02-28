@@ -15,8 +15,7 @@ else:
 with open("complete_data.txt", "r", encoding="utf-8") as file:
     lines = file.readlines()
 
-
-dd_entities = []
+dd_entities = {}
 current_entity = {}
 
 start_parsing = False
@@ -24,32 +23,34 @@ start_parsing = False
 for line in lines:
     line = line.strip()
 
+
     if line.startswith("DD Entity:"):
         start_parsing = True
 
     if not start_parsing or not line:
         continue
 
+
     entity_match = re.match(r"DD Entity: (\d+) (.+)", line)
     if entity_match:
         if current_entity:
-            dd_entities.append(current_entity)
+            dd_entities[current_entity["DDI"]] = current_entity
+        name_cleaned = entity_match.group(2).replace("Â³", "³").replace("Â²", "²")
         current_entity = {
             "DDI": int(entity_match.group(1)),
-            "name": entity_match.group(2).replace("Â³", "³").replace("Â²", "²"),
+            "name": name_cleaned,
             "unit": "",
             "bitResolution": 1.0,
         }
         continue
 
-    # Unit
+
     unit_match = re.match(r"Unit: (.+) - (.+)", line)
     if unit_match:
-        unit = unit_match.group(1).replace("Â³", "³").replace("Â²", "²")
-        current_entity["unit"] = unit if unit != "not defined" else ""
+        unit_cleaned = unit_match.group(2).replace("Â³", "³").replace("Â²", "²")  # Fehlerhafte Zeichen entfernen
+        current_entity["unit"] = unit_cleaned if unit_cleaned != "not defined" else ""
         continue
 
-    # Resolution
     resolution_match = re.match(r"Resolution: (.+)", line)
     if resolution_match:
         try:
@@ -57,10 +58,8 @@ for line in lines:
         except ValueError:
             pass
 
-
 if current_entity:
-    dd_entities.append(current_entity)
-
+    dd_entities[current_entity["DDI"]] = current_entity
 
 with open("dd_entities.json", "w", encoding="utf-8") as json_file:
     json.dump(dd_entities, json_file, indent=4, ensure_ascii=False)

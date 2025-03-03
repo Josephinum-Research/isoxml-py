@@ -69,7 +69,6 @@ partfield = iso.Partfield(
     polygons=[boundary_iso],
     customer_id_ref=customer.id,
     farm_id_ref=farm.id
-
 )
 
 task_data = iso.Iso11783TaskData(
@@ -81,7 +80,7 @@ task_data = iso.Iso11783TaskData(
     farms=[farm]
 )
 
-cwd = Path.cwd()
+cwd = Path(__file__).parent
 
 
 data_dir = cwd / 'output' / 'example_guidance'

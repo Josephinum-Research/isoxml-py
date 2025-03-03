@@ -11,7 +11,7 @@ from xmlschema import XMLSchemaValidationError
 import isoxml.models.base.v4 as iso
 from isoxml.util.isoxml_io import isoxml_to_text
 
-base_dir = Path.cwd()
+base_dir = Path(__file__).parent
 path_resources = base_dir.parent / 'resources'
 
 task_data_valid = iso.Iso11783TaskData(

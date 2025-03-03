@@ -33,9 +33,9 @@ task_data = iso.Iso11783TaskData(
     tasks=[task]
 )
 
-base_dir = Path.cwd()
-path = base_dir / 'output' / 'example_partfield.zip'
+base_dir = Path(__file__).parent
+output_path = base_dir / 'output' / 'example_partfield.zip'
 
 
-with open(path, 'wb') as zip_file:
+with open(output_path, 'wb') as zip_file:
     isoxml_to_zip(zip_file, task_data)

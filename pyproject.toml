@@ -38,7 +38,6 @@ dev = [
     "folium",
     "matplotlib",
     "mapclassify",
-    "requests"
 ]
 test = [
     "pytest",

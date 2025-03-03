@@ -48,7 +48,7 @@ for line in lines:
 
     unit_match = re.match(r"Unit: (.+) - (.+)", line)
     if unit_match:
-        unit_cleaned = unit_match.group(2).replace("Â³", "³").replace("Â²", "²")  # Fehlerhafte Zeichen entfernen
+        unit_cleaned = unit_match.group(1).replace("Â³", "³").replace("Â²", "²")
         current_entity["unit"] = unit_cleaned if unit_cleaned != "not defined" else ""
         continue
 

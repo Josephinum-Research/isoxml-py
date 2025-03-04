@@ -37,7 +37,7 @@ dev = [
     "jupyter",
     "folium",
     "matplotlib",
-    "mapclassify"
+    "mapclassify",
 ]
 test = [
     "pytest",

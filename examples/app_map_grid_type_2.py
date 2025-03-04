@@ -12,12 +12,17 @@ from decimal import Decimal
 
 import numpy as np
 import shapely as shp
+from pathlib import Path
+
 
 import isoxml.models.base.v3 as iso
 from isoxml.converter.np_grid import from_numpy_array_to_type_2
 from isoxml.converter.shapely_geom import ShapelyConverterV3
 from isoxml.models.ddi_entities import DDEntity
 from isoxml.util.isoxml_io import isoxml_to_zip
+
+base_dir = Path(__file__).parent
+output_path = base_dir / 'output' / 'example_grid_2.zip'
 
 shp_converter = ShapelyConverterV3()
 aoi = shp.from_wkt(
@@ -90,5 +95,5 @@ task_data = iso.Iso11783TaskData(
     partfields=[partfield]
 )
 
-with open('./output/example_grid_2.zip', 'wb') as zip_file:
+with open(output_path, 'wb') as zip_file:
     isoxml_to_zip(zip_file, task_data, {grid.filename: grid_bin})

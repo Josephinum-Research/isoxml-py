@@ -5,14 +5,17 @@ The resulting code will be very detailed, but in most cases it is a good startin
 
 see: https://xsdata.readthedocs.io/en/latest/data_binding/pycode_serializing/
 """
+from pathlib import Path
 
 from xsdata.formats.dataclass.serializers import PycodeSerializer
 
 from isoxml.util.isoxml_io import isoxml_from_path
-from test.resources.test_resources import TEST_RES_DIR
 
-task_data = isoxml_from_path(TEST_RES_DIR / 'isoxml/v4/cnh_export/TASKDATA.XML')
+base_dir = Path(__file__).parent
+path = base_dir.parent / "test" / "resources"
+
+task_data = isoxml_from_path(path/ 'isoxml/v4/cnh_export/TASKDATA.XML')
 
 pycode_generator = PycodeSerializer()
-with open('./output/generated_code.py', 'w', encoding='utf-8') as code_file:
+with open(base_dir / 'output' / 'generated_code.py', 'w', encoding='utf-8') as code_file:
     code_file.write(pycode_generator.render(task_data, var_name="task_data"))

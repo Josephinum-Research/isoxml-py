@@ -16,12 +16,15 @@ import isoxml.models.base.v4 as iso
 from isoxml.converter.shapely_geom import ShapelyConverterV4
 from isoxml.models.ddi_entities import DDEntity
 from isoxml.util.isoxml_io import isoxml_to_dir
-from resources.resources import RES_DIR
 
 shp_converter = ShapelyConverterV4()
 dd_entity = DDEntity.from_id(1)
 
-gdf_app_map = gpd.read_file("./input/app_map_vector.geojson")
+
+base_dir = Path(__file__).parent
+read_path = base_dir / 'input' / 'app_map_vector.geojson'
+
+gdf_app_map = gpd.read_file(read_path)
 gdf_app_map.to_crs('EPSG:4326', inplace=True)
 gdf_border = gdf_app_map[gdf_app_map["name"] == "border"]
 gdf_zones = gdf_app_map[gdf_app_map["dose"] >= 0]
@@ -94,8 +97,10 @@ task_data = iso.Iso11783TaskData(
     customers=[customer]
 )
 
-data_dir = Path('./output/app_map_vector')
+data_dir = base_dir / 'output' / 'app_map_vector'
 data_dir.mkdir(parents=True, exist_ok=True)
 isoxml_to_dir(data_dir, task_data)
 
-xmlschema.validate(data_dir / 'TASKDATA.XML', RES_DIR / "xsd/ISO11783_TaskFile_V4-3.xsd")
+path_res = base_dir.parent / 'resources'
+
+xmlschema.validate(data_dir / 'TASKDATA.XML', path_res / "xsd/ISO11783_TaskFile_V4-3.xsd")

@@ -5,7 +5,7 @@ import shapely as shp
 import isoxml.models.base.v4 as iso
 from isoxml.converter.shapely_geom import ShapelyConverterV4
 from isoxml.util.isoxml_io import isoxml_to_dir
-from resources.resources import RES_DIR
+
 
 shp_converter = ShapelyConverterV4()
 swathe_width = 3000  # mm
@@ -69,7 +69,6 @@ partfield = iso.Partfield(
     polygons=[boundary_iso],
     customer_id_ref=customer.id,
     farm_id_ref=farm.id
-
 )
 
 task_data = iso.Iso11783TaskData(
@@ -81,13 +80,18 @@ task_data = iso.Iso11783TaskData(
     farms=[farm]
 )
 
-data_dir = Path('./output/example_guidance')
+cwd = Path(__file__).parent
+
+
+data_dir = cwd / 'output' / 'example_guidance'
 data_dir.mkdir(parents=True, exist_ok=True)
 isoxml_to_dir(data_dir, task_data)
 
 
 try:
     import xmlschema
-    xmlschema.validate(data_dir / 'TASKDATA.XML', RES_DIR / "xsd/ISO11783_TaskFile_V4-3.xsd")
+
+    path_resources = cwd.parent / 'resources'
+    xmlschema.validate(data_dir / 'TASKDATA.XML', path_resources / "xsd/ISO11783_TaskFile_V4-3.xsd")
 except ModuleNotFoundError:
     print('please install xmlschema, if you want to validate against the xsd schema')

@@ -1,4 +1,6 @@
 import shapely as shp
+from pathlib import Path
+
 
 from isoxml.converter.shapely_geom import ShapelyConverterV4
 import isoxml.models.base.v4 as iso
@@ -31,5 +33,9 @@ task_data = iso.Iso11783TaskData(
     tasks=[task]
 )
 
-with open('./output/example_partfield.zip', 'wb') as zip_file:
+base_dir = Path(__file__).parent
+output_path = base_dir / 'output' / 'example_partfield.zip'
+
+
+with open(output_path, 'wb') as zip_file:
     isoxml_to_zip(zip_file, task_data)

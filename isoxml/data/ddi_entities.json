@@ -1,0 +1,4358 @@
+{
+    "0": {
+        "DDI": 0,
+        "name": "Internal Data Base DDI",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "1": {
+        "DDI": 1,
+        "name": "Setpoint Volume Per Area Application Rate as [mm³/m²]",
+        "unit": "mm³/m²",
+        "bitResolution": 0.01
+    },
+    "2": {
+        "DDI": 2,
+        "name": "Actual Volume Per Area Application Rate as [mm³/m²]",
+        "unit": "mm³/m²",
+        "bitResolution": 0.01
+    },
+    "3": {
+        "DDI": 3,
+        "name": "Default Volume Per Area Application Rate as [mm³/m²]",
+        "unit": "mm³/m²",
+        "bitResolution": 0.01
+    },
+    "4": {
+        "DDI": 4,
+        "name": "Minimum Volume Per Area Application Rate as [mm³/m²]",
+        "unit": "mm³/m²",
+        "bitResolution": 0.01
+    },
+    "5": {
+        "DDI": 5,
+        "name": "Maximum Volume Per Area Application Rate as [mm³/m²]",
+        "unit": "mm³/m²",
+        "bitResolution": 0.01
+    },
+    "6": {
+        "DDI": 6,
+        "name": "Setpoint Mass Per Area Application Rate",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "7": {
+        "DDI": 7,
+        "name": "Actual Mass Per Area Application Rate",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "8": {
+        "DDI": 8,
+        "name": "Default Mass Per Area Application Rate",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "9": {
+        "DDI": 9,
+        "name": "Minimum Mass Per Area Application Rate",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "10": {
+        "DDI": 10,
+        "name": "Maximum Mass Per Area Application Rate",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "11": {
+        "DDI": 11,
+        "name": "Setpoint Count Per Area Application Rate",
+        "unit": "/m²",
+        "bitResolution": 0.001
+    },
+    "12": {
+        "DDI": 12,
+        "name": "Actual Count Per Area Application Rate",
+        "unit": "/m²",
+        "bitResolution": 0.001
+    },
+    "13": {
+        "DDI": 13,
+        "name": "Default Count Per Area Application Rate",
+        "unit": "/m²",
+        "bitResolution": 0.001
+    },
+    "14": {
+        "DDI": 14,
+        "name": "Minimum Count Per Area Application Rate",
+        "unit": "/m²",
+        "bitResolution": 0.001
+    },
+    "15": {
+        "DDI": 15,
+        "name": "Maximum Count Per Area Application Rate",
+        "unit": "/m²",
+        "bitResolution": 0.001
+    },
+    "16": {
+        "DDI": 16,
+        "name": "Setpoint Spacing Application Rate",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "17": {
+        "DDI": 17,
+        "name": "Actual Spacing Application Rate",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "18": {
+        "DDI": 18,
+        "name": "Default Spacing Application Rate",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "19": {
+        "DDI": 19,
+        "name": "Minimum Spacing Application Rate",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "20": {
+        "DDI": 20,
+        "name": "Maximum Spacing Application Rate",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "21": {
+        "DDI": 21,
+        "name": "Setpoint Volume Per Volume Application Rate",
+        "unit": "mm³/m³",
+        "bitResolution": 1.0
+    },
+    "22": {
+        "DDI": 22,
+        "name": "Actual Volume Per Volume Application Rate",
+        "unit": "mm³/m³",
+        "bitResolution": 1.0
+    },
+    "23": {
+        "DDI": 23,
+        "name": "Default Volume Per Volume Application Rate",
+        "unit": "mm³/m³",
+        "bitResolution": 1.0
+    },
+    "24": {
+        "DDI": 24,
+        "name": "Minimum Volume Per Volume Application Rate",
+        "unit": "mm³/m³",
+        "bitResolution": 1.0
+    },
+    "25": {
+        "DDI": 25,
+        "name": "Maximum Volume Per Volume Application Rate",
+        "unit": "mm³/m³",
+        "bitResolution": 1.0
+    },
+    "26": {
+        "DDI": 26,
+        "name": "Setpoint Mass Per Mass Application Rate",
+        "unit": "mg/kg",
+        "bitResolution": 1.0
+    },
+    "27": {
+        "DDI": 27,
+        "name": "Actual Mass Per Mass Application Rate",
+        "unit": "mg/kg",
+        "bitResolution": 1.0
+    },
+    "28": {
+        "DDI": 28,
+        "name": "Default Mass Per Mass Application Rate",
+        "unit": "mg/kg",
+        "bitResolution": 1.0
+    },
+    "29": {
+        "DDI": 29,
+        "name": "Minimum Mass Per Mass Application Rate",
+        "unit": "mg/kg",
+        "bitResolution": 1.0
+    },
+    "30": {
+        "DDI": 30,
+        "name": "MaximumMass Per Mass Application Rate",
+        "unit": "mg/kg",
+        "bitResolution": 1.0
+    },
+    "31": {
+        "DDI": 31,
+        "name": "Setpoint Volume Per Mass Application Rate",
+        "unit": "mm³/kg",
+        "bitResolution": 1.0
+    },
+    "32": {
+        "DDI": 32,
+        "name": "Actual Volume Per Mass Application Rate",
+        "unit": "mm³/kg",
+        "bitResolution": 1.0
+    },
+    "33": {
+        "DDI": 33,
+        "name": "Default Volume Per Mass Application Rate",
+        "unit": "mm³/kg",
+        "bitResolution": 1.0
+    },
+    "34": {
+        "DDI": 34,
+        "name": "Minimum Volume Per Mass Application Rate",
+        "unit": "mm³/kg",
+        "bitResolution": 1.0
+    },
+    "35": {
+        "DDI": 35,
+        "name": "Maximum Volume Per Mass Application Rate",
+        "unit": "mm³/kg",
+        "bitResolution": 1.0
+    },
+    "36": {
+        "DDI": 36,
+        "name": "Setpoint Volume Per Time Application Rate",
+        "unit": "mm³/s",
+        "bitResolution": 1.0
+    },
+    "37": {
+        "DDI": 37,
+        "name": "Actual Volume Per Time Application Rate",
+        "unit": "mm³/s",
+        "bitResolution": 1.0
+    },
+    "38": {
+        "DDI": 38,
+        "name": "Default Volume Per Time Application Rate",
+        "unit": "mm³/s",
+        "bitResolution": 1.0
+    },
+    "39": {
+        "DDI": 39,
+        "name": "Minimum Volume Per Time Application Rate",
+        "unit": "mm³/s",
+        "bitResolution": 1.0
+    },
+    "40": {
+        "DDI": 40,
+        "name": "Maximum Volume Per Time Application Rate",
+        "unit": "mm³/s",
+        "bitResolution": 1.0
+    },
+    "41": {
+        "DDI": 41,
+        "name": "Setpoint Mass Per Time Application Rate",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "42": {
+        "DDI": 42,
+        "name": "Actual Mass Per Time Application Rate",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "43": {
+        "DDI": 43,
+        "name": "Default Mass Per Time Application Rate",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "44": {
+        "DDI": 44,
+        "name": "Minimum Mass Per Time Application Rate",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "45": {
+        "DDI": 45,
+        "name": "Maximum Mass Per Time Application Rate",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "46": {
+        "DDI": 46,
+        "name": "Setpoint Count Per Time Application Rate",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "47": {
+        "DDI": 47,
+        "name": "Actual Count Per Time Application Rate",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "48": {
+        "DDI": 48,
+        "name": "Default Count Per Time Application Rate",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "49": {
+        "DDI": 49,
+        "name": "Minimum Count Per Time Application Rate",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "50": {
+        "DDI": 50,
+        "name": "Maximum Count Per Time Application Rate",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "51": {
+        "DDI": 51,
+        "name": "Setpoint Tillage Depth",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "52": {
+        "DDI": 52,
+        "name": "Actual Tillage Depth",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "53": {
+        "DDI": 53,
+        "name": "Default Tillage Depth",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "54": {
+        "DDI": 54,
+        "name": "Minimum Tillage Depth",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "55": {
+        "DDI": 55,
+        "name": "Maximum Tillage Depth",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "56": {
+        "DDI": 56,
+        "name": "Setpoint Seeding Depth",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "57": {
+        "DDI": 57,
+        "name": "Actual Seeding Depth",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "58": {
+        "DDI": 58,
+        "name": "Default Seeding Depth",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "59": {
+        "DDI": 59,
+        "name": "Minimum Seeding Depth",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "60": {
+        "DDI": 60,
+        "name": "Maximum Seeding Depth",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "61": {
+        "DDI": 61,
+        "name": "Setpoint Working Height",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "62": {
+        "DDI": 62,
+        "name": "Actual Working Height",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "63": {
+        "DDI": 63,
+        "name": "Default Working Height",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "64": {
+        "DDI": 64,
+        "name": "Minimum Working Height",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "65": {
+        "DDI": 65,
+        "name": "Maximum Working Height",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "66": {
+        "DDI": 66,
+        "name": "Setpoint Working Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "67": {
+        "DDI": 67,
+        "name": "Actual Working Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "68": {
+        "DDI": 68,
+        "name": "Default Working Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "69": {
+        "DDI": 69,
+        "name": "Minimum Working Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "70": {
+        "DDI": 70,
+        "name": "Maximum Working Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "71": {
+        "DDI": 71,
+        "name": "Setpoint Volume Content",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "72": {
+        "DDI": 72,
+        "name": "Actual Volume Content",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "73": {
+        "DDI": 73,
+        "name": "Maximum Volume Content",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "74": {
+        "DDI": 74,
+        "name": "Setpoint Mass Content",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "75": {
+        "DDI": 75,
+        "name": "Actual Mass Content",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "76": {
+        "DDI": 76,
+        "name": "Maximum Mass Content",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "77": {
+        "DDI": 77,
+        "name": "Setpoint Count Content",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "78": {
+        "DDI": 78,
+        "name": "Actual Count Content",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "79": {
+        "DDI": 79,
+        "name": "Maximum Count Content",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "80": {
+        "DDI": 80,
+        "name": "Application Total Volume as [L]",
+        "unit": "L",
+        "bitResolution": 1.0
+    },
+    "81": {
+        "DDI": 81,
+        "name": "Application Total Mass in [kg]",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "82": {
+        "DDI": 82,
+        "name": "Application Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "83": {
+        "DDI": 83,
+        "name": "Volume Per Area Yield",
+        "unit": "ml/m²",
+        "bitResolution": 1.0
+    },
+    "84": {
+        "DDI": 84,
+        "name": "Mass Per Area Yield",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "85": {
+        "DDI": 85,
+        "name": "Count Per Area Yield",
+        "unit": "/m²",
+        "bitResolution": 0.001
+    },
+    "86": {
+        "DDI": 86,
+        "name": "Volume Per Time Yield",
+        "unit": "ml/s",
+        "bitResolution": 1.0
+    },
+    "87": {
+        "DDI": 87,
+        "name": "Mass Per Time Yield",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "88": {
+        "DDI": 88,
+        "name": "Count Per Time Yield",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "89": {
+        "DDI": 89,
+        "name": "Yield Total Volume",
+        "unit": "L",
+        "bitResolution": 1.0
+    },
+    "90": {
+        "DDI": 90,
+        "name": "Yield Total Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "91": {
+        "DDI": 91,
+        "name": "Yield Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "92": {
+        "DDI": 92,
+        "name": "Volume Per Area Crop Loss",
+        "unit": "ml/m²",
+        "bitResolution": 1.0
+    },
+    "93": {
+        "DDI": 93,
+        "name": "Mass Per Area Crop Loss",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "94": {
+        "DDI": 94,
+        "name": "Count Per Area Crop Loss",
+        "unit": "/m²",
+        "bitResolution": 0.001
+    },
+    "95": {
+        "DDI": 95,
+        "name": "Volume Per Time Crop Loss",
+        "unit": "ml/s",
+        "bitResolution": 1.0
+    },
+    "96": {
+        "DDI": 96,
+        "name": "Mass Per Time Crop Loss",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "97": {
+        "DDI": 97,
+        "name": "Count Per Time Crop Loss",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "98": {
+        "DDI": 98,
+        "name": "Percentage Crop Loss",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "99": {
+        "DDI": 99,
+        "name": "Crop Moisture",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "100": {
+        "DDI": 100,
+        "name": "Crop Contamination",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "101": {
+        "DDI": 101,
+        "name": "Setpoint Bale Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "102": {
+        "DDI": 102,
+        "name": "Actual Bale Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "103": {
+        "DDI": 103,
+        "name": "Default Bale Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "104": {
+        "DDI": 104,
+        "name": "Minimum Bale Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "105": {
+        "DDI": 105,
+        "name": "Maximum Bale Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "106": {
+        "DDI": 106,
+        "name": "Setpoint Bale Height",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "107": {
+        "DDI": 107,
+        "name": "Actual Bale Height",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "108": {
+        "DDI": 108,
+        "name": "Default Bale Height",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "109": {
+        "DDI": 109,
+        "name": "Minimum Bale Height",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "110": {
+        "DDI": 110,
+        "name": "Maximum Bale Height",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "111": {
+        "DDI": 111,
+        "name": "Setpoint Bale Size",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "112": {
+        "DDI": 112,
+        "name": "Actual Bale Size",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "113": {
+        "DDI": 113,
+        "name": "Default Bale Size",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "114": {
+        "DDI": 114,
+        "name": "Minimum Bale Size",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "115": {
+        "DDI": 115,
+        "name": "Maximum Bale Size",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "116": {
+        "DDI": 116,
+        "name": "Total Area",
+        "unit": "m²",
+        "bitResolution": 1.0
+    },
+    "117": {
+        "DDI": 117,
+        "name": "Effective Total Distance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "118": {
+        "DDI": 118,
+        "name": "Ineffective Total Distance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "119": {
+        "DDI": 119,
+        "name": "Effective Total Time",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "120": {
+        "DDI": 120,
+        "name": "Ineffective Total Time",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "121": {
+        "DDI": 121,
+        "name": "Product Density Mass Per Volume",
+        "unit": "mg/l",
+        "bitResolution": 1.0
+    },
+    "122": {
+        "DDI": 122,
+        "name": "Product Density Mass PerCount",
+        "unit": "mg/1000",
+        "bitResolution": 1.0
+    },
+    "123": {
+        "DDI": 123,
+        "name": "Product Density Volume Per Count",
+        "unit": "ml/1000",
+        "bitResolution": 1.0
+    },
+    "124": {
+        "DDI": 124,
+        "name": "Auxiliary Valve Scaling Extend",
+        "unit": "%",
+        "bitResolution": 0.1
+    },
+    "125": {
+        "DDI": 125,
+        "name": "Auxiliary Valve Scaling Retract",
+        "unit": "%",
+        "bitResolution": 0.1
+    },
+    "126": {
+        "DDI": 126,
+        "name": "Auxiliary Valve Ramp Extend Up",
+        "unit": "ms",
+        "bitResolution": 1.0
+    },
+    "127": {
+        "DDI": 127,
+        "name": "Auxiliary Valve Ramp Extend Down",
+        "unit": "ms",
+        "bitResolution": 1.0
+    },
+    "128": {
+        "DDI": 128,
+        "name": "Auxiliary Valve Ramp Retract Up",
+        "unit": "ms",
+        "bitResolution": 1.0
+    },
+    "129": {
+        "DDI": 129,
+        "name": "Auxiliary Valve Ramp Retract Down",
+        "unit": "ms",
+        "bitResolution": 1.0
+    },
+    "130": {
+        "DDI": 130,
+        "name": "Auxiliary Valve Float Threshold",
+        "unit": "%",
+        "bitResolution": 0.1
+    },
+    "131": {
+        "DDI": 131,
+        "name": "Auxiliary Valve Progressivity Extend",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "132": {
+        "DDI": 132,
+        "name": "Auxiliary Valve Progressivity Retract",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "133": {
+        "DDI": 133,
+        "name": "Auxiliary Valve Invert Ports",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "134": {
+        "DDI": 134,
+        "name": "Device Element Offset X",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "135": {
+        "DDI": 135,
+        "name": "Device Element Offset Y",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "136": {
+        "DDI": 136,
+        "name": "Device Element Offset Z",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "137": {
+        "DDI": 137,
+        "name": "Device Volume Capacity (Deprecated)",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "138": {
+        "DDI": 138,
+        "name": "Device Mass Capacity (Deprecated)",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "139": {
+        "DDI": 139,
+        "name": "Device Count Capacity (Deprecated)",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "140": {
+        "DDI": 140,
+        "name": "Setpoint Percentage Application Rate",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "141": {
+        "DDI": 141,
+        "name": "Actual Work State",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "142": {
+        "DDI": 142,
+        "name": "Physical Setpoint Time Latency",
+        "unit": "ms",
+        "bitResolution": 1.0
+    },
+    "143": {
+        "DDI": 143,
+        "name": "Physical Actual Value Time Latency",
+        "unit": "ms",
+        "bitResolution": 1.0
+    },
+    "144": {
+        "DDI": 144,
+        "name": "Yaw Angle",
+        "unit": "°",
+        "bitResolution": 0.001
+    },
+    "145": {
+        "DDI": 145,
+        "name": "Roll Angle",
+        "unit": "°",
+        "bitResolution": 0.001
+    },
+    "146": {
+        "DDI": 146,
+        "name": "Pitch Angle",
+        "unit": "°",
+        "bitResolution": 0.001
+    },
+    "147": {
+        "DDI": 147,
+        "name": "Log Count",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "148": {
+        "DDI": 148,
+        "name": "Total Fuel Consumption",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "149": {
+        "DDI": 149,
+        "name": "Instantaneous Fuel Consumption per Time",
+        "unit": "mm³/s",
+        "bitResolution": 1.0
+    },
+    "150": {
+        "DDI": 150,
+        "name": "Instantaneous Fuel Consumption per Area",
+        "unit": "mm³/m²",
+        "bitResolution": 1.0
+    },
+    "151": {
+        "DDI": 151,
+        "name": "Instantaneous Area Per Time Capacity",
+        "unit": "mm²/s",
+        "bitResolution": 1.0
+    },
+    "153": {
+        "DDI": 153,
+        "name": "Actual Normalized Difference Vegetative Index (NDVI)",
+        "unit": "n.a.",
+        "bitResolution": 0.001
+    },
+    "154": {
+        "DDI": 154,
+        "name": "Physical Object Length",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "155": {
+        "DDI": 155,
+        "name": "Physical Object Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "156": {
+        "DDI": 156,
+        "name": "Physical Object Height",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "157": {
+        "DDI": 157,
+        "name": "Connector Type",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "158": {
+        "DDI": 158,
+        "name": "Prescription Control State",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "159": {
+        "DDI": 159,
+        "name": "Number of Sub-Units per Section",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "160": {
+        "DDI": 160,
+        "name": "Section Control State",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "161": {
+        "DDI": 161,
+        "name": "Actual Condensed Work State (1-16)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "162": {
+        "DDI": 162,
+        "name": "Actual Condensed Work State (17-32)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "163": {
+        "DDI": 163,
+        "name": "Actual Condensed Work State (33-48)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "164": {
+        "DDI": 164,
+        "name": "Actual Condensed Work State (49-64)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "165": {
+        "DDI": 165,
+        "name": "Actual Condensed Work State (65-80)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "166": {
+        "DDI": 166,
+        "name": "Actual Condensed Work State (81-96)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "167": {
+        "DDI": 167,
+        "name": "Actual Condensed Work State (97-112)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "168": {
+        "DDI": 168,
+        "name": "Actual Condensed Work State (113-128)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "169": {
+        "DDI": 169,
+        "name": "Actual Condensed Work State (129-144)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "170": {
+        "DDI": 170,
+        "name": "Actual Condensed Work State (145-160)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "171": {
+        "DDI": 171,
+        "name": "Actual Condensed Work State (161-176)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "172": {
+        "DDI": 172,
+        "name": "Actual Condensed Work State (177-192)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "173": {
+        "DDI": 173,
+        "name": "Actual Condensed Work State (193-208)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "174": {
+        "DDI": 174,
+        "name": "Actual Condensed Work State (209-224)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "175": {
+        "DDI": 175,
+        "name": "Actual Condensed Work State (225-240)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "176": {
+        "DDI": 176,
+        "name": "Actual Condensed Work State (241-256)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "177": {
+        "DDI": 177,
+        "name": "Actual length of cut",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "178": {
+        "DDI": 178,
+        "name": "Element Type Instance",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "179": {
+        "DDI": 179,
+        "name": "Actual Cultural Practice",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "180": {
+        "DDI": 180,
+        "name": "Device Reference Point (DRP) to Ground distance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "181": {
+        "DDI": 181,
+        "name": "Dry Mass Per Area Yield",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "182": {
+        "DDI": 182,
+        "name": "Dry Mass Per Time Yield",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "183": {
+        "DDI": 183,
+        "name": "Yield Total Dry Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "184": {
+        "DDI": 184,
+        "name": "Reference Moisture For Dry Mass",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "185": {
+        "DDI": 185,
+        "name": "Seed Cotton Mass Per Area Yield",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "186": {
+        "DDI": 186,
+        "name": "Lint Cotton Mass Per Area Yield",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "187": {
+        "DDI": 187,
+        "name": "Seed Cotton Mass Per Time Yield",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "188": {
+        "DDI": 188,
+        "name": "Lint Cotton Mass Per Time Yield",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "189": {
+        "DDI": 189,
+        "name": "Yield Total Seed Cotton Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "190": {
+        "DDI": 190,
+        "name": "Yield Total Lint Cotton Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "191": {
+        "DDI": 191,
+        "name": "Lint Turnout Percentage",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "192": {
+        "DDI": 192,
+        "name": "Ambient temperature",
+        "unit": "mK",
+        "bitResolution": 1.0
+    },
+    "193": {
+        "DDI": 193,
+        "name": "Setpoint Product Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "194": {
+        "DDI": 194,
+        "name": "Actual Product Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "195": {
+        "DDI": 195,
+        "name": "Minimum Product Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "196": {
+        "DDI": 196,
+        "name": "Maximum Product Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "197": {
+        "DDI": 197,
+        "name": "Setpoint Pump Output Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "198": {
+        "DDI": 198,
+        "name": "Actual Pump Output Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "199": {
+        "DDI": 199,
+        "name": "Minimum Pump Output Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "200": {
+        "DDI": 200,
+        "name": "Maximum Pump Output Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "201": {
+        "DDI": 201,
+        "name": "Setpoint Tank Agitation Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "202": {
+        "DDI": 202,
+        "name": "Actual Tank Agitation Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "203": {
+        "DDI": 203,
+        "name": "Minimum Tank Agitation Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "204": {
+        "DDI": 204,
+        "name": "Maximum Tank Agitation Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "205": {
+        "DDI": 205,
+        "name": "SC Setpoint Turn On Time",
+        "unit": "ms",
+        "bitResolution": 1.0
+    },
+    "206": {
+        "DDI": 206,
+        "name": "SC Setpoint Turn Off Time",
+        "unit": "ms",
+        "bitResolution": 1.0
+    },
+    "207": {
+        "DDI": 207,
+        "name": "Wind speed",
+        "unit": "mm/s",
+        "bitResolution": 1.0
+    },
+    "208": {
+        "DDI": 208,
+        "name": "Wind direction",
+        "unit": "°",
+        "bitResolution": 1.0
+    },
+    "209": {
+        "DDI": 209,
+        "name": "Relative Humidity",
+        "unit": "%",
+        "bitResolution": 1.0
+    },
+    "210": {
+        "DDI": 210,
+        "name": "Sky conditions",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "211": {
+        "DDI": 211,
+        "name": "Last Bale Flakes per Bale",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "212": {
+        "DDI": 212,
+        "name": "Last Bale Average Moisture",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "213": {
+        "DDI": 213,
+        "name": "Last Bale Average Strokes per Flake",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "214": {
+        "DDI": 214,
+        "name": "Lifetime Bale Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "215": {
+        "DDI": 215,
+        "name": "Lifetime Working Hours",
+        "unit": "h",
+        "bitResolution": 0.05
+    },
+    "216": {
+        "DDI": 216,
+        "name": "Actual Bale Hydraulic Pressure",
+        "unit": "Pa",
+        "bitResolution": 1.0
+    },
+    "217": {
+        "DDI": 217,
+        "name": "Last Bale Average Hydraulic Pressure",
+        "unit": "Pa",
+        "bitResolution": 1.0
+    },
+    "218": {
+        "DDI": 218,
+        "name": "Setpoint Bale Compression Plunger Load",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "219": {
+        "DDI": 219,
+        "name": "Actual Bale Compression Plunger Load",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "220": {
+        "DDI": 220,
+        "name": "Last Bale Average Bale Compression Plunger Load",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "221": {
+        "DDI": 221,
+        "name": "Last Bale Applied Preservative",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "222": {
+        "DDI": 222,
+        "name": "Last Bale Tag Number",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "223": {
+        "DDI": 223,
+        "name": "Last Bale Mass",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "224": {
+        "DDI": 224,
+        "name": "Delta T",
+        "unit": "mK",
+        "bitResolution": 1.0
+    },
+    "225": {
+        "DDI": 225,
+        "name": "Setpoint Working Length",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "226": {
+        "DDI": 226,
+        "name": "Actual Working Length",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "227": {
+        "DDI": 227,
+        "name": "Minimum Working Length",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "228": {
+        "DDI": 228,
+        "name": "Maximum Working Length",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "229": {
+        "DDI": 229,
+        "name": "Actual Net Weight",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "230": {
+        "DDI": 230,
+        "name": "Net Weight State",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "231": {
+        "DDI": 231,
+        "name": "Setpoint Net Weight",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "232": {
+        "DDI": 232,
+        "name": "Actual Gross Weight",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "233": {
+        "DDI": 233,
+        "name": "Gross Weight State",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "234": {
+        "DDI": 234,
+        "name": "Minimum Gross Weight",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "235": {
+        "DDI": 235,
+        "name": "Maximum Gross Weight",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "236": {
+        "DDI": 236,
+        "name": "Thresher Engagement Total Time",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "237": {
+        "DDI": 237,
+        "name": "Actual Header Working Height Status",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "238": {
+        "DDI": 238,
+        "name": "Actual Header Rotational Speed Status",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "239": {
+        "DDI": 239,
+        "name": "Yield Hold Status",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "240": {
+        "DDI": 240,
+        "name": "Actual (Un)Loading System Status",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "241": {
+        "DDI": 241,
+        "name": "Crop Temperature",
+        "unit": "mK",
+        "bitResolution": 1.0
+    },
+    "242": {
+        "DDI": 242,
+        "name": "Setpoint Sieve Clearance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "243": {
+        "DDI": 243,
+        "name": "Actual Sieve Clearance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "244": {
+        "DDI": 244,
+        "name": "Minimum Sieve Clearance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "245": {
+        "DDI": 245,
+        "name": "Maximum Sieve Clearance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "246": {
+        "DDI": 246,
+        "name": "Setpoint Chaffer Clearance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "247": {
+        "DDI": 247,
+        "name": "Actual Chaffer Clearance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "248": {
+        "DDI": 248,
+        "name": "Minimum Chaffer Clearance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "249": {
+        "DDI": 249,
+        "name": "Maximum Chaffer Clearance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "250": {
+        "DDI": 250,
+        "name": "Setpoint Concave Clearance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "251": {
+        "DDI": 251,
+        "name": "Actual Concave Clearance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "252": {
+        "DDI": 252,
+        "name": "Minimum Concave Clearance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "253": {
+        "DDI": 253,
+        "name": "Maximum Concave Clearance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "254": {
+        "DDI": 254,
+        "name": "Setpoint Separation Fan Rotational Speed",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "255": {
+        "DDI": 255,
+        "name": "Actual Separation Fan Rotational Speed",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "256": {
+        "DDI": 256,
+        "name": "Minimum Separation Fan Rotational Speed",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "257": {
+        "DDI": 257,
+        "name": "Maximum Separation Fan Rotational Speed",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "258": {
+        "DDI": 258,
+        "name": "Hydraulic Oil Temperature",
+        "unit": "mK",
+        "bitResolution": 1.0
+    },
+    "259": {
+        "DDI": 259,
+        "name": "Yield Lag Ignore Time",
+        "unit": "ms",
+        "bitResolution": 1.0
+    },
+    "260": {
+        "DDI": 260,
+        "name": "Yield Lead Ignore Time",
+        "unit": "ms",
+        "bitResolution": 1.0
+    },
+    "261": {
+        "DDI": 261,
+        "name": "Average Yield Mass Per Time",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "262": {
+        "DDI": 262,
+        "name": "Average Crop Moisture",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "263": {
+        "DDI": 263,
+        "name": "Average Yield Mass Per Area",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "264": {
+        "DDI": 264,
+        "name": "Connector Pivot X-Offset",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "265": {
+        "DDI": 265,
+        "name": "Remaining Area",
+        "unit": "m²",
+        "bitResolution": 1.0
+    },
+    "266": {
+        "DDI": 266,
+        "name": "Lifetime Application Total Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "267": {
+        "DDI": 267,
+        "name": "Lifetime Application Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "268": {
+        "DDI": 268,
+        "name": "Lifetime Yield Total Volume",
+        "unit": "L",
+        "bitResolution": 1.0
+    },
+    "269": {
+        "DDI": 269,
+        "name": "Lifetime Yield Total Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "270": {
+        "DDI": 270,
+        "name": "Lifetime Yield Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "271": {
+        "DDI": 271,
+        "name": "Lifetime Total Area",
+        "unit": "m²",
+        "bitResolution": 1.0
+    },
+    "272": {
+        "DDI": 272,
+        "name": "Lifetime Effective Total Distance",
+        "unit": "m",
+        "bitResolution": 1.0
+    },
+    "273": {
+        "DDI": 273,
+        "name": "Lifetime Ineffective Total Distance",
+        "unit": "m",
+        "bitResolution": 1.0
+    },
+    "274": {
+        "DDI": 274,
+        "name": "Lifetime Effective Total Time",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "275": {
+        "DDI": 275,
+        "name": "Lifetime Ineffective Total Time",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "276": {
+        "DDI": 276,
+        "name": "Lifetime Fuel Consumption",
+        "unit": "L",
+        "bitResolution": 0.5
+    },
+    "277": {
+        "DDI": 277,
+        "name": "Lifetime Average Fuel Consumption per Time",
+        "unit": "mm³/s",
+        "bitResolution": 1.0
+    },
+    "278": {
+        "DDI": 278,
+        "name": "Lifetime Average Fuel Consumption per Area",
+        "unit": "mm³/m²",
+        "bitResolution": 1.0
+    },
+    "279": {
+        "DDI": 279,
+        "name": "Lifetime Yield Total Dry Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "280": {
+        "DDI": 280,
+        "name": "Lifetime Yield Total Seed Cotton Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "281": {
+        "DDI": 281,
+        "name": "Lifetime Yield Total Lint Cotton Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "282": {
+        "DDI": 282,
+        "name": "Lifetime Threshing Engagement Total Time",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "283": {
+        "DDI": 283,
+        "name": "Precut Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "284": {
+        "DDI": 284,
+        "name": "Uncut Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "285": {
+        "DDI": 285,
+        "name": "Lifetime Precut Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "286": {
+        "DDI": 286,
+        "name": "Lifetime Uncut Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "287": {
+        "DDI": 287,
+        "name": "Setpoint Prescription Mode",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "288": {
+        "DDI": 288,
+        "name": "Actual Prescription Mode",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "289": {
+        "DDI": 289,
+        "name": "Setpoint Work State",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "290": {
+        "DDI": 290,
+        "name": "Setpoint Condensed Work State (1-16)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "291": {
+        "DDI": 291,
+        "name": "Setpoint Condensed Work State (17-32)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "292": {
+        "DDI": 292,
+        "name": "Setpoint Condensed Work State (33-48)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "293": {
+        "DDI": 293,
+        "name": "Setpoint Condensed Work State (49-64)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "294": {
+        "DDI": 294,
+        "name": "Setpoint Condensed Work State (65-80)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "295": {
+        "DDI": 295,
+        "name": "Setpoint Condensed Work State (81-96)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "296": {
+        "DDI": 296,
+        "name": "Setpoint Condensed Work State (97-112)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "297": {
+        "DDI": 297,
+        "name": "Setpoint Condensed Work State (113-128)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "298": {
+        "DDI": 298,
+        "name": "Setpoint Condensed Work State (129-144)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "299": {
+        "DDI": 299,
+        "name": "Setpoint Condensed Work State (145-160)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "300": {
+        "DDI": 300,
+        "name": "Setpoint Condensed Work State (161-176)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "301": {
+        "DDI": 301,
+        "name": "Setpoint Condensed Work State (177-192)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "302": {
+        "DDI": 302,
+        "name": "Setpoint Condensed Work State (193-208)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "303": {
+        "DDI": 303,
+        "name": "Setpoint Condensed Work State (209-224)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "304": {
+        "DDI": 304,
+        "name": "Setpoint Condensed Work State (225-240)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "305": {
+        "DDI": 305,
+        "name": "Setpoint Condensed Work State (241-256)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "306": {
+        "DDI": 306,
+        "name": "True Rotation Point  X-Offset",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "307": {
+        "DDI": 307,
+        "name": "True Rotation Point Y-Offset",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "308": {
+        "DDI": 308,
+        "name": "Actual Percentage Application Rate",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "309": {
+        "DDI": 309,
+        "name": "Minimum Percentage Application Rate",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "310": {
+        "DDI": 310,
+        "name": "Maximum Percentage Application Rate",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "311": {
+        "DDI": 311,
+        "name": "Relative Yield Potential",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "312": {
+        "DDI": 312,
+        "name": "Minimum Relative Yield Potential",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "313": {
+        "DDI": 313,
+        "name": "Maximum Relative Yield Potential",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "314": {
+        "DDI": 314,
+        "name": "Actual Percentage Crop Dry Matter",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "315": {
+        "DDI": 315,
+        "name": "Average Percentage Crop Dry Matter",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "316": {
+        "DDI": 316,
+        "name": "Effective Total Fuel Consumption",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "317": {
+        "DDI": 317,
+        "name": "Ineffective Total Fuel Consumption",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "318": {
+        "DDI": 318,
+        "name": "Effective Total Diesel Exhaust Fluid Consumption",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "319": {
+        "DDI": 319,
+        "name": "Ineffective Total Diesel Exhaust Fluid Consumption",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "320": {
+        "DDI": 320,
+        "name": "Last loaded Weight",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "321": {
+        "DDI": 321,
+        "name": "Last unloaded Weight",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "322": {
+        "DDI": 322,
+        "name": "Load Identification Number",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "323": {
+        "DDI": 323,
+        "name": "Unload Identification Number",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "324": {
+        "DDI": 324,
+        "name": "Chopper Engagement Total Time",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "325": {
+        "DDI": 325,
+        "name": "Lifetime Application Total Volume",
+        "unit": "L",
+        "bitResolution": 1.0
+    },
+    "326": {
+        "DDI": 326,
+        "name": "Setpoint Header Speed",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "327": {
+        "DDI": 327,
+        "name": "Actual Header Speed",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "328": {
+        "DDI": 328,
+        "name": "Minimum Header Speed",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "329": {
+        "DDI": 329,
+        "name": "Maximum Header Speed",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "330": {
+        "DDI": 330,
+        "name": "Setpoint Cutting drum speed",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "331": {
+        "DDI": 331,
+        "name": "Actual Cutting drum speed",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "332": {
+        "DDI": 332,
+        "name": "Minimum Cutting drum speed",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "333": {
+        "DDI": 333,
+        "name": "Maximum Cutting drum speed",
+        "unit": "/s",
+        "bitResolution": 0.001
+    },
+    "334": {
+        "DDI": 334,
+        "name": "Operating Hours Since Last Sharpening",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "335": {
+        "DDI": 335,
+        "name": "Front PTO hours",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "336": {
+        "DDI": 336,
+        "name": "Rear PTO hours",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "337": {
+        "DDI": 337,
+        "name": "Lifetime Front PTO hours",
+        "unit": "h",
+        "bitResolution": 0.1
+    },
+    "338": {
+        "DDI": 338,
+        "name": "Lifetime Rear PTO Hours",
+        "unit": "h",
+        "bitResolution": 0.1
+    },
+    "339": {
+        "DDI": 339,
+        "name": "Total Loading Time",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "340": {
+        "DDI": 340,
+        "name": "Total Unloading Time",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "341": {
+        "DDI": 341,
+        "name": "Setpoint Grain Kernel Cracker Gap",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "342": {
+        "DDI": 342,
+        "name": "Actual Grain Kernel Cracker Gap",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "343": {
+        "DDI": 343,
+        "name": "Minimum Grain Kernel Cracker Gap",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "344": {
+        "DDI": 344,
+        "name": "Maximum Grain Kernel Cracker Gap",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "345": {
+        "DDI": 345,
+        "name": "Setpoint Swathing Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "346": {
+        "DDI": 346,
+        "name": "Actual Swathing Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "347": {
+        "DDI": 347,
+        "name": "Minimum Swathing Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "348": {
+        "DDI": 348,
+        "name": "Maximum Swathing Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "349": {
+        "DDI": 349,
+        "name": "Nozzle Drift Reduction",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "350": {
+        "DDI": 350,
+        "name": "Function or Operation Technique",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "351": {
+        "DDI": 351,
+        "name": "Application Total Volume in [ml]",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "352": {
+        "DDI": 352,
+        "name": "Application Total Mass in gram [g]",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "353": {
+        "DDI": 353,
+        "name": "Total Application of Nitrogen [N2]",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "354": {
+        "DDI": 354,
+        "name": "Total Application of Ammonium",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "355": {
+        "DDI": 355,
+        "name": "Total Application of Phosphor",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "356": {
+        "DDI": 356,
+        "name": "Total Application of Potassium",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "357": {
+        "DDI": 357,
+        "name": "Total Application of Dry Matter",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "358": {
+        "DDI": 358,
+        "name": "Average Dry Yield Mass Per Time",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "359": {
+        "DDI": 359,
+        "name": "Average Dry Yield Mass Per Area",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "360": {
+        "DDI": 360,
+        "name": "Last Bale Size",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "361": {
+        "DDI": 361,
+        "name": "Last Bale Density",
+        "unit": "mg/l",
+        "bitResolution": 1.0
+    },
+    "362": {
+        "DDI": 362,
+        "name": "Total Bale Length",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "363": {
+        "DDI": 363,
+        "name": "Last Bale Dry Mass",
+        "unit": "g",
+        "bitResolution": 1.0
+    },
+    "364": {
+        "DDI": 364,
+        "name": "Actual Flake Size",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "365": {
+        "DDI": 365,
+        "name": "Setpoint Downforce Pressure",
+        "unit": "Pa",
+        "bitResolution": 1.0
+    },
+    "366": {
+        "DDI": 366,
+        "name": "Actual Downforce Pressure",
+        "unit": "Pa",
+        "bitResolution": 1.0
+    },
+    "367": {
+        "DDI": 367,
+        "name": "Condensed Section Override State (1-16)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "368": {
+        "DDI": 368,
+        "name": "Condensed Section Override State (17-32)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "369": {
+        "DDI": 369,
+        "name": "Condensed Section Override State (33-48)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "370": {
+        "DDI": 370,
+        "name": "Condensed Section Override State (49-64)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "371": {
+        "DDI": 371,
+        "name": "Condensed Section Override State (65-80)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "372": {
+        "DDI": 372,
+        "name": "Condensed Section Override State (81-96)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "373": {
+        "DDI": 373,
+        "name": "Condensed Section Override State (97-112)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "374": {
+        "DDI": 374,
+        "name": "Condensed Section Override State (113-128)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "375": {
+        "DDI": 375,
+        "name": "Condensed Section Override State (129-144)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "376": {
+        "DDI": 376,
+        "name": "Condensed Section Override State (145-160)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "377": {
+        "DDI": 377,
+        "name": "Condensed Section Override State (161-176)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "378": {
+        "DDI": 378,
+        "name": "Condensed Section Override State (177-192)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "379": {
+        "DDI": 379,
+        "name": "Condensed Section Override State (193-208)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "380": {
+        "DDI": 380,
+        "name": "Condensed Section Override State (209-224)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "381": {
+        "DDI": 381,
+        "name": "Condensed Section Override State (225-240)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "382": {
+        "DDI": 382,
+        "name": "Condensed Section Override State (241-256)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "383": {
+        "DDI": 383,
+        "name": "Apparent Wind Direction",
+        "unit": "°",
+        "bitResolution": 1.0
+    },
+    "384": {
+        "DDI": 384,
+        "name": "Apparent Wind Speed",
+        "unit": "mm/s",
+        "bitResolution": 1.0
+    },
+    "385": {
+        "DDI": 385,
+        "name": "MSL Atmospheric Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "386": {
+        "DDI": 386,
+        "name": "Actual Atmospheric Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "387": {
+        "DDI": 387,
+        "name": "Total Revolutions in Fractional Revolutions",
+        "unit": "#",
+        "bitResolution": 0.0001
+    },
+    "388": {
+        "DDI": 388,
+        "name": "Total Revolutions in Complete Revolutions",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "389": {
+        "DDI": 389,
+        "name": "Setpoint Revolutions specified as count per time",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "390": {
+        "DDI": 390,
+        "name": "Actual Revolutions Per Time",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "391": {
+        "DDI": 391,
+        "name": "Default Revolutions Per Time",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "392": {
+        "DDI": 392,
+        "name": "Minimum Revolutions Per Time",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "393": {
+        "DDI": 393,
+        "name": "Maximum Revolutions Per Time",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "394": {
+        "DDI": 394,
+        "name": "Actual Fuel Tank Content",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "395": {
+        "DDI": 395,
+        "name": "Actual Diesel Exhaust Fluid Tank Content",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "396": {
+        "DDI": 396,
+        "name": "Setpoint Speed",
+        "unit": "mm/s",
+        "bitResolution": 1.0
+    },
+    "397": {
+        "DDI": 397,
+        "name": "Actual Speed",
+        "unit": "mm/s",
+        "bitResolution": 1.0
+    },
+    "398": {
+        "DDI": 398,
+        "name": "Minimum Speed",
+        "unit": "mm/s",
+        "bitResolution": 1.0
+    },
+    "399": {
+        "DDI": 399,
+        "name": "Maximum Speed",
+        "unit": "mm/s",
+        "bitResolution": 1.0
+    },
+    "400": {
+        "DDI": 400,
+        "name": "Speed Source",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "401": {
+        "DDI": 401,
+        "name": "Actual Application of Nitrogen [N2] as [mg/l]",
+        "unit": "mg/l",
+        "bitResolution": 1.0
+    },
+    "402": {
+        "DDI": 402,
+        "name": "Actual application of Ammonium",
+        "unit": "mg/l",
+        "bitResolution": 1.0
+    },
+    "403": {
+        "DDI": 403,
+        "name": "Actual application of Phosphor",
+        "unit": "mg/l",
+        "bitResolution": 1.0
+    },
+    "404": {
+        "DDI": 404,
+        "name": "Actual application of Potassium",
+        "unit": "mg/l",
+        "bitResolution": 1.0
+    },
+    "405": {
+        "DDI": 405,
+        "name": "Actual application of Dry Matter",
+        "unit": "mg/l",
+        "bitResolution": 1.0
+    },
+    "406": {
+        "DDI": 406,
+        "name": "Actual Protein Content",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "407": {
+        "DDI": 407,
+        "name": "Average Protein Content",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "408": {
+        "DDI": 408,
+        "name": "Average Crop Contamination",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "409": {
+        "DDI": 409,
+        "name": "Total Diesel Exhaust Fluid Consumption",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "410": {
+        "DDI": 410,
+        "name": "Instantaneous Diesel Exhaust Fluid Consumption per Time",
+        "unit": "mm³/s",
+        "bitResolution": 1.0
+    },
+    "411": {
+        "DDI": 411,
+        "name": "Instantaneous Diesel Exhaust Fluid Consumption per Area",
+        "unit": "mm³/m²",
+        "bitResolution": 1.0
+    },
+    "412": {
+        "DDI": 412,
+        "name": "Lifetime Diesel Exhaust Fluid Consumption",
+        "unit": "L",
+        "bitResolution": 0.5
+    },
+    "413": {
+        "DDI": 413,
+        "name": "Lifetime Average Diesel Exhaust Fluid Consumption per Time",
+        "unit": "mm³/s",
+        "bitResolution": 1.0
+    },
+    "414": {
+        "DDI": 414,
+        "name": "Lifetime Average Diesel Exhaust Fluid Consumption per Area",
+        "unit": "mm³/m²",
+        "bitResolution": 1.0
+    },
+    "415": {
+        "DDI": 415,
+        "name": "Actual Seed Singulation Percentage",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "416": {
+        "DDI": 416,
+        "name": "Average Seed Singulation Percentage",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "417": {
+        "DDI": 417,
+        "name": "Actual Seed Skip Percentage",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "418": {
+        "DDI": 418,
+        "name": "Average Seed Skip Percentage",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "419": {
+        "DDI": 419,
+        "name": "Actual Seed Multiple Percentage",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "420": {
+        "DDI": 420,
+        "name": "Average Seed Multiple Percentage",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "421": {
+        "DDI": 421,
+        "name": "Actual Seed Spacing Deviation",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "422": {
+        "DDI": 422,
+        "name": "Average Seed Spacing Deviation",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "423": {
+        "DDI": 423,
+        "name": "Actual Coefficient of Variation of Seed Spacing Percentage",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "424": {
+        "DDI": 424,
+        "name": "Average Coefficient of Variation of Seed Spacing Percentage",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "425": {
+        "DDI": 425,
+        "name": "Setpoint Maximum Allowed Seed Spacing Deviation",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "426": {
+        "DDI": 426,
+        "name": "Setpoint Downforce as Force",
+        "unit": "N",
+        "bitResolution": 1.0
+    },
+    "427": {
+        "DDI": 427,
+        "name": "Actual Downforce as Force",
+        "unit": "N",
+        "bitResolution": 1.0
+    },
+    "428": {
+        "DDI": 428,
+        "name": "Loaded Total Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "429": {
+        "DDI": 429,
+        "name": "Unloaded Total Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "430": {
+        "DDI": 430,
+        "name": "Lifetime Loaded Total Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "431": {
+        "DDI": 431,
+        "name": "Lifetime Unloaded Total Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "432": {
+        "DDI": 432,
+        "name": "Setpoint Application Rate of Nitrogen [N2]",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "433": {
+        "DDI": 433,
+        "name": "Actual  Application Rate of Nitrogen [N2]",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "434": {
+        "DDI": 434,
+        "name": "Minimum Application Rate of Nitrogen [N2]",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "435": {
+        "DDI": 435,
+        "name": "Maximum  Application Rate of Nitrogen [N2]",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "436": {
+        "DDI": 436,
+        "name": "Setpoint  Application Rate of Ammonium",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "437": {
+        "DDI": 437,
+        "name": "Actual  Application Rate of Ammonium",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "438": {
+        "DDI": 438,
+        "name": "Minimum  Application Rate of Ammonium",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "439": {
+        "DDI": 439,
+        "name": "Maximum  Application Rate of Ammonium",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "440": {
+        "DDI": 440,
+        "name": "Setpoint  Application Rate of Phosphor",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "441": {
+        "DDI": 441,
+        "name": "Actual  Application Rate of Phosphor",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "442": {
+        "DDI": 442,
+        "name": "Minimum  Application Rate of Phosphor",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "443": {
+        "DDI": 443,
+        "name": "Maximum  Application Rate of Phosphor",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "444": {
+        "DDI": 444,
+        "name": "Setpoint  Application Rate of Potassium",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "445": {
+        "DDI": 445,
+        "name": "Actual  Application Rate of Potassium",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "446": {
+        "DDI": 446,
+        "name": "Minimum Application Rate of Potassium",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "447": {
+        "DDI": 447,
+        "name": "Maximum Application Rate of Potassium",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "448": {
+        "DDI": 448,
+        "name": "Setpoint Application Rate of Dry Matter",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "449": {
+        "DDI": 449,
+        "name": "Actual  Application Rate of Dry Matter",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "450": {
+        "DDI": 450,
+        "name": "Minimum Application Rate of Dry Matter",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "451": {
+        "DDI": 451,
+        "name": "Maximum Application Rate of Dry Matter",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "452": {
+        "DDI": 452,
+        "name": "Loaded Total Volume",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "453": {
+        "DDI": 453,
+        "name": "Unloaded Total Volume",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "454": {
+        "DDI": 454,
+        "name": "Lifetime loaded Total Volume",
+        "unit": "L",
+        "bitResolution": 1.0
+    },
+    "455": {
+        "DDI": 455,
+        "name": "Lifetime Unloaded Total Volume",
+        "unit": "L",
+        "bitResolution": 1.0
+    },
+    "456": {
+        "DDI": 456,
+        "name": "Last loaded Volume",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "457": {
+        "DDI": 457,
+        "name": "Last unloaded Volume",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "458": {
+        "DDI": 458,
+        "name": "Loaded Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "459": {
+        "DDI": 459,
+        "name": "Unloaded Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "460": {
+        "DDI": 460,
+        "name": "Lifetime Loaded Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "461": {
+        "DDI": 461,
+        "name": "Lifetime Unloaded Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "462": {
+        "DDI": 462,
+        "name": "Last loaded Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "463": {
+        "DDI": 463,
+        "name": "Last unloaded Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "464": {
+        "DDI": 464,
+        "name": "Haul Counter",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "465": {
+        "DDI": 465,
+        "name": "Lifetime Haul Counter",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "466": {
+        "DDI": 466,
+        "name": "Actual relative connector angle",
+        "unit": "°",
+        "bitResolution": 0.001
+    },
+    "467": {
+        "DDI": 467,
+        "name": "Actual Percentage Content",
+        "unit": "%",
+        "bitResolution": 0.01
+    },
+    "468": {
+        "DDI": 468,
+        "name": "Soil Snow/Frozen Condtion",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "469": {
+        "DDI": 469,
+        "name": "Estimated Soil Water Condtion",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "470": {
+        "DDI": 470,
+        "name": "Soil Compaction",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "471": {
+        "DDI": 471,
+        "name": "Setpoint Cultural Practice",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "472": {
+        "DDI": 472,
+        "name": "Setpoint Length of Cut",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "473": {
+        "DDI": 473,
+        "name": "Minimum length of cut",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "474": {
+        "DDI": 474,
+        "name": "Maximum Length of Cut",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "475": {
+        "DDI": 475,
+        "name": "Setpoint Bale Hydraulic Pressure",
+        "unit": "Pa",
+        "bitResolution": 1.0
+    },
+    "476": {
+        "DDI": 476,
+        "name": "Minimum Bale Hydraulic Pressure",
+        "unit": "Pa",
+        "bitResolution": 1.0
+    },
+    "477": {
+        "DDI": 477,
+        "name": "Maximum Bale Hydraulic Pressure",
+        "unit": "Pa",
+        "bitResolution": 1.0
+    },
+    "478": {
+        "DDI": 478,
+        "name": "Setpoint Flake Size",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "479": {
+        "DDI": 479,
+        "name": "Minimum Flake Size",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "480": {
+        "DDI": 480,
+        "name": "Maximum Flake Size",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "481": {
+        "DDI": 481,
+        "name": "Setpoint Number of Subbales",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "482": {
+        "DDI": 482,
+        "name": "Last Bale Number of Subbales",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "483": {
+        "DDI": 483,
+        "name": "Setpoint Engine Speed",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "484": {
+        "DDI": 484,
+        "name": "Actual Engine Speed",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "485": {
+        "DDI": 485,
+        "name": "Minimum Engine Speed",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "486": {
+        "DDI": 486,
+        "name": "Maximum Engine Speed",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "488": {
+        "DDI": 488,
+        "name": "Diesel Exhaust Fluid Tank Percentage Level",
+        "unit": "%",
+        "bitResolution": 0.01
+    },
+    "489": {
+        "DDI": 489,
+        "name": "Maximum Diesel Exhaust Fluid Tank Content",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "490": {
+        "DDI": 490,
+        "name": "Maximum Fuel Tank Content",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "491": {
+        "DDI": 491,
+        "name": "Fuel Percentage Level",
+        "unit": "%",
+        "bitResolution": 0.01
+    },
+    "492": {
+        "DDI": 492,
+        "name": "Total Engine Hours",
+        "unit": "h",
+        "bitResolution": 0.05
+    },
+    "493": {
+        "DDI": 493,
+        "name": "Lifetime Engine Hours",
+        "unit": "h",
+        "bitResolution": 0.1
+    },
+    "494": {
+        "DDI": 494,
+        "name": "Last Event Partner ID (Byte 1-4)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "495": {
+        "DDI": 495,
+        "name": "Last Event Partner ID (Byte 5-8)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "496": {
+        "DDI": 496,
+        "name": "Last Event Partner ID (Byte 9-12)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "497": {
+        "DDI": 497,
+        "name": "Last Event Partner ID (Byte 13-16)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "498": {
+        "DDI": 498,
+        "name": "Last Event Partner ID Type",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "499": {
+        "DDI": 499,
+        "name": "Last Event Partner ID Manufacturer ID Code",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "500": {
+        "DDI": 500,
+        "name": "Last Event Partner ID Device Class",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "501": {
+        "DDI": 501,
+        "name": "Setpoint Engine Torque",
+        "unit": "%",
+        "bitResolution": 0.001
+    },
+    "502": {
+        "DDI": 502,
+        "name": "Actual Engine Torque",
+        "unit": "%",
+        "bitResolution": 0.001
+    },
+    "503": {
+        "DDI": 503,
+        "name": "Minimum Engine Torque",
+        "unit": "%",
+        "bitResolution": 0.001
+    },
+    "504": {
+        "DDI": 504,
+        "name": "Maximum Engine Torque",
+        "unit": "%",
+        "bitResolution": 0.001
+    },
+    "505": {
+        "DDI": 505,
+        "name": "Tramline Control Level",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "506": {
+        "DDI": 506,
+        "name": "Setpoint Tramline Control Level",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "507": {
+        "DDI": 507,
+        "name": "Tramline Sequence Number",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "508": {
+        "DDI": 508,
+        "name": "Unique A-B Guidance Reference Line ID",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "509": {
+        "DDI": 509,
+        "name": "Actual Track Number",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "510": {
+        "DDI": 510,
+        "name": "Track Number to the right",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "511": {
+        "DDI": 511,
+        "name": "Track Number to the left",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "512": {
+        "DDI": 512,
+        "name": "Guidance Line Swath Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "513": {
+        "DDI": 513,
+        "name": "Guidance Line Deviation",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "514": {
+        "DDI": 514,
+        "name": "GNSS Quality",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "515": {
+        "DDI": 515,
+        "name": "Tramline Control State",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "516": {
+        "DDI": 516,
+        "name": "Tramline Overdosing Rate",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "517": {
+        "DDI": 517,
+        "name": "Setpoint Tramline Condensed Work State (1-16)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "518": {
+        "DDI": 518,
+        "name": "Actual Tramline Condensed Work State (1-16)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "519": {
+        "DDI": 519,
+        "name": "Last Bale Lifetime Count",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "520": {
+        "DDI": 520,
+        "name": "Actual Canopy Height",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "521": {
+        "DDI": 521,
+        "name": "GNSS Installation Type",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "522": {
+        "DDI": 522,
+        "name": "Twine Bale Total Count (Deprecated)",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "523": {
+        "DDI": 523,
+        "name": "Mesh Bale Total Count (Deprecated)",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "524": {
+        "DDI": 524,
+        "name": "Lifetime Twine Bale Total Count (Deprecated)",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "525": {
+        "DDI": 525,
+        "name": "Lifetime Mesh Bale Total Count (Deprecated)",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "526": {
+        "DDI": 526,
+        "name": "Actual Cooling Fluid Temperature",
+        "unit": "mK",
+        "bitResolution": 1.0
+    },
+    "528": {
+        "DDI": 528,
+        "name": "Last Bale Capacity",
+        "unit": "kg/h",
+        "bitResolution": 1.0
+    },
+    "529": {
+        "DDI": 529,
+        "name": "Setpoint Tillage Disc Gang Angle",
+        "unit": "°",
+        "bitResolution": 0.001
+    },
+    "530": {
+        "DDI": 530,
+        "name": "Actual Tillage Disc Gang Angle",
+        "unit": "°",
+        "bitResolution": 0.001
+    },
+    "531": {
+        "DDI": 531,
+        "name": "Actual Applied Preservative Per Yield Mass",
+        "unit": "mm³/kg",
+        "bitResolution": 1.0
+    },
+    "532": {
+        "DDI": 532,
+        "name": "Setpoint Applied Preservative Per Yield Mass",
+        "unit": "mm³/kg",
+        "bitResolution": 1.0
+    },
+    "533": {
+        "DDI": 533,
+        "name": "Default Applied Preservative Per Yield Mass",
+        "unit": "mm³/kg",
+        "bitResolution": 1.0
+    },
+    "534": {
+        "DDI": 534,
+        "name": "Minimum Applied Preservative Per Yield Mass",
+        "unit": "mm³/kg",
+        "bitResolution": 1.0
+    },
+    "535": {
+        "DDI": 535,
+        "name": "Maximum Applied Preservative Per Yield Mass",
+        "unit": "mm³/kg",
+        "bitResolution": 1.0
+    },
+    "536": {
+        "DDI": 536,
+        "name": "Total Applied Preservative",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "537": {
+        "DDI": 537,
+        "name": "Lifetime Applied Preservative",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "538": {
+        "DDI": 538,
+        "name": "Average Applied Preservative Per Yield Mass",
+        "unit": "mm³/kg",
+        "bitResolution": 1.0
+    },
+    "539": {
+        "DDI": 539,
+        "name": "Actual Preservative Tank Volume",
+        "unit": "ml",
+        "bitResolution": 1.0
+    },
+    "540": {
+        "DDI": 540,
+        "name": "Actual Preservative Tank Level",
+        "unit": "ppm",
+        "bitResolution": 1.0
+    },
+    "541": {
+        "DDI": 541,
+        "name": "Actual PTO Speed",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "542": {
+        "DDI": 542,
+        "name": "Setpoint PTO Speed",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "543": {
+        "DDI": 543,
+        "name": "Default PTO Speed",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "544": {
+        "DDI": 544,
+        "name": "Minimum PTO Speed",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "545": {
+        "DDI": 545,
+        "name": "Maximum PTO Speed",
+        "unit": "r/min",
+        "bitResolution": 0.0001
+    },
+    "546": {
+        "DDI": 546,
+        "name": "Lifetime Chopping Engagement Total Time",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "547": {
+        "DDI": 547,
+        "name": "Setpoint Bale Compression Plunger Load (N)",
+        "unit": "N",
+        "bitResolution": 1.0
+    },
+    "548": {
+        "DDI": 548,
+        "name": "Actual Bale Compression Plunger Load (N)",
+        "unit": "N",
+        "bitResolution": 1.0
+    },
+    "549": {
+        "DDI": 549,
+        "name": "Last Bale Average Bale Compression Plunger Load (N)",
+        "unit": "N",
+        "bitResolution": 1.0
+    },
+    "550": {
+        "DDI": 550,
+        "name": "Ground Cover",
+        "unit": "%",
+        "bitResolution": 0.1
+    },
+    "551": {
+        "DDI": 551,
+        "name": "Actual PTO Torque",
+        "unit": "N*m",
+        "bitResolution": 0.0001
+    },
+    "552": {
+        "DDI": 552,
+        "name": "Setpoint PTO Torque",
+        "unit": "N*m",
+        "bitResolution": 0.0001
+    },
+    "553": {
+        "DDI": 553,
+        "name": "Default PTO Torque",
+        "unit": "N*m",
+        "bitResolution": 0.0001
+    },
+    "554": {
+        "DDI": 554,
+        "name": "Minimum PTO Torque",
+        "unit": "N*m",
+        "bitResolution": 0.0001
+    },
+    "555": {
+        "DDI": 555,
+        "name": "Maximum PTO Torque",
+        "unit": "N*m",
+        "bitResolution": 0.0001
+    },
+    "556": {
+        "DDI": 556,
+        "name": "Present Weather Conditions",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "557": {
+        "DDI": 557,
+        "name": "Setpoint Electrical Current",
+        "unit": "A",
+        "bitResolution": 0.005
+    },
+    "558": {
+        "DDI": 558,
+        "name": "Actual Electrical Current",
+        "unit": "A",
+        "bitResolution": 0.005
+    },
+    "559": {
+        "DDI": 559,
+        "name": "Minimum Electrical Current",
+        "unit": "A",
+        "bitResolution": 0.005
+    },
+    "560": {
+        "DDI": 560,
+        "name": "Maximum Electrical Current",
+        "unit": "A",
+        "bitResolution": 0.005
+    },
+    "561": {
+        "DDI": 561,
+        "name": "Default Electrical Current",
+        "unit": "A",
+        "bitResolution": 0.005
+    },
+    "562": {
+        "DDI": 562,
+        "name": "Setpoint Voltage",
+        "unit": "V",
+        "bitResolution": 0.001
+    },
+    "563": {
+        "DDI": 563,
+        "name": "Default Voltage",
+        "unit": "V",
+        "bitResolution": 0.001
+    },
+    "564": {
+        "DDI": 564,
+        "name": "Actual Voltage",
+        "unit": "V",
+        "bitResolution": 0.001
+    },
+    "565": {
+        "DDI": 565,
+        "name": "Minimum Voltage",
+        "unit": "V",
+        "bitResolution": 0.001
+    },
+    "566": {
+        "DDI": 566,
+        "name": "Maximum Voltage",
+        "unit": "V",
+        "bitResolution": 0.001
+    },
+    "567": {
+        "DDI": 567,
+        "name": "Actual Electrical Resistance",
+        "unit": "Ohm",
+        "bitResolution": 0.01
+    },
+    "568": {
+        "DDI": 568,
+        "name": "Setpoint Electrical Power",
+        "unit": "W",
+        "bitResolution": 0.001
+    },
+    "569": {
+        "DDI": 569,
+        "name": "Actual Electrical Power",
+        "unit": "W",
+        "bitResolution": 0.001
+    },
+    "570": {
+        "DDI": 570,
+        "name": "Default Electrical Power",
+        "unit": "W",
+        "bitResolution": 0.001
+    },
+    "571": {
+        "DDI": 571,
+        "name": "Maximum Electrical Power",
+        "unit": "W",
+        "bitResolution": 0.001
+    },
+    "572": {
+        "DDI": 572,
+        "name": "Minimum Electrical Power",
+        "unit": "W",
+        "bitResolution": 0.001
+    },
+    "573": {
+        "DDI": 573,
+        "name": "Total Electrical Energy",
+        "unit": "kWh",
+        "bitResolution": 0.001
+    },
+    "574": {
+        "DDI": 574,
+        "name": "Setpoint Electrical Energy per Area Application Rate",
+        "unit": "kWh/m²",
+        "bitResolution": 1e-07
+    },
+    "575": {
+        "DDI": 575,
+        "name": "Actual  Electrical Energy per Area Application Rate",
+        "unit": "kWh/m²",
+        "bitResolution": 1e-07
+    },
+    "576": {
+        "DDI": 576,
+        "name": "Maximum  Electrical Energy  per Area Application Rate",
+        "unit": "kWh/m²",
+        "bitResolution": 1e-07
+    },
+    "577": {
+        "DDI": 577,
+        "name": "Minimum  Electrical Energy per Area Application Rate",
+        "unit": "kWh/m²",
+        "bitResolution": 1e-07
+    },
+    "578": {
+        "DDI": 578,
+        "name": "Setpoint Temperature",
+        "unit": "mK",
+        "bitResolution": 1.0
+    },
+    "579": {
+        "DDI": 579,
+        "name": "Actual Temperature",
+        "unit": "mK",
+        "bitResolution": 1.0
+    },
+    "580": {
+        "DDI": 580,
+        "name": "Minimum Temperature",
+        "unit": "mK",
+        "bitResolution": 1.0
+    },
+    "581": {
+        "DDI": 581,
+        "name": "Maximum Temperature",
+        "unit": "mK",
+        "bitResolution": 1.0
+    },
+    "582": {
+        "DDI": 582,
+        "name": "Default Temperature",
+        "unit": "mK",
+        "bitResolution": 1.0
+    },
+    "583": {
+        "DDI": 583,
+        "name": "Setpoint Frequency",
+        "unit": "Hz",
+        "bitResolution": 0.001
+    },
+    "584": {
+        "DDI": 584,
+        "name": "Actual Frequency",
+        "unit": "Hz",
+        "bitResolution": 0.001
+    },
+    "585": {
+        "DDI": 585,
+        "name": "Minimum Frequency",
+        "unit": "Hz",
+        "bitResolution": 0.001
+    },
+    "586": {
+        "DDI": 586,
+        "name": "Maximum Frequency",
+        "unit": "Hz",
+        "bitResolution": 0.001
+    },
+    "587": {
+        "DDI": 587,
+        "name": "Previous Rainfall",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "588": {
+        "DDI": 588,
+        "name": "Setpoint Volume Per Area Application Rate as [ml/m²]",
+        "unit": "ml/m²",
+        "bitResolution": 0.1
+    },
+    "589": {
+        "DDI": 589,
+        "name": "Actual Volume Per Area Application Rate as [ml/m²]",
+        "unit": "ml/m²",
+        "bitResolution": 0.1
+    },
+    "590": {
+        "DDI": 590,
+        "name": "Minimum Volume Per Area Application Rate as [ml/m²]",
+        "unit": "ml/m²",
+        "bitResolution": 0.1
+    },
+    "591": {
+        "DDI": 591,
+        "name": "Maximum Volume Per Area Application Rate as [ml/m²]",
+        "unit": "ml/m²",
+        "bitResolution": 0.1
+    },
+    "592": {
+        "DDI": 592,
+        "name": "Default Volume Per Area Application Rate as [ml/m²]",
+        "unit": "ml/m²",
+        "bitResolution": 0.1
+    },
+    "593": {
+        "DDI": 593,
+        "name": "Traction Type",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "594": {
+        "DDI": 594,
+        "name": "Steering Type",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "595": {
+        "DDI": 595,
+        "name": "Machine Mode",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "596": {
+        "DDI": 596,
+        "name": "Cargo Area Cover State",
+        "unit": "%",
+        "bitResolution": 1.0
+    },
+    "597": {
+        "DDI": 597,
+        "name": "Total Distance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "598": {
+        "DDI": 598,
+        "name": "Lifetime Total Distance",
+        "unit": "m",
+        "bitResolution": 1.0
+    },
+    "599": {
+        "DDI": 599,
+        "name": "Total Distance Field",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "600": {
+        "DDI": 600,
+        "name": "Lifetime Total Distance Field",
+        "unit": "m",
+        "bitResolution": 1.0
+    },
+    "601": {
+        "DDI": 601,
+        "name": "Total Distance Street",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "602": {
+        "DDI": 602,
+        "name": "Lifetime Total Distance Street",
+        "unit": "m",
+        "bitResolution": 1.0
+    },
+    "603": {
+        "DDI": 603,
+        "name": "Actual Tramline Condensed Work State (17-32)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "604": {
+        "DDI": 604,
+        "name": "Actual Tramline Condensed Work State (33-48)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "605": {
+        "DDI": 605,
+        "name": "Actual Tramline Condensed Work State (49-64)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "606": {
+        "DDI": 606,
+        "name": "Actual Tramline Condensed Work State (65-80)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "607": {
+        "DDI": 607,
+        "name": "Actual Tramline Condensed Work State (81-96)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "608": {
+        "DDI": 608,
+        "name": "Actual Tramline Condensed Work State (97-112)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "609": {
+        "DDI": 609,
+        "name": "Actual Tramline Condensed Work State (113-128)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "610": {
+        "DDI": 610,
+        "name": "Actual Tramline Condensed Work State (129-144)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "611": {
+        "DDI": 611,
+        "name": "Actual Tramline Condensed Work State (145-160)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "612": {
+        "DDI": 612,
+        "name": "Actual Tramline Condensed Work State (161-176)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "613": {
+        "DDI": 613,
+        "name": "Actual Tramline Condensed Work State (177-192)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "614": {
+        "DDI": 614,
+        "name": "Actual Tramline Condensed Work State (193-208)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "615": {
+        "DDI": 615,
+        "name": "Actual Tramline Condensed Work State (209-224)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "616": {
+        "DDI": 616,
+        "name": "Actual Tramline Condensed Work State (225-240)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "617": {
+        "DDI": 617,
+        "name": "Actual Tramline Condensed Work State (241-256)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "618": {
+        "DDI": 618,
+        "name": "Setpoint Tramline Condensed Work State (17-32)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "619": {
+        "DDI": 619,
+        "name": "Setpoint Tramline Condensed Work State (33-48)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "620": {
+        "DDI": 620,
+        "name": "Setpoint Tramline Condensed Work State (49-64)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "621": {
+        "DDI": 621,
+        "name": "Setpoint Tramline Condensed Work State (65-80)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "622": {
+        "DDI": 622,
+        "name": "Setpoint Tramline Condensed Work State (81-96)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "623": {
+        "DDI": 623,
+        "name": "Setpoint Tramline Condensed Work State (97-112)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "624": {
+        "DDI": 624,
+        "name": "Setpoint Tramline Condensed Work State (113-128)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "625": {
+        "DDI": 625,
+        "name": "Setpoint Tramline Condensed Work State (129-144)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "626": {
+        "DDI": 626,
+        "name": "Setpoint Tramline Condensed Work State (145-160)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "627": {
+        "DDI": 627,
+        "name": "Setpoint Tramline Condensed Work State (161-176)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "628": {
+        "DDI": 628,
+        "name": "Setpoint Tramline Condensed Work State (177-192)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "629": {
+        "DDI": 629,
+        "name": "Setpoint Tramline Condensed Work State (193-208)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "630": {
+        "DDI": 630,
+        "name": "Setpoint Tramline Condensed Work State (209-224)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "631": {
+        "DDI": 631,
+        "name": "Setpoint Tramline Condensed Work State (225-240)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "632": {
+        "DDI": 632,
+        "name": "Setpoint Tramline Condensed Work State (241-256)",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "633": {
+        "DDI": 633,
+        "name": "Setpoint Volume per distance Application Rate",
+        "unit": "ml/m",
+        "bitResolution": 0.001
+    },
+    "634": {
+        "DDI": 634,
+        "name": "Actual Volume per distance Application Rate",
+        "unit": "ml/m",
+        "bitResolution": 0.001
+    },
+    "635": {
+        "DDI": 635,
+        "name": "Default Volume per distance Application Rate",
+        "unit": "ml/m",
+        "bitResolution": 0.001
+    },
+    "636": {
+        "DDI": 636,
+        "name": "Minimum Volume per distance Application Rate",
+        "unit": "ml/m",
+        "bitResolution": 0.001
+    },
+    "637": {
+        "DDI": 637,
+        "name": "Maximum Volume per distance Application Rate",
+        "unit": "ml/m",
+        "bitResolution": 0.001
+    },
+    "638": {
+        "DDI": 638,
+        "name": "Setpoint Tire Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "639": {
+        "DDI": 639,
+        "name": "Actual Tire Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "640": {
+        "DDI": 640,
+        "name": "Default Tire Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "641": {
+        "DDI": 641,
+        "name": "Minimum Tire Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "642": {
+        "DDI": 642,
+        "name": "Maximum Tire Pressure",
+        "unit": "Pa",
+        "bitResolution": 0.1
+    },
+    "643": {
+        "DDI": 643,
+        "name": "Actual Tire Temperature",
+        "unit": "mK",
+        "bitResolution": 1.0
+    },
+    "644": {
+        "DDI": 644,
+        "name": "Binding Method",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "645": {
+        "DDI": 645,
+        "name": "Last Bale Number of Knives",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "646": {
+        "DDI": 646,
+        "name": "Last Bale Binding Twine Consumption",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "647": {
+        "DDI": 647,
+        "name": "Last Bale Binding Mesh Consumption",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "648": {
+        "DDI": 648,
+        "name": "Last Bale Binding Film Consumption",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "649": {
+        "DDI": 649,
+        "name": "Last Bale Binding Film Stretching",
+        "unit": "%",
+        "bitResolution": 0.001
+    },
+    "650": {
+        "DDI": 650,
+        "name": "Last Bale Wrapping Film Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "651": {
+        "DDI": 651,
+        "name": "Last Bale Wrapping Film Consumption",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "652": {
+        "DDI": 652,
+        "name": "Last Bale Wrapping Film Stretching",
+        "unit": "%",
+        "bitResolution": 0.001
+    },
+    "653": {
+        "DDI": 653,
+        "name": "Last Bale Wrapping Film Overlap Percentage",
+        "unit": "%",
+        "bitResolution": 0.001
+    },
+    "654": {
+        "DDI": 654,
+        "name": "Last Bale Wrapping Film Layers",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "655": {
+        "DDI": 655,
+        "name": "Electrical Apparent Soil Conductivity",
+        "unit": "mS/m",
+        "bitResolution": 0.1
+    },
+    "656": {
+        "DDI": 656,
+        "name": "SC Actual Turn On Time",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "657": {
+        "DDI": 657,
+        "name": "SC Actual Turn Off Time",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "658": {
+        "DDI": 658,
+        "name": "Actual CO2 equivalent specified as mass per area",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "659": {
+        "DDI": 659,
+        "name": "Actual CO2 equivalent specified as mass per time",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "660": {
+        "DDI": 660,
+        "name": "Actual CO2 equivalent specified as mass per mass",
+        "unit": "mg/kg",
+        "bitResolution": 1.0
+    },
+    "661": {
+        "DDI": 661,
+        "name": "Actual CO2 equivalent specified as mass per yield",
+        "unit": "mg/kg",
+        "bitResolution": 1.0
+    },
+    "662": {
+        "DDI": 662,
+        "name": "Actual CO2 equivalent specified as mass per volume",
+        "unit": "mg/l",
+        "bitResolution": 1.0
+    },
+    "663": {
+        "DDI": 663,
+        "name": "Actual CO2 equivalent specified as mass per count",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "664": {
+        "DDI": 664,
+        "name": "Total CO2 equivalent",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "665": {
+        "DDI": 665,
+        "name": "Lifetime total CO2 equivalent",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "666": {
+        "DDI": 666,
+        "name": "Working Direction",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "667": {
+        "DDI": 667,
+        "name": "Distance between Guidance Track Number 0R and 1",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "668": {
+        "DDI": 668,
+        "name": "Distance between Guidance Track Number 0R and 0L",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "669": {
+        "DDI": 669,
+        "name": "Bout Track Number Shift",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "670": {
+        "DDI": 670,
+        "name": "Tramline Primary Working Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "671": {
+        "DDI": 671,
+        "name": "Tramline Primary Tire Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "672": {
+        "DDI": 672,
+        "name": "Tramline Primary Wheel Distance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "673": {
+        "DDI": 673,
+        "name": "Tramline Secondary Working Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "674": {
+        "DDI": 674,
+        "name": "Tramline Secondary Tire Width",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "675": {
+        "DDI": 675,
+        "name": "Tramline Secondary Wheel Distance",
+        "unit": "mm",
+        "bitResolution": 1.0
+    },
+    "676": {
+        "DDI": 676,
+        "name": "Last Bale Binding Mesh Layers",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "677": {
+        "DDI": 677,
+        "name": "Last Bale Binding Film Layers",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "678": {
+        "DDI": 678,
+        "name": "Last Bale Binding Twine Layers",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "679": {
+        "DDI": 679,
+        "name": "Crop Contamination Total Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "680": {
+        "DDI": 680,
+        "name": "Crop Contamination Lifetime Total Mass",
+        "unit": "kg",
+        "bitResolution": 1.0
+    },
+    "681": {
+        "DDI": 681,
+        "name": "Film bale Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "682": {
+        "DDI": 682,
+        "name": "Mesh bale Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "683": {
+        "DDI": 683,
+        "name": "Twine bale Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "684": {
+        "DDI": 684,
+        "name": "Wrapping Film bale Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "685": {
+        "DDI": 685,
+        "name": "Lifetime Film Bale Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "686": {
+        "DDI": 686,
+        "name": "Lifetime Mesh Bale Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "687": {
+        "DDI": 687,
+        "name": "Lifetime Twine Bale Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "688": {
+        "DDI": 688,
+        "name": "Lifetime Wrapping Film Bale Total Count",
+        "unit": "#",
+        "bitResolution": 1.0
+    },
+    "689": {
+        "DDI": 689,
+        "name": "Effective Total Electrical Battery Energy Consumption",
+        "unit": "kWh",
+        "bitResolution": 0.001
+    },
+    "690": {
+        "DDI": 690,
+        "name": "Ineffective Total Electrical Battery Energy Consumption",
+        "unit": "kWh",
+        "bitResolution": 0.001
+    },
+    "691": {
+        "DDI": 691,
+        "name": "Instantaneous Electrical Battery Energy Consumption per Time",
+        "unit": "W",
+        "bitResolution": 1.0
+    },
+    "692": {
+        "DDI": 692,
+        "name": "Instantaneous Electrical Battery Energy Consumption per Area",
+        "unit": "kWh/m²",
+        "bitResolution": 1e-05
+    },
+    "693": {
+        "DDI": 693,
+        "name": "Lifetime Total Loading Time",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "694": {
+        "DDI": 694,
+        "name": "Lifetime Total Unloading Time",
+        "unit": "s",
+        "bitResolution": 1.0
+    },
+    "32768": {
+        "DDI": 32768,
+        "name": "Maximum Droplet Size",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "32769": {
+        "DDI": 32769,
+        "name": "Maximum Crop Grade Diameter",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "32770": {
+        "DDI": 32770,
+        "name": "Maximum Crop Grade Length",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "32771": {
+        "DDI": 32771,
+        "name": "Maximum Crop Contamination Mass per Area",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "32772": {
+        "DDI": 32772,
+        "name": "Maximum Crop Contamination Mass per Time",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "32773": {
+        "DDI": 32773,
+        "name": "Maximum Crop Conditioning Intensity",
+        "unit": "%",
+        "bitResolution": 0.01
+    },
+    "36864": {
+        "DDI": 36864,
+        "name": "Minimum Droplet Size",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "36865": {
+        "DDI": 36865,
+        "name": "Minimum Crop Grade Diameter",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "36866": {
+        "DDI": 36866,
+        "name": "Minimum Crop Grade Length",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "36867": {
+        "DDI": 36867,
+        "name": "Minimum Crop Contamination Mass per Area",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "36868": {
+        "DDI": 36868,
+        "name": "Minimum Crop Contamination Mass per Time",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "36869": {
+        "DDI": 36869,
+        "name": "Minimum Crop Conditioning Intensity",
+        "unit": "%",
+        "bitResolution": 0.01
+    },
+    "40960": {
+        "DDI": 40960,
+        "name": "Default Droplet Size",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "40961": {
+        "DDI": 40961,
+        "name": "Default Crop Grade Diameter",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "40962": {
+        "DDI": 40962,
+        "name": "Default Crop Grade Length",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "40963": {
+        "DDI": 40963,
+        "name": "Default Crop Contamination Mass per Area",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "40964": {
+        "DDI": 40964,
+        "name": "Default Crop Contamination Mass per Time",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "40965": {
+        "DDI": 40965,
+        "name": "Default Crop Conditioning Intensity",
+        "unit": "%",
+        "bitResolution": 0.01
+    },
+    "45056": {
+        "DDI": 45056,
+        "name": "Actual Droplet Size",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "45057": {
+        "DDI": 45057,
+        "name": "Actual Crop Grade Diameter",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "45058": {
+        "DDI": 45058,
+        "name": "Actual Crop Grade Length",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "45059": {
+        "DDI": 45059,
+        "name": "Actual Crop Contamination Mass per Area",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "45060": {
+        "DDI": 45060,
+        "name": "Actual Crop Contamination Mass per Time",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "45061": {
+        "DDI": 45061,
+        "name": "Actual Crop Conditioning Intensity",
+        "unit": "%",
+        "bitResolution": 0.01
+    },
+    "49152": {
+        "DDI": 49152,
+        "name": "Setpoint Droplet Size",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "49153": {
+        "DDI": 49153,
+        "name": "Setpoint Crop Grade Diameter",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "49154": {
+        "DDI": 49154,
+        "name": "Setpoint Crop Grade Length",
+        "unit": "mm",
+        "bitResolution": 0.001
+    },
+    "49155": {
+        "DDI": 49155,
+        "name": "Setpoint Crop Contamination Mass per Area",
+        "unit": "mg/m²",
+        "bitResolution": 1.0
+    },
+    "49156": {
+        "DDI": 49156,
+        "name": "Setpoint Crop Contamination Mass per Time",
+        "unit": "mg/s",
+        "bitResolution": 1.0
+    },
+    "49157": {
+        "DDI": 49157,
+        "name": "Setpoint Crop Conditioning Intensity",
+        "unit": "%",
+        "bitResolution": 0.01
+    },
+    "57342": {
+        "DDI": 57342,
+        "name": "PGN Based Data",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "57343": {
+        "DDI": 57343,
+        "name": "Request Default Process Data",
+        "unit": "n.a.",
+        "bitResolution": 1.0
+    },
+    "57344": {
+        "DDI": 57344,
+        "name": "65534 Proprietary DDI Range",
+        "unit": "n.a.",
+        "bitResolution": 0.0
+    },
+    "65535": {
+        "DDI": 65535,
+        "name": "Reserved",
+        "unit": "n.a.",
+        "bitResolution": 0.0
+    }
+}

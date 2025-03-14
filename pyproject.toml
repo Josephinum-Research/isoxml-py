@@ -51,3 +51,6 @@ include = ["isoxml*"]
 exclude = ["examples"]
 namespaces = false
 
+[tool.setuptools.package-data]
+"isoxml" = ["data/*"]
+

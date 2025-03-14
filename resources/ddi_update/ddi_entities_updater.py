@@ -35,6 +35,7 @@ if __name__ == '__main__':
             current_entity = {
                 "DDI": ddi_number,
                 "name": name,
+                "unit": "n.a."
             }
             continue
 

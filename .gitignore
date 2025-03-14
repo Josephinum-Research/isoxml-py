@@ -121,3 +121,6 @@ docs/api/*
 /examples/**.BIN
 /examples/**.zip
 /examples/**.ZIP
+
+/resources/ddi_update/complete_data.txt
+/resources/ddi_update/ddi_entities.json

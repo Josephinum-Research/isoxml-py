@@ -161,3 +161,28 @@ def test_v4_polygon_implicit_shell(converter_v4):
         ]
     )
     converter_v4.to_shapely_polygon(iso_poly)
+
+
+def test_3d_point_truncation(converter_v3):
+    shp_point = shp.Point(30.5, 10.2, 123.456789)
+    iso_point = converter_v3.to_iso_point(shp_point)
+    assert iso_point.up == 123456
+
+@pytest.mark.parametrize('wkt', [
+    'POINT Z (30.5 10.2 150.0)',
+    'LINESTRING Z (30.5 10.2 150.0, 40.1 20.3 200.0, 50.2 30.4 250.0)',
+    'POLYGON Z ((30.5 10.2 150.0, 40.1 20.3 200.0, 50.2 30.4 250.0, 30.5 10.2 150.0))'
+])
+def test_3d_geoms_roundtrip(converter_v3, wkt):
+    shp_geom = shp.from_wkt(wkt)
+    iso_geom = None
+    match shp_geom:
+        case shp.Point() as point:
+            iso_geom = converter_v3.to_iso_point(point)
+        case shp.LineString() as line:
+            iso_geom = converter_v3.to_iso_line_string(line, iso3.LineStringType.Flag)
+        case shp.Polygon() as poly:
+            iso_geom = converter_v3.to_iso_polygon(poly)
+    assert iso_geom is not None
+    shp_geom_out = converter_v3.to_shapely_geom(iso_geom)
+    assert shp_geom.equals(shp_geom_out)

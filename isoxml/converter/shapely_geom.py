@@ -12,43 +12,50 @@ class _ShapelyConverter:
         self.iso = iso_module
 
     def _iso_point_from_coords(
-            self, east: float, nord: float, pnt_type=None, **kwargs
+            self, lon: float, lat: float, alt: float | None = None, pnt_type=None, **kwargs
     ):
         if pnt_type is None:
             pnt_type = self.iso.PointType.Other
         return self.iso.Point(
             type=pnt_type,
-            north=round(Decimal(nord), 9),
-            east=round(Decimal(east), 9),
+            north=round(Decimal(lat), 9),
+            east=round(Decimal(lon), 9),
+            up=int(alt * 1e3) if alt else None,
             **kwargs
         )
+
+    @staticmethod
+    def _coords_from_iso_point(iso_pnt) -> tuple[float, float] | tuple[float, float, float]:
+        if iso_pnt.up:
+            return float(iso_pnt.east), float(iso_pnt.north), float(iso_pnt.up * 1e-3)
+        else:
+            return float(iso_pnt.east), float(iso_pnt.north)
 
     def to_iso_point(self, point: shp.Point, pnt_type=None, **kwargs):
         if pnt_type is None:
             pnt_type = self.iso.PointType.Other
         return self._iso_point_from_coords(
-            east=point.x,
-            nord=point.y,
+            lon=point.x,
+            lat=point.y,
+            alt=point.z if point.has_z else None,
             pnt_type=pnt_type,
             **kwargs
         )
 
-    @staticmethod
-    def to_shapely_point(iso_pnt) -> shp.Point:
-        return shp.Point(iso_pnt.east, iso_pnt.north)
+    def to_shapely_point(self, iso_pnt) -> shp.Point:
+        return shp.Point(self._coords_from_iso_point(iso_pnt))
 
     def to_iso_line_string(
             self, line: shp.LineString, line_type, **kwargs
     ):
         return self.iso.LineString(
             type=line_type,
-            points=[self._iso_point_from_coords(east=x, nord=y) for x, y in line.coords],
+            points=[self._iso_point_from_coords(*coord) for coord in line.coords],
             **kwargs
         )
 
-    @staticmethod
-    def to_shapely_line_string(iso_line) -> shp.LineString:
-        coords = [[iso_pnt.east, iso_pnt.north] for iso_pnt in iso_line.points]
+    def to_shapely_line_string(self, iso_line) -> shp.LineString:
+        coords = [self._coords_from_iso_point(iso_pnt) for iso_pnt in iso_line.points]
         if iso_line.type == iso3.LineStringType.PolygonExterior or iso_line.type == iso3.LineStringType.PolygonInterior:
             # iso3 LineStrings are implicitly closed if they are of type 1 or 2
             if coords[0] != coords[-1]:

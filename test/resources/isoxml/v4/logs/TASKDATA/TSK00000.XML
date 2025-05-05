@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XFC>
+    <TSK A="TSK-1" B="Task 9 Apr, 2021 1450" E="PFD9" G="3" P231_logging_time_interval="100" P231_vehicle="DVC-1">
+        <TIM A="2021-04-09T14:54:04.975" B="2021-04-09T14:54:44.107" D="4"/>
+        <DAN A="0000000000000000" B="0000000000000000"/>
+        <DLT A="DFFF" B="31"/>
+        <DLT A="0086" B="8" G="1"/>
+        <DLT A="0087" B="8" G="1"/>
+        <DLT A="0088" B="8" G="1"/>
+        <DLT A="009A" B="8" G="1"/>
+        <DLT A="009B" B="8" G="1"/>
+        <DLT A="0043" B="8" G="1"/>
+        <DLT A="0044" B="8" G="1"/>
+        <DLT A="0045" B="8" G="1"/>
+        <DLT A="0046" B="8" G="1"/>
+        <TLG A="TLG00001" C="1"/>
+    </TSK>
+</XFC>

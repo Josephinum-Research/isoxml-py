@@ -40,7 +40,8 @@ def __select_base_module(xml_content: str) -> ModuleType:
 def isoxml_from_path(
         task_data_path: Path,
         external_files: Literal['merge', 'ignore', 'separate'] = 'merge',
-        read_bin_files=True
+        read_bin_files=True,
+        read_log_files=True
 ) -> tuple[
     iso3.Iso11783TaskData | iso4.Iso11783TaskData,
     dict[str, bytes | iso3.ExternalFileContents | iso4.ExternalFileContents]
@@ -71,12 +72,28 @@ def isoxml_from_path(
     bin_dict = {}
     if read_bin_files:
         for file_name in file_in_dir:
-            if file_name.lower().endswith('.bin') and file_name.startswith(('GRD', 'TLG', 'PNT')):
+            if file_name.lower().endswith('.bin') and file_name.startswith(('GRD', 'PNT')):
                 iso_id_ref = file_name.rsplit('.')[0]
                 with open(task_data_path / file_name, 'rb') as bin_files:
                     bin_dict[iso_id_ref] = bin_files.read()
 
-    return task_data, bin_dict | ext_file_obj_dict
+    # TODO: remove this hack
+    log_dict = {}
+    if read_log_files:
+        for file_name in file_in_dir:
+            if file_name.lower().endswith('.bin') and file_name.startswith('TLG'):
+                iso_id_ref = file_name.rsplit('.')[0]
+                xml_path = (task_data_path / f'{iso_id_ref}.XML')
+                assert xml_path.is_file()
+                with open(task_data_path / file_name, 'rb') as bin_files:
+                    tlg_bin = bin_files.read()
+                tim_elem = __parser.from_path(
+                    xml_path,
+                    iso.Time
+                )
+                log_dict[iso_id_ref] = (tim_elem, tlg_bin)
+
+    return task_data, bin_dict | ext_file_obj_dict | log_dict
 
 
 def isoxml_from_zip(

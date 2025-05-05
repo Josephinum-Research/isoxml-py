@@ -1,0 +1,3559 @@
+{
+  "bbox": [
+    9.5777866,
+    45.5277534,
+    9.5779409,
+    45.5278066
+  ],
+  "valuesInfo": [
+    {
+      "DDINumber": 144,
+      "DDIString": "0090",
+      "DDEntityName": "Yaw (Yaw Angle)",
+      "unit": "°",
+      "scale": 0.001,
+      "offset": 0,
+      "numberOfDecimals": 3,
+      "isProprietary": false,
+      "deviceElementId": "DET-1",
+      "deviceElementDesignator": "8250-8280 TTV - 8250-8280 TTV",
+      "valueKey": "0090_DET-1",
+      "minValue": 61105,
+      "maxValue": 67159
+    },
+    {
+      "DDINumber": 145,
+      "DDIString": "0091",
+      "DDEntityName": "Roll (Roll Angle)",
+      "unit": "°",
+      "scale": 0.001,
+      "offset": 0,
+      "numberOfDecimals": 3,
+      "isProprietary": false,
+      "deviceElementId": "DET-1",
+      "deviceElementDesignator": "8250-8280 TTV - 8250-8280 TTV",
+      "valueKey": "0091_DET-1",
+      "minValue": -36,
+      "maxValue": 1093
+    },
+    {
+      "DDINumber": 146,
+      "DDIString": "0092",
+      "DDEntityName": "Pitch (Pitch Angle)",
+      "unit": "°",
+      "scale": 0.001,
+      "offset": 0,
+      "numberOfDecimals": 3,
+      "isProprietary": false,
+      "deviceElementId": "DET-1",
+      "deviceElementDesignator": "8250-8280 TTV - 8250-8280 TTV",
+      "valueKey": "0092_DET-1",
+      "minValue": -2231,
+      "maxValue": 334
+    },
+    {
+      "DDINumber": 397,
+      "DDIString": "018D",
+      "DDEntityName": "Speed (Actual Speed)",
+      "unit": "mm/s",
+      "scale": 1,
+      "offset": 0,
+      "numberOfDecimals": 0,
+      "isProprietary": false,
+      "deviceElementId": "DET-1",
+      "deviceElementDesignator": "8250-8280 TTV - 8250-8280 TTV",
+      "valueKey": "018D_DET-1",
+      "minValue": 0,
+      "maxValue": 2210
+    }
+  ],
+  "timeLogs": [
+    {
+      "time": "2011-04-10T14:54:04.969Z",
+      "position": {
+        "PositionNorth": 45.5277534,
+        "PositionEast": 9.5777866,
+        "PositionUp": 173902,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55683799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:05.129Z",
+      "position": {
+        "PositionNorth": 45.5277538,
+        "PositionEast": 9.577788,
+        "PositionUp": 173879,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55684000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:05.328Z",
+      "position": {
+        "PositionNorth": 45.5277543,
+        "PositionEast": 9.5777896,
+        "PositionUp": 173873,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55684200,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 67159,
+        "0091_DET-1": 301,
+        "0092_DET-1": -294,
+        "018D_DET-1": 595
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:05.429Z",
+      "position": {
+        "PositionNorth": 45.5277546,
+        "PositionEast": 9.5777904,
+        "PositionUp": 173873,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55684299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:05.530Z",
+      "position": {
+        "PositionNorth": 45.5277549,
+        "PositionEast": 9.5777913,
+        "PositionUp": 173878,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55684410,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 67104,
+        "0091_DET-1": 140,
+        "0092_DET-1": -975,
+        "018D_DET-1": 773
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:05.829Z",
+      "position": {
+        "PositionNorth": 45.5277557,
+        "PositionEast": 9.577794,
+        "PositionUp": 173882,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55684700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:06.029Z",
+      "position": {
+        "PositionNorth": 45.5277562,
+        "PositionEast": 9.5777956,
+        "PositionUp": 173874,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55684910,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66928,
+        "0091_DET-1": 260,
+        "0092_DET-1": -513,
+        "018D_DET-1": 681
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:06.229Z",
+      "position": {
+        "PositionNorth": 45.5277567,
+        "PositionEast": 9.5777969,
+        "PositionUp": 173862,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55685090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:06.428Z",
+      "position": {
+        "PositionNorth": 45.5277572,
+        "PositionEast": 9.5777984,
+        "PositionUp": 173854,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55685299,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66796,
+        "0091_DET-1": 104,
+        "0092_DET-1": -230,
+        "018D_DET-1": 580
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:06.629Z",
+      "position": {
+        "PositionNorth": 45.5277576,
+        "PositionEast": 9.5777999,
+        "PositionUp": 173853,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55685500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:06.731Z",
+      "position": {
+        "PositionNorth": 45.5277579,
+        "PositionEast": 9.5778006,
+        "PositionUp": 173857,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55685590,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66692,
+        "0091_DET-1": -13,
+        "0092_DET-1": -629,
+        "018D_DET-1": 668
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:06.930Z",
+      "position": {
+        "PositionNorth": 45.5277584,
+        "PositionEast": 9.5778022,
+        "PositionUp": 173861,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55685799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:07.228Z",
+      "position": {
+        "PositionNorth": 45.5277591,
+        "PositionEast": 9.5778043,
+        "PositionUp": 173853,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55686090,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66591,
+        "0091_DET-1": 9,
+        "0092_DET-1": -288,
+        "018D_DET-1": 605
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:07.429Z",
+      "position": {
+        "PositionNorth": 45.5277595,
+        "PositionEast": 9.5778057,
+        "PositionUp": 173843,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55686299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:07.628Z",
+      "position": {
+        "PositionNorth": 45.52776,
+        "PositionEast": 9.5778072,
+        "PositionUp": 173840,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55686500,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66486,
+        "0091_DET-1": -36,
+        "0092_DET-1": -332,
+        "018D_DET-1": 609
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:07.829Z",
+      "position": {
+        "PositionNorth": 45.5277605,
+        "PositionEast": 9.5778086,
+        "PositionUp": 173830,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55686700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:08.029Z",
+      "position": {
+        "PositionNorth": 45.527761,
+        "PositionEast": 9.5778102,
+        "PositionUp": 173829,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55686910,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66361,
+        "0091_DET-1": 92,
+        "0092_DET-1": -344,
+        "018D_DET-1": 645
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:08.230Z",
+      "position": {
+        "PositionNorth": 45.5277615,
+        "PositionEast": 9.5778117,
+        "PositionUp": 173826,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55687090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:08.430Z",
+      "position": {
+        "PositionNorth": 45.527762,
+        "PositionEast": 9.5778133,
+        "PositionUp": 173822,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55687299,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66220,
+        "0091_DET-1": 87,
+        "0092_DET-1": -313,
+        "018D_DET-1": 646
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:08.630Z",
+      "position": {
+        "PositionNorth": 45.5277625,
+        "PositionEast": 9.5778148,
+        "PositionUp": 173818,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55687500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:08.829Z",
+      "position": {
+        "PositionNorth": 45.527763,
+        "PositionEast": 9.5778164,
+        "PositionUp": 173815,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55687700,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66128,
+        "0091_DET-1": 144,
+        "0092_DET-1": -405,
+        "018D_DET-1": 683
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:09.030Z",
+      "position": {
+        "PositionNorth": 45.5277636,
+        "PositionEast": 9.5778181,
+        "PositionUp": 173812,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55687910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:09.228Z",
+      "position": {
+        "PositionNorth": 45.5277641,
+        "PositionEast": 9.5778196,
+        "PositionUp": 173806,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55688090,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66008,
+        "0091_DET-1": 93,
+        "0092_DET-1": -409,
+        "018D_DET-1": 680
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:09.429Z",
+      "position": {
+        "PositionNorth": 45.5277646,
+        "PositionEast": 9.5778212,
+        "PositionUp": 173801,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55688299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:09.628Z",
+      "position": {
+        "PositionNorth": 45.5277652,
+        "PositionEast": 9.577823,
+        "PositionUp": 173794,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55688500,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 65887,
+        "0091_DET-1": 165,
+        "0092_DET-1": 334,
+        "018D_DET-1": 670
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:09.731Z",
+      "position": {
+        "PositionNorth": 45.5277656,
+        "PositionEast": 9.577824,
+        "PositionUp": 173789,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55688590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:09.929Z",
+      "position": {
+        "PositionNorth": 45.5277663,
+        "PositionEast": 9.5778261,
+        "PositionUp": 173784,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55688799,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 65624,
+        "0091_DET-1": 84,
+        "0092_DET-1": 207,
+        "018D_DET-1": 807
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:10.128Z",
+      "position": {
+        "PositionNorth": 45.5277671,
+        "PositionEast": 9.5778285,
+        "PositionUp": 173788,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55689000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:10.328Z",
+      "position": {
+        "PositionNorth": 45.527768,
+        "PositionEast": 9.577831,
+        "PositionUp": 173795,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55689200,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 64994,
+        "0091_DET-1": -15,
+        "0092_DET-1": -570,
+        "018D_DET-1": 1110
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:10.528Z",
+      "position": {
+        "PositionNorth": 45.5277689,
+        "PositionEast": 9.5778335,
+        "PositionUp": 173793,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55689410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:10.629Z",
+      "position": {
+        "PositionNorth": 45.5277693,
+        "PositionEast": 9.5778347,
+        "PositionUp": 173791,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55689500,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 64478,
+        "0091_DET-1": 258,
+        "0092_DET-1": -339,
+        "018D_DET-1": 1077
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:10.829Z",
+      "position": {
+        "PositionNorth": 45.5277703,
+        "PositionEast": 9.5778371,
+        "PositionUp": 173787,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55689700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:10.930Z",
+      "position": {
+        "PositionNorth": 45.5277707,
+        "PositionEast": 9.5778383,
+        "PositionUp": 173784,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55689799,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 63833,
+        "0091_DET-1": 432,
+        "0092_DET-1": -373,
+        "018D_DET-1": 1041
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:11.031Z",
+      "position": {
+        "PositionNorth": 45.5277711,
+        "PositionEast": 9.5778395,
+        "PositionUp": 173784,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55689910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:11.228Z",
+      "position": {
+        "PositionNorth": 45.527772,
+        "PositionEast": 9.5778418,
+        "PositionUp": 173787,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55690090,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 63177,
+        "0091_DET-1": 274,
+        "0092_DET-1": -397,
+        "018D_DET-1": 1048
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:11.428Z",
+      "position": {
+        "PositionNorth": 45.527773,
+        "PositionEast": 9.5778441,
+        "PositionUp": 173781,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55690299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:11.629Z",
+      "position": {
+        "PositionNorth": 45.527774,
+        "PositionEast": 9.5778465,
+        "PositionUp": 173775,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55690500,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 62329,
+        "0091_DET-1": 303,
+        "0092_DET-1": -322,
+        "018D_DET-1": 1045
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:11.828Z",
+      "position": {
+        "PositionNorth": 45.527775,
+        "PositionEast": 9.5778489,
+        "PositionUp": 173772,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55690700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:12.028Z",
+      "position": {
+        "PositionNorth": 45.5277761,
+        "PositionEast": 9.5778516,
+        "PositionUp": 173768,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55690910,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 61429,
+        "0091_DET-1": 328,
+        "0092_DET-1": -14,
+        "018D_DET-1": 1108
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:12.228Z",
+      "position": {
+        "PositionNorth": 45.5277772,
+        "PositionEast": 9.5778543,
+        "PositionUp": 173765,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55691090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:12.330Z",
+      "position": {
+        "PositionNorth": 45.5277778,
+        "PositionEast": 9.5778558,
+        "PositionUp": 173767,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55691200,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 61105,
+        "0091_DET-1": 496,
+        "0092_DET-1": -516,
+        "018D_DET-1": 1249
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:12.530Z",
+      "position": {
+        "PositionNorth": 45.5277789,
+        "PositionEast": 9.5778587,
+        "PositionUp": 173763,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55691410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:12.728Z",
+      "position": {
+        "PositionNorth": 45.5277801,
+        "PositionEast": 9.5778618,
+        "PositionUp": 173754,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55691590,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 61274,
+        "0091_DET-1": 613,
+        "0092_DET-1": -52,
+        "018D_DET-1": 1309
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:12.829Z",
+      "position": {
+        "PositionNorth": 45.5277807,
+        "PositionEast": 9.5778635,
+        "PositionUp": 173753,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55691700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:13.028Z",
+      "position": {
+        "PositionNorth": 45.5277819,
+        "PositionEast": 9.5778668,
+        "PositionUp": 173751,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55691910,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 61640,
+        "0091_DET-1": 467,
+        "0092_DET-1": 40,
+        "018D_DET-1": 1389
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:13.228Z",
+      "position": {
+        "PositionNorth": 45.5277832,
+        "PositionEast": 9.5778702,
+        "PositionUp": 173751,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55692090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:13.329Z",
+      "position": {
+        "PositionNorth": 45.5277839,
+        "PositionEast": 9.5778722,
+        "PositionUp": 173749,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55692200,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 62068,
+        "0091_DET-1": 435,
+        "0092_DET-1": -264,
+        "018D_DET-1": 1585
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:13.528Z",
+      "position": {
+        "PositionNorth": 45.5277853,
+        "PositionEast": 9.5778763,
+        "PositionUp": 173748,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55692410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:13.730Z",
+      "position": {
+        "PositionNorth": 45.5277869,
+        "PositionEast": 9.5778806,
+        "PositionUp": 173740,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55692590,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 62644,
+        "0091_DET-1": 419,
+        "0092_DET-1": -198,
+        "018D_DET-1": 1763
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:13.930Z",
+      "position": {
+        "PositionNorth": 45.5277884,
+        "PositionEast": 9.5778848,
+        "PositionUp": 173735,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55692799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:14.128Z",
+      "position": {
+        "PositionNorth": 45.52779,
+        "PositionEast": 9.5778893,
+        "PositionUp": 173725,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55693000,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 63154,
+        "0091_DET-1": 716,
+        "0092_DET-1": -78,
+        "018D_DET-1": 1887
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:14.329Z",
+      "position": {
+        "PositionNorth": 45.5277916,
+        "PositionEast": 9.577894,
+        "PositionUp": 173724,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55693200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:14.528Z",
+      "position": {
+        "PositionNorth": 45.5277932,
+        "PositionEast": 9.5778989,
+        "PositionUp": 173723,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55693410,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 63872,
+        "0091_DET-1": 750,
+        "0092_DET-1": -359,
+        "018D_DET-1": 2068
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:14.728Z",
+      "position": {
+        "PositionNorth": 45.5277949,
+        "PositionEast": 9.5779039,
+        "PositionUp": 173718,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55693590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:14.928Z",
+      "position": {
+        "PositionNorth": 45.5277966,
+        "PositionEast": 9.577909,
+        "PositionUp": 173716,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55693799,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 64400,
+        "0091_DET-1": 743,
+        "0092_DET-1": -632,
+        "018D_DET-1": 2184
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:15.031Z",
+      "position": {
+        "PositionNorth": 45.5277974,
+        "PositionEast": 9.5779116,
+        "PositionUp": 173715,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55693910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:15.229Z",
+      "position": {
+        "PositionNorth": 45.5277989,
+        "PositionEast": 9.5779165,
+        "PositionUp": 173716,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55694090,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 64832,
+        "0091_DET-1": 1019,
+        "0092_DET-1": -1568,
+        "018D_DET-1": 2210
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:15.429Z",
+      "position": {
+        "PositionNorth": 45.5278004,
+        "PositionEast": 9.5779209,
+        "PositionUp": 173720,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55694299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:15.628Z",
+      "position": {
+        "PositionNorth": 45.5278017,
+        "PositionEast": 9.577925,
+        "PositionUp": 173722,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55694500,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 65333,
+        "0091_DET-1": 901,
+        "0092_DET-1": -1633,
+        "018D_DET-1": 1895
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:15.830Z",
+      "position": {
+        "PositionNorth": 45.5278027,
+        "PositionEast": 9.5779285,
+        "PositionUp": 173711,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55694700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:16.029Z",
+      "position": {
+        "PositionNorth": 45.5278036,
+        "PositionEast": 9.5779314,
+        "PositionUp": 173712,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55694910,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 65851,
+        "0091_DET-1": 848,
+        "0092_DET-1": -1873,
+        "018D_DET-1": 1387
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:16.130Z",
+      "position": {
+        "PositionNorth": 45.527804,
+        "PositionEast": 9.5779326,
+        "PositionUp": 173713,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55695000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:16.328Z",
+      "position": {
+        "PositionNorth": 45.5278046,
+        "PositionEast": 9.5779349,
+        "PositionUp": 173725,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55695200,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66191,
+        "0091_DET-1": 1093,
+        "0092_DET-1": -2231,
+        "018D_DET-1": 1135
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:16.629Z",
+      "position": {
+        "PositionNorth": 45.5278054,
+        "PositionEast": 9.5779375,
+        "PositionUp": 173709,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55695500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:16.828Z",
+      "position": {
+        "PositionNorth": 45.5278058,
+        "PositionEast": 9.5779388,
+        "PositionUp": 173694,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55695700,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66615,
+        "0091_DET-1": 660,
+        "0092_DET-1": -1393,
+        "018D_DET-1": 580
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:17.028Z",
+      "position": {
+        "PositionNorth": 45.5278062,
+        "PositionEast": 9.5779399,
+        "PositionUp": 173686,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55695910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:17.228Z",
+      "position": {
+        "PositionNorth": 45.5278064,
+        "PositionEast": 9.5779405,
+        "PositionUp": 173693,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55696090,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66601,
+        "0091_DET-1": 639,
+        "0092_DET-1": -2037,
+        "018D_DET-1": 449
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:17.428Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173689,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55696299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:17.627Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173674,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55696500,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66580,
+        "0091_DET-1": 667,
+        "0092_DET-1": -1056,
+        "018D_DET-1": 39
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:17.827Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55696700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:18.028Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55696910,
+        "GpsUtcDate": 15074
+      },
+      "values": {
+        "0090_DET-1": 66584,
+        "0091_DET-1": 679,
+        "0092_DET-1": -1024,
+        "018D_DET-1": 0
+      },
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:18.229Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55697090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:18.427Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55697299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:18.628Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55697500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:18.829Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55697700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:19.027Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55697910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:19.228Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55698090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:19.330Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55698200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:19.527Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55698410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:19.728Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55698590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:19.927Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55698799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:20.128Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55699000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:20.327Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55699200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:20.528Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55699410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:20.728Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55699590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:20.928Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55699799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:21.127Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55700000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:21.327Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55700200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:21.527Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55700410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:21.727Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55700590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:21.928Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55700799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:22.127Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55701000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:22.327Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55701200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:22.527Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55701410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:22.628Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55701500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:22.827Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55701700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:23.027Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55701910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:23.226Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55702090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:23.329Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55702200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:23.528Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55702410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:23.727Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55702590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:23.927Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55702799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:24.128Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55703000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:24.327Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55703200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:24.527Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55703410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:24.727Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55703590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:24.929Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55703799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:25.127Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55704000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:25.327Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55704200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:25.527Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55704410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:25.727Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55704590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:25.927Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55704799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:26.029Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 24,
+        "GpsUtcTime": 55704910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:26.229Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55705090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:26.426Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55705299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:26.627Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55705500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:26.827Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55705700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:27.027Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55705910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:27.128Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55706000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:27.328Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55706200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:27.527Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55706410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:27.728Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55706590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:27.927Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55706799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:28.127Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55707000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:28.327Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55707200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:28.428Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55707299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:28.628Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55707500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:28.829Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55707700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:29.028Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55707910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:29.227Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55708090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:29.429Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55708299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:29.627Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55708500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:29.827Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55708700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:30.027Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55708910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:30.128Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55709000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:30.328Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55709200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:30.527Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55709410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:30.727Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55709590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:30.828Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55709700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:31.027Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55709910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:31.228Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55710090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:31.428Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55710299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:31.728Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55710590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:31.927Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55710799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:32.028Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55710910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:32.229Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55711090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:32.427Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55711299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:32.627Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55711500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:32.827Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55711700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:33.128Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55712000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:33.327Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55712200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:33.527Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55712410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:33.727Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55712590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:33.829Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55712700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:34.027Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55712910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:34.128Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55713000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:34.328Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55713200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:34.528Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55713410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:34.727Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55713590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:34.928Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55713799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:35.127Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55714000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:35.326Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55714200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:35.528Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55714410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:35.727Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55714590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:35.927Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55714799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:36.129Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55715000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:36.327Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55715200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:36.527Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55715410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:36.727Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55715590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:36.928Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55715799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:37.227Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55716090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:37.426Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55716299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:37.627Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55716500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:37.828Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55716700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:38.027Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55716910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:38.228Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55717090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:38.427Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55717299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:38.628Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55717500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:38.827Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55717700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:39.027Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55717910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:39.226Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55718090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:39.426Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55718299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:39.628Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55718500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:39.827Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55718700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:39.928Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55718799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:40.127Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55719000,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:40.327Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55719200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:40.530Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55719410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:40.726Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55719590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:40.928Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55719799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:41.228Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55720090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:41.329Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55720200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:41.527Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55720410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:41.727Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55720590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:41.926Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55720799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:42.027Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55720910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:42.227Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55721090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:42.328Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55721200,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:42.527Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55721410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:42.632Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55721500,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:42.827Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55721700,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:43.027Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55721910,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:43.226Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55722090,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:43.426Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55722299,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:43.527Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55722410,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:43.727Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55722590,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    },
+    {
+      "time": "2011-04-10T14:54:43.927Z",
+      "position": {
+        "PositionNorth": 45.5278066,
+        "PositionEast": 9.5779409,
+        "PositionUp": 173673,
+        "PositionStatus": "2",
+        "PDOP": 1.1,
+        "HDOP": 0.6,
+        "NumberOfSatellites": 25,
+        "GpsUtcTime": 55722799,
+        "GpsUtcDate": 15074
+      },
+      "values": {},
+      "isValidPosition": true
+    }
+  ]
+}

@@ -11,6 +11,8 @@ import xmlschema
 
 import isoxml.models.base.v3 as iso3
 import isoxml.models.base.v4 as iso4
+from isoxml.models.base.v4.attached_file import AttachedFile, AttachedFilePreserve
+from isoxml.models.base.v4.link_group import LinkGroup
 from isoxml.models.ddi_entities import DDEntity
 from isoxml.util.isoxml_io import (
     isoxml_from_path,
@@ -69,6 +71,25 @@ def task_with_grid():
     return task_data, ext_refs
 
 
+@pytest.fixture()
+def task_with_linklist():
+    task_data = iso4.Iso11783TaskData(
+        management_software_manufacturer="test",
+        management_software_version="0.0.1",
+        data_transfer_origin=iso4.Iso11783TaskDataDataTransferOrigin.FMIS,
+        attached_files=[
+            AttachedFile(
+                "LINKLIST.XML",
+                AttachedFilePreserve.PreserveOnTaskControllerAndSendBackToFMIS,
+                "",
+                1,
+            )
+        ],
+    )
+    linklist = iso4.Iso11783LinkList()
+    return task_data, dict(), linklist
+
+
 def test__isoxml_from_text__when_str_valid__expect_pares_isoxml():
     xml_content = """<?xml version="1.0" encoding="UTF-8"?><ISO11783_TaskData VersionMajor="4" VersionMinor="3" ManagementSoftwareManufacturer="josephinum research" ManagementSoftwareVersion="0.0.1" DataTransferOrigin="1"></ISO11783_TaskData>"""
     task_data = isoxml_from_text(xml_content)
@@ -122,6 +143,16 @@ def test__isoxml_to_dir__when_file_contains_ext_refs__expect_ext_content_written
         assert os.path.isfile(tmp_path / "TSK00000.XML")
 
 
+def test__isoxml_to_dir__when_file_valid__with_linklist(task_with_linklist):
+    task_data, ext_refs, linklist = task_with_linklist
+
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        tmp_path = Path(tmp_dir)
+        isoxml_to_dir(tmp_path, task_data, ext_refs, linklist)
+        assert os.path.isfile(tmp_path / "TASKDATA.XML")
+        assert os.path.isfile(tmp_path / "LINKLIST.XML")
+
+
 def test__isoxml_to_zip__when_write_to_buffer__expect_valid_files(task_with_grid):
     task_data, ext_refs = task_with_grid
 
@@ -143,6 +174,19 @@ def test__isoxml_to_zip__when_write_to_file__expect_valid_files(task_with_grid):
         with ZipFile(zip_path, "r") as zip_archive:
             assert "TASKDATA.XML" in zip_archive.namelist()
             assert "GRD00000.bin" in zip_archive.namelist()
+
+
+def test__isoxml_to_zip__when_write_to_file__with_linklist(task_with_linklist):
+    task_data, ext_refs, linklist = task_with_linklist
+
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        tmp_path = Path(tmp_dir)
+        zip_path = tmp_path / "TASKDATA.zip"
+        with open(zip_path, "wb") as zip_file:
+            isoxml_to_zip(zip_file, task_data, ext_refs, linklist, include_folder=False)
+        with ZipFile(zip_path, "r") as zip_archive:
+            assert "TASKDATA.XML" in zip_archive.namelist()
+            assert "LINKLIST.XML" in zip_archive.namelist()
 
 
 def test__isoxml_to_zip__when_file_contains_ext_refs__expect_ext_content_written(

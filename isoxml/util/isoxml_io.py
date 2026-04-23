@@ -130,11 +130,12 @@ def isoxml_to_dir(
     ext_refs: (
         dict[str, bytes | iso3.ExternalFileContents | iso4.ExternalFileContents] | None
     ) = None,
+    linklist: None | iso4.Iso11783LinkList = None,
 ) -> None:
     if not ext_refs:
         ext_refs = {}
-    xml_path = dir_path / "TASKDATA.XML"
-    with open(xml_path, "w", encoding="utf-8") as xml_file:
+    task_data_path = dir_path / "TASKDATA.XML"
+    with open(task_data_path, "w", encoding="utf-8") as xml_file:
         __serializer.write(xml_file, task_data)
     for ref_name, ref_data in ext_refs.items():
         if isinstance(ref_data, bytes):
@@ -144,13 +145,18 @@ def isoxml_to_dir(
         elif isinstance(
             ref_data, (iso3.ExternalFileContents, iso4.ExternalFileContents)
         ):
-            xml_path = dir_path / (ref_name + ".XML")
-            with open(xml_path, "w", encoding="utf-8") as xml_file:
+            task_data_path = dir_path / (ref_name + ".XML")
+            with open(task_data_path, "w", encoding="utf-8") as xml_file:
                 __serializer.write(xml_file, ref_data)
         else:
             raise ValueError(
                 f"unknown type {type(ref_data)} of external ref {ref_name}"
             )
+
+    if linklist is not None:
+        linklist_path = dir_path / "LINKLIST.XML"
+        with open(linklist_path, "w", encoding="utf-8") as xml_file:
+            __serializer.write(xml_file, linklist)
 
 
 def isoxml_to_zip(
@@ -159,6 +165,7 @@ def isoxml_to_zip(
     ext_refs: (
         dict[str, bytes | iso3.ExternalFileContents | iso4.ExternalFileContents] | None
     ) = None,
+    linklist: None | iso4.Iso11783LinkList = None,
     include_folder=True,
 ) -> None:
     if not ext_refs:
@@ -185,3 +192,8 @@ def isoxml_to_zip(
                 raise ValueError(
                     f"unknown type {type(ref_data)} of external ref {ref_name}"
                 )
+
+        if linklist is not None:
+            with zip_archive.open(path_in_arch + "LINKLIST.XML", "w") as xml_file:
+                xml_content = __serializer.render(linklist)
+                xml_file.write(xml_content.encode("utf-8"))

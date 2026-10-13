@@ -7,9 +7,10 @@ build-backend = "setuptools.build_meta"
 name = "isoxml"
 version = "0.0.4"
 description = "Python ISOXML read/write"
-license = {text = "Apache License 2.0"}
+license = { text = "Apache License 2.0" }
 authors = [
-  { name="Josephinum-Research" },
+    { name = "Josephinum-Research" },
+    { name = "Henri Hornburg", email = "henri.hornburg@tum.de" },
 ]
 readme = "README.md"
 requires-python = ">=3.10"
@@ -19,11 +20,7 @@ classifiers = [
 ]
 keywords = ["isoxml", "isobus", "iso", "11783-10", "xml", "precision farming"]
 
-dependencies = [
-    "xsdata >= 24.7",
-    "numpy >= 1.26",
-    "shapely >= 2.0",
-]
+dependencies = ["xsdata >= 24.7", "numpy >= 1.26", "shapely >= 2.0"]
 
 [project.urls]
 Homepage = "https://github.com/Josephinum-Research/isoxml-py"
@@ -39,10 +36,7 @@ dev = [
     "matplotlib",
     "mapclassify",
 ]
-test = [
-    "pytest",
-    "xmlschema"
-]
+test = ["pytest", "xmlschema"]
 
 
 [tool.setuptools.packages.find]
@@ -53,4 +47,3 @@ namespaces = false
 
 [tool.setuptools.package-data]
 "isoxml" = ["data/*"]
-
